@@ -10,14 +10,13 @@
   | short form: cm |
 
 
-#+BEGIN_VERSE
   Values |
   id | unit | dropid | |
   :----: | :----: | :----: |
   number | number | number | |
   :----: | :----: | :----: |
   | |
-#+END_VERSE
+
 
 --------------
 
