@@ -47,7 +47,7 @@ while read line; do
         
     # Print the markdown header for this action
     echo "" >> $output_file
-    echo "===" >> $output_file
+    echo "---" >> $output_file
     echo "" >> $output_file
     echo "### /$action" >> $output_file
     echo "" >> $output_file
@@ -76,6 +76,7 @@ while read line; do
     
     if [[ "$action_alt" != "$action" ]]; then
       echo "| short form: $action_alt |" >> $output_file
+      echo "" >> $output_file
       print_table=1
     else
       print_table=0
@@ -87,13 +88,13 @@ while read line; do
       if [[ $arguments != "" ]]; then
         echo "| Values |" >> $output_file
         echo "| $arguments |" >> $output_file
-        echo "|---|---|---|" >> $output_file
+        echo "| :----: | :----: | :----: |" >> $output_file
       
       fi
     
       if [[ $argument_types != "" ]]; then
         echo "| $argument_types |" >> $output_file
-        echo "|---|---|---|" >> $output_file
+        echo "| :----: | :----: | :----: |" >> $output_file
       fi
     
       if [[ $argument_types != "" || $arguments != "" ]]; then
