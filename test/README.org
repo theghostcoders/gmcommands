@@ -5,11 +5,10 @@
     :CUSTOM_ID: clone_monster-id-unit-dropid
     :END:
 
-#+BEGIN_VERSE
   | clone_monster |
   | description: Clone Monster At Player around |
   | short form: cm |
-#+END_VERSE
+
 
 #+BEGIN_VERSE
   Values |
