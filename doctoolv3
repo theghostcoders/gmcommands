@@ -1,0 +1,122 @@
+#!/bin/bash
+
+#source ../lib/cleanidentation
+
+# Set the input and output file names
+input_file="commands.txt"
+aux_file="commands_trimmed.txt"
+output_file="commands.org"
+
+# Clean the outputfile
+echo "" > $output_file
+
+# Parse data from input
+sed 's/^[ \t]*//; s/\#/===/g' $input_file > $aux_file
+
+# Parse data on the aux file
+sed -i 's,",,g' $aux_file
+
+# Initialize variables
+action=""
+description=""
+action_alt=""
+arguments=""
+
+# Start the while loop
+while read line; do
+  #action=""             # Reset var action
+  description=""        # Reset var desc
+  action_alt=""         # Reset var action_alt
+  print_table=0         # Reset var print table
+
+  # Check if line is empty -z $line
+  #elif [[ $line == "" ]]; then
+  #  echo $line >> $output_file
+  
+  # Check if line starts with '/'  
+  if [[ $line =~ ^\/ ]]; then
+    # Extract the action and description from the line
+    action=$(echo $line | awk -F ":" '{print $1}')
+    action=$(echo $action | sed "s,\/,,g")
+    #parameters=$(echo $action | awk -F "<," '{print $2}')
+        
+    description=$(echo $line | awk -F ":" '{print $2}')
+    description=$(echo "$description" | awk -F "," '{print $1}')
+    
+    # Delete the last char of description if it is blank
+    if [[ "${description: -1}" == " " ]]; then
+      description="${description% }"
+    fi
+    
+    #description=$(echo "$description" | tr -d '\n') 
+    #desctiption=$(echo "$description" | tr -d ' ')
+        
+    # Print the markdown header for this action
+    echo "" >> $output_file
+    echo "--------------" >> $output_file
+    echo "" >> $output_file
+    echo "*** /$action" >> $output_file
+    echo "" >> $output_file
+    
+    #parse arguments and action
+    #arguments=$(echo "$action" | awk -F "[<,]" '{print $2}')
+    arguments=$(echo $action | awk -F'[<>]' 'BEGIN{ORS=" "} {for (i=1; i<=NF; i++) if (i % 2 == 0) print "*"$i"* |"}')
+    action=$(echo "$action" | awk -F "[<,]" '{print $1}')
+    action=$(echo "$action" | sed 's/ //')
+    
+          
+    echo "*$action*\\\\" >> $output_file
+    echo "*description:* $description." >> $output_file
+    echo "" >> $output_file
+    
+    action_alt=""
+    
+  elif [[ $line =~ ^[a-z] ]]; then
+    # Extract the action alternative
+    action_alt=$(echo $line | awk -F "[<,]" '{print $1}')
+    action_alt=$(echo $action_alt | sed "s/,//g")
+    #action_alt=$(echo $action_alt | tr -d '\n') 
+    
+    argument_types=$(echo $line | awk -F'[<>]' 'BEGIN{ORS=" "} {for (i=1; i<=NF; i++) if (i % 2 == 0) print "*"$i"* |"}')
+    
+   
+    
+    if [[ "$action_alt" != "$action" ]]; then
+      echo "*short form: $action_alt*\\\\" >> $output_file
+      echo "" >> $output_file
+      print_table=1
+    else
+      print_table=0
+    fi
+    
+    #echo -e "\n" >> $output_file
+    
+    if [[ $print_table == 1 ]]; then
+      if [[ $arguments != "" ]]; then
+        echo "*Values*" >> $output_file
+        echo "| $arguments |" >> $output_file
+        #echo "| :----: | :----: | :----: |" >> $output_file
+      
+      fi
+    
+      if [[ $argument_types != "" ]]; then
+        echo "| $argument_types |" >> $output_file
+        #echo "| :----: | :----: | :----: |" >> $output_file
+      fi
+    
+      if [[ $argument_types != "" || $arguments != "" ]]; then
+        echo "| | | | | |" >> $output_file
+      fi
+    fi
+    
+  fi
+  
+done < $aux_file
+
+# Change <> to []
+sed -i 's/</[/g; s/>/]/g' $output_file
+
+# Remove double spaces
+sed -i 's/  / /g;' $output_file
+#sed -i 's,\/,,g' $output_file
+
