@@ -5,7 +5,7 @@
 *** /clone_monster [id] [unit] [dropid]
 
 *clone_monster*\\
-*description:* Clone Monster At Player around \\
+*description:* Clone Monster At Player around.\\
 *short form: cm*\\
 
 *Values*
@@ -18,14 +18,14 @@
 *** /restore
 
 *restore*\\
-*description:* restore the hp \\
+*description:* restore the hp.\\
 
 --------------
 
 *** /set_rb mob [n] [id] [seconds]
 
 *set_rbmob *\\
-*description:* reborn mober binding \\
+*description:* reborn mober binding.\\
 *short form: set_rb*\\
 
 *Values*
@@ -44,7 +44,7 @@
 *** /ls_rb
 
 *ls_rb*\\
-*description:* list reborn mober binding \\
+*description:* list reborn mober binding.\\
 *short form: lr*\\
 
 
@@ -53,7 +53,7 @@
 *** /rm_rb mob
 
 *rm_rbmob*\\
-*description:* remove reborn mober binding \\
+*description:* remove reborn mober binding.\\
 *short form: rm_rb*\\
 
 | *number* | |
@@ -68,14 +68,14 @@
 *** /status
 
 *status*\\
-*description:* query the player's status \\
+*description:* query the player's status.\\
 
 --------------
 
 *** /clone item [item_id]
 
 *cloneitem *\\
-*description:* clone an item which template id is [item_id] \\
+*description:* clone an item which template id is [item_id].\\
 *short form: clone_item*\\
 
 *Values*
@@ -94,7 +94,7 @@
 *** /clone reward item [item_id] [item_num]
 
 *clonereward item *\\
-*description:* clone an item which template id is [item_id] \\
+*description:* clone an item which template id is [item_id].\\
 *short form: clone_reward_item*\\
 
 *Values*
@@ -113,7 +113,7 @@
 *** /clone items [item_id] [item_num]
 
 *cloneitems *\\
-*description:* clone an item which template id is [item_id] and item quantity is [item_num] \\
+*description:* clone an item which template id is [item_id] and item quantity is [item_num].\\
 *short form: clone_items*\\
 
 *Values*
@@ -132,7 +132,7 @@
 *** /clone items [item_id] [item_num]
 
 *cloneitems *\\
-*description:* clone an item which template id is [item_id] and item quantity is [item_num] \\
+*description:* clone an item which template id is [item_id] and item quantity is [item_num].\\
 *short form: clone_items*\\
 
 *Values*
@@ -151,7 +151,7 @@
 *** /clone_item_to [item_id] [to_loc]
 
 *clone_item_to*\\
-*description:* clone an item which template id is [item_id] and put into inventory at location [to_loc] \\
+*description:* clone an item which template id is [item_id] and put into inventory at location [to_loc].\\
 *short form: clt*\\
 
 *Values*
@@ -164,7 +164,7 @@
 *** /say [message]
 
 *say*\\
-*description:* say something \\
+*description:* say something.\\
 *short form: s*\\
 
 *Values*
@@ -177,7 +177,7 @@
 *** /whisper [name] [message]
 
 *whisper*\\
-*description:* whisper someone something \\
+*description:* whisper someone something.\\
 *short form: w*\\
 
 *Values*
@@ -190,7 +190,7 @@
 *** /kill [monster_id]
 
 *kill*\\
-*description:* monster! DIE! \\
+*description:* monster! DIE!.\\
 *short form: k*\\
 
 *Values*
@@ -203,14 +203,14 @@
 *** /gain_exp [number]
 
 *gain_exp*\\
-*description:* gain exp num \\
+*description:* gain exp num.\\
 
 --------------
 
 *** /mission_gain_exp [number]
 
 *mission_gain_exp*\\
-*description:* gain exp num \\
+*description:* gain exp num.\\
 *short form: mge*\\
 
 *Values*
@@ -223,7 +223,7 @@
 *** /gain_gold [number]
 
 *gain_gold*\\
-*description:* gain gold num \\
+*description:* gain gold num.\\
 *short form: gg*\\
 
 *Values*
@@ -236,35 +236,35 @@
 *** /goto [x] [y]
 
 *goto*\\
-*description:* goto x y \\
+*description:* goto x y.\\
 
 --------------
 
 *** /users
 
 *users*\\
-*description:* list the node users info \\
+*description:* list the node users info.\\
 
 --------------
 
 *** /allusers
 
 *allusers*\\
-*description:* list whole world users \\
+*description:* list whole world users.\\
 
 --------------
 
 *** /transfer [id]
 
 *transfer*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /listarea
 
 *listarea*\\
-*description:* list the areas in the currently node \\
+*description:* list the areas in the currently node.\\
 *short form: lsa*\\
 
 
@@ -273,14 +273,14 @@
 *** /weak [player_id]
 
 *weak*\\
-*description:* let target player weak \\
+*description:* let target player weak.\\
 
 --------------
 
 *** /setra [node_id] [area_id]
 
 *setra*\\
-*description:* set revive area \\
+*description:* set revive area.\\
 *short form: sra*\\
 
 *Values*
@@ -293,7 +293,7 @@
 *** /transport_area [node_id] [area_id]
 
 *transport_area*\\
-*description:* transport to area \\
+*description:* transport to area.\\
 *short form: tpa*\\
 
 *Values*
@@ -306,7 +306,7 @@
 *** /transport_node [node_id]
 
 *transport_node*\\
-*description:* transport to node \\
+*description:* transport to node.\\
 *short form: tpn*\\
 
 *Values*
@@ -319,14 +319,14 @@
 *** /drop_item [item_id] [number] [flag]
 
 *drop_item*\\
-*description:* drop item \\
+*description:* drop item.\\
 
 --------------
 
 *** /list_durability [container_id]
 
 *list_durability*\\
-*description:* list durability status \\
+*description:* list durability status.\\
 *short form: ld*\\
 
 *Values*
@@ -339,21 +339,21 @@
 *** /shop [shop_type] [npc_template_id] [shop_id]
 
 *shop*\\
-*description:* enter shop \\
+*description:* enter shop.\\
 
 --------------
 
 *** /shop [shop_type] [npc_id]
 
 *shop*\\
-*description:* enter spell shop \\
+*description:* enter spell shop.\\
 
 --------------
 
 *** /effect_life [life_id] [effect_id] [duration] [factor] [isteam]
 
 *effect_life*\\
-*description:* \\
+*description:* .\\
 *short form: elf*\\
 
 *Values*
@@ -366,7 +366,7 @@
 *** /effect_loc [x] [y] [effect_id] [duration] [factor]
 
 *effect_loc*\\
-*description:* \\
+*description:* .\\
 *short form: eloc*\\
 
 *Values*
@@ -379,14 +379,14 @@
 *** /repairshop
 
 *repairshop*\\
-*description:* enter repair shtop \\
+*description:* enter repair shtop.\\
 
 --------------
 
 *** /invincible [01]
 
 *invincible*\\
-*description:* invincible mode 0 - off \\
+*description:* invincible mode 0 - off.\\
 *short form: inv*\\
 
 *Values*
@@ -399,7 +399,7 @@
 *** /vanish [01]
 
 *vanish*\\
-*description:* invisible mode 0 - off \\
+*description:* invisible mode 0 - off.\\
 *short form: van*\\
 
 *Values*
@@ -412,14 +412,14 @@
 *** /town
 
 *town*\\
-*description:* transport to town \\
+*description:* transport to town.\\
 
 --------------
 
 *** /transport_to_character [given_name]
 
 *transport_to_character*\\
-*description:* transport to character with nickname \\
+*description:* transport to character with nickname.\\
 *short form: tpc*\\
 
 *Values*
@@ -432,7 +432,7 @@
 *** /get_user_info [given_name]
 
 *get_user_info*\\
-*description:* findout about an nickname \\
+*description:* findout about an nickname.\\
 *short form: gui*\\
 
 *Values*
@@ -445,14 +445,14 @@
 *** /get_shortcuts
 
 *get_shortcuts*\\
-*description:* list shortcuts \\
+*description:* list shortcuts.\\
 
 --------------
 
 *** /update_shortcut [page] [slot] [value]
 
 *update_shortcut*\\
-*description:* modify shortcuts (page and slot starts from 0) \\
+*description:* modify shortcuts (page and slot starts from 0).\\
 *short form: us*\\
 
 *Values*
@@ -465,14 +465,14 @@
 *** /save_shortcut
 
 *save_shortcut*\\
-*description:* save shortcuts \\
+*description:* save shortcuts.\\
 
 --------------
 
 *** /display_sum_node_users [01]
 
 *display_sum_node_users*\\
-*description:* \\
+*description:* .\\
 *short form: dnu*\\
 
 *Values*
@@ -485,7 +485,7 @@
 *** /display_sum_world_users [01]
 
 *display_sum_world_users*\\
-*description:* list whole world users mode 0 - off \\
+*description:* list whole world users mode 0 - off.\\
 *short form: dwu*\\
 
 *Values*
@@ -498,49 +498,49 @@
 *** /get_spellmaster [spellmaster_id]
 
 *get_spellmaster*\\
-*description:* get a spellmaster \\
+*description:* get a spellmaster.\\
 
 --------------
 
 *** /debug [01]
 
 *debug*\\
-*description:* debug mode 0 - off \\
+*description:* debug mode 0 - off.\\
 
 --------------
 
 *** /list_state
 
 *list_state*\\
-*description:* list my states \\
+*description:* list my states.\\
 
 --------------
 
 *** /shut_down [minutes]
 
 *shut_down*\\
-*description:* shut down in x minutes \\
+*description:* shut down in x minutes.\\
 
 --------------
 
 *** /kick [nick_name]
 
 *kick*\\
-*description:* kick out character with name \\
+*description:* kick out character with name.\\
 
 --------------
 
 *** /slayer [01]
 
 *slayer*\\
-*description:* slayer mode 0 - off \\
+*description:* slayer mode 0 - off.\\
 
 --------------
 
 *** /announce [message]
 
 *announce*\\
-*description:* announce something \\
+*description:* announce something.\\
 *short form: gm*\\
 
 *Values*
@@ -553,14 +553,14 @@
 *** /storage [npc_id] [01]
 
 *storage*\\
-*description:* enter storage 0 - Deposit \\
+*description:* enter storage 0 - Deposit.\\
 
 --------------
 
 *** /querychar [charname]
 
 *querychar*\\
-*description:* \\
+*description:* .\\
 *short form: qc*\\
 
 *Values*
@@ -573,7 +573,7 @@
 *** /listenchant [charname]
 
 *listenchant*\\
-*description:* \\
+*description:* .\\
 *short form: le*\\
 
 *Values*
@@ -586,14 +586,14 @@
 *** /version
 
 *version*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /transport_and_deduct [area_id] [money]
 
 *transport_and_deduct*\\
-*description:* transport to area and deduct money \\
+*description:* transport to area and deduct money.\\
 *short form: tam*\\
 
 *Values*
@@ -606,7 +606,7 @@
 *** /query_npc [node_id] [npc_id]
 
 *query_npc*\\
-*description:* query npc [number] to show on map \\
+*description:* query npc [number] to show on map.\\
 *short form: qn*\\
 
 *Values*
@@ -619,7 +619,7 @@
 *** /party [message]
 
 *party*\\
-*description:* say something in party channel \\
+*description:* say something in party channel.\\
 *short form: p*\\
 
 *Values*
@@ -632,7 +632,7 @@
 *** /party [message]
 
 *party*\\
-*description:* say something in party channel \\
+*description:* say something in party channel.\\
 *short form: party_2*\\
 
 *Values*
@@ -645,7 +645,7 @@
 *** /guild [message]
 
 *guild*\\
-*description:* say something in guild channel \\
+*description:* say something in guild channel.\\
 *short form: g*\\
 
 *Values*
@@ -658,7 +658,7 @@
 *** /guild [message]
 
 *guild*\\
-*description:* say something in guild channel \\
+*description:* say something in guild channel.\\
 *short form: guild_3*\\
 
 *Values*
@@ -671,7 +671,7 @@
 *** /trade [message]
 
 *trade*\\
-*description:* say something in trade channel \\
+*description:* say something in trade channel.\\
 *short form: t*\\
 
 *Values*
@@ -684,7 +684,7 @@
 *** /trade [message]
 
 *trade*\\
-*description:* say something in trade channel \\
+*description:* say something in trade channel.\\
 *short form: trade_4*\\
 
 *Values*
@@ -697,7 +697,7 @@
 *** /chat [message]
 
 *chat*\\
-*description:* say somehting in chat channel \\
+*description:* say somehting in chat channel.\\
 *short form: c*\\
 
 *Values*
@@ -710,7 +710,7 @@
 *** /chat [message]
 
 *chat*\\
-*description:* say somehting in chat channel \\
+*description:* say somehting in chat channel.\\
 *short form: chat_5*\\
 
 *Values*
@@ -723,14 +723,14 @@
 *** /system [message]
 
 *system*\\
-*description:* announce something from system \\
+*description:* announce something from system.\\
 
 --------------
 
 *** /channel_limit [id] [minute]
 
 *channel_limit*\\
-*description:* channel usage limitation \\
+*description:* channel usage limitation.\\
 *short form: cl*\\
 
 *Values*
@@ -743,14 +743,14 @@
 *** /flush_dba_data
 
 *flush_dba_data*\\
-*description:* Flush player DBAgent Data \\
+*description:* Flush player DBAgent Data.\\
 
 --------------
 
 *** /banchar [char_id] [minute]
 
 *banchar*\\
-*description:* ban character \\
+*description:* ban character.\\
 *short form: bc*\\
 
 *Values*
@@ -763,7 +763,7 @@
 *** /identify_shop
 
 *identify_shop*\\
-*description:* enter identify shop \\
+*description:* enter identify shop.\\
 *short form: id_shop*\\
 
 
@@ -772,14 +772,14 @@
 *** /disband_family
 
 *disband_family*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /select_family_leader [new_leader]
 
 *select_family_leader*\\
-*description:* \\
+*description:* .\\
 *short form: sfl*\\
 
 *Values*
@@ -792,7 +792,7 @@
 *** /listfms [ch_id] [mission_id]
 
 *listfms*\\
-*description:* list fms info on this character \\
+*description:* list fms info on this character.\\
 *short form: lsf*\\
 
 *Values*
@@ -805,14 +805,14 @@
 *** /run [number]
 
 *run*\\
-*description:* Faster Walk \\
+*description:* Faster Walk.\\
 
 --------------
 
 *** /drop stack item [item_id] [amount]
 
 *dropstack item *\\
-*description:* drop item by amount \\
+*description:* drop item by amount.\\
 *short form: drop_items*\\
 
 *Values*
@@ -831,7 +831,7 @@
 *** /allworld_cmd [rest_input]
 
 *allworld_cmd*\\
-*description:* all world text command \\
+*description:* all world text command.\\
 *short form: aw*\\
 
 *Values*
@@ -844,7 +844,7 @@
 *** /query_npc_involve [npc_id]
 
 *query_npc_involve*\\
-*description:* query npc [number] to list how many missionlist involved \\
+*description:* query npc [number] to list how many missionlist involved.\\
 *short form: qni*\\
 
 *Values*
@@ -857,7 +857,7 @@
 *** /channel_limit_name [charname] [minute]
 
 *channel_limit_name*\\
-*description:* channel usage limitation \\
+*description:* channel usage limitation.\\
 *short form: cln*\\
 
 *Values*
@@ -870,7 +870,7 @@
 *** /banchar_name [char_name] [minute]
 
 *banchar_name*\\
-*description:* ban character \\
+*description:* ban character.\\
 *short form: bcn*\\
 
 *Values*
@@ -883,7 +883,7 @@
 *** /quest [message]
 
 *quest*\\
-*description:* say somehting in quest channel \\
+*description:* say somehting in quest channel.\\
 *short form: q*\\
 
 *Values*
@@ -896,7 +896,7 @@
 *** /quest [message]
 
 *quest*\\
-*description:* say somehting in quest channel \\
+*description:* say somehting in quest channel.\\
 *short form: quest_6*\\
 
 *Values*
@@ -909,7 +909,7 @@
 *** /reset_attribute
 
 *reset_attribute*\\
-*description:* reset attribute point \\
+*description:* reset attribute point.\\
 *short form: ra*\\
 
 
@@ -918,14 +918,14 @@
 *** /reset_skill
 
 *reset_skill*\\
-*description:* reset skill point \\
+*description:* reset skill point.\\
 
 --------------
 
 *** /reset_attribute_gold [how_much]
 
 *reset_attribute_gold*\\
-*description:* reset attribute point for gold \\
+*description:* reset attribute point for gold.\\
 *short form: rag*\\
 
 *Values*
@@ -938,7 +938,7 @@
 *** /reset_skill_gold [how_much]
 
 *reset_skill_gold*\\
-*description:* reset skill point for gold \\
+*description:* reset skill point for gold.\\
 *short form: rsg*\\
 
 *Values*
@@ -951,14 +951,14 @@
 *** /get_spell [spell_id]
 
 *get_spell*\\
-*description:* get a spell \\
+*description:* get a spell.\\
 
 --------------
 
 *** /inlay_shop [npc_id]
 
 *inlay_shop*\\
-*description:* enter inlay shop \\
+*description:* enter inlay shop.\\
 *short form: in_shop*\\
 
 *Values*
@@ -971,7 +971,7 @@
 *** /broadcast_system_message [msg_id] [times] [interval] [msg]
 
 *broadcast_system_message*\\
-*description:* \\
+*description:* .\\
 *short form: bsm*\\
 
 *Values*
@@ -984,14 +984,14 @@
 *** /echo [message]
 
 *echo*\\
-*description:* show message without prompt \\
+*description:* show message without prompt.\\
 
 --------------
 
 *** /clone_monster_locate [mob_id] [absolute] [loc_x] [loc_y]
 
 *clone_monster_locate*\\
-*description:* clone monster in absolute/relate coordinate in same node with player \\
+*description:* clone monster in absolute/relate coordinate in same node with player.\\
 *short form: cml*\\
 
 *Values*
@@ -1004,7 +1004,7 @@
 *** /clone_monster_around [mob_id] [absolute] [angle] [range]
 
 *clone_monster_around*\\
-*description:* clone monster around player by absolute/relate angle \\
+*description:* clone monster around player by absolute/relate angle.\\
 *short form: cma*\\
 
 *Values*
@@ -1017,7 +1017,7 @@
 *** /npc_use_channel [npc_id] [channel_id] [type] [message]
 
 *npc_use_channel*\\
-*description:* let npc use channel to say something \\
+*description:* let npc use channel to say something.\\
 *short form: nuc*\\
 
 *Values*
@@ -1030,7 +1030,7 @@
 *** /npc_use_spell [npc_id] [spell_id]
 
 *npc_use_spell*\\
-*description:* let npc use spell on pc in the same node \\
+*description:* let npc use spell on pc in the same node.\\
 *short form: nus*\\
 
 *Values*
@@ -1043,7 +1043,7 @@
 *** /self_use_effect [effect_id] [duration]
 
 *self_use_effect*\\
-*description:* let pc use effect on self \\
+*description:* let pc use effect on self.\\
 *short form: sue*\\
 
 *Values*
@@ -1056,7 +1056,7 @@
 *** /change_class [class_id]
 
 *change_class*\\
-*description:* change current class \\
+*description:* change current class.\\
 *short form: cc*\\
 
 *Values*
@@ -1069,7 +1069,7 @@
 *** /adjust_spell_anitime [spell_id] [animeTime_ofs]
 
 *adjust_spell_anitime*\\
-*description:* change spell animation time \\
+*description:* change spell animation time.\\
 *short form: asa*\\
 
 *Values*
@@ -1082,14 +1082,14 @@
 *** /escape
 
 *escape*\\
-*description:* transfer team member to the last enter normal area \\
+*description:* transfer team member to the last enter normal area.\\
 
 --------------
 
 *** /set_level [level]
 
 *set_level*\\
-*description:* set character level \\
+*description:* set character level.\\
 *short form: sl*\\
 
 *Values*
@@ -1102,7 +1102,7 @@
 *** /set_monster_damage [monster id] [physico damage] [attack var] [physico defence] [magic damage] [magic attack var] [magic defence]
 
 *set_monster_damage*\\
-*description:* set monster damage \\
+*description:* set monster damage.\\
 *short form: smd*\\
 
 *Values*
@@ -1115,7 +1115,7 @@
 *** /set_monster_movement [monster id] [movement] [roammovement] [attack delay]
 
 *set_monster_movement*\\
-*description:* set monster \\
+*description:* set monster.\\
 *short form: smm*\\
 
 *Values*
@@ -1128,7 +1128,7 @@
 *** /show_monster [template monster id]
 
 *show_monster*\\
-*description:* show monster information \\
+*description:* show monster information.\\
 *short form: sm*\\
 
 *Values*
@@ -1141,7 +1141,7 @@
 *** /set_monster_sight [monster id] [sight]
 
 *set_monster_sight*\\
-*description:* set monster sight \\
+*description:* set monster sight.\\
 *short form: sms*\\
 
 *Values*
@@ -1154,7 +1154,7 @@
 *** /test_character_attack [monster id]
 
 *test_character_attack*\\
-*description:* test character \\
+*description:* test character.\\
 *short form: tca*\\
 
 *Values*
@@ -1167,7 +1167,7 @@
 *** /test_monster_attack [monster id]
 
 *test_monster_attack*\\
-*description:* test monster \\
+*description:* test monster.\\
 *short form: tma*\\
 
 *Values*
@@ -1180,7 +1180,7 @@
 *** /set_sevel_grow [con] [str] [int] [dex] [vol] [max_hp] [max_mp]
 
 *set_sevel_grow*\\
-*description:* set attr \\
+*description:* set attr.\\
 *short form: set_level_grow*\\
 
 *Values*
@@ -1193,7 +1193,7 @@
 *** /querylevelgrow
 
 *querylevelgrow*\\
-*description:* \\
+*description:* .\\
 *short form: query_level_grow*\\
 
 
@@ -1202,21 +1202,21 @@
 *** /set_item [item id] [word] [number]
 
 *set_item*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /save_monster [template monster id]
 
 *save_monster*\\
-*description:* save monster to db \\
+*description:* save monster to db.\\
 
 --------------
 
 *** /get_effect_data [effect id]
 
 *get_effect_data*\\
-*description:* get effect data \\
+*description:* get effect data.\\
 *short form: ged*\\
 
 *Values*
@@ -1229,7 +1229,7 @@
 *** /set_effect_data [effect id] [family type] [target type] [duration] [period] [width] [height] [enchant type] [resist type] [param min] [param max] [next id] [level]
 
 *set_effect_data*\\
-*description:* set effect data \\
+*description:* set effect data.\\
 *short form: sed*\\
 
 *Values*
@@ -1242,7 +1242,7 @@
 *** /set_effect_command [effect id] [command type] [commands]
 
 *set_effect_command*\\
-*description:* set effect command \\
+*description:* set effect command.\\
 *short form: sec*\\
 
 *Values*
@@ -1255,7 +1255,7 @@
 *** /get_spell_data [spell id]
 
 *get_spell_data*\\
-*description:* get spell data \\
+*description:* get spell data.\\
 *short form: gsd*\\
 
 *Values*
@@ -1268,7 +1268,7 @@
 *** /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount] [seconds] [width] [height] [patrol_id]
 
 *set_reborn_monster*\\
-*description:* reborn mober binding \\
+*description:* reborn mober binding.\\
 *short form: srm*\\
 
 *Values*
@@ -1281,7 +1281,7 @@
 *** /get_all_template_monsters
 
 *get_all_template_monsters*\\
-*description:* get all template monster \\
+*description:* get all template monster.\\
 *short form: gatm*\\
 
 
@@ -1290,7 +1290,7 @@
 *** /monster_goto [monster id] [x] [y]
 
 *monster_goto*\\
-*description:* goto x y \\
+*description:* goto x y.\\
 *short form: wm*\\
 
 *Values*
@@ -1303,7 +1303,7 @@
 *** /around_kill_all [radius]
 
 *around_kill_all*\\
-*description:* around kill all \\
+*description:* around kill all.\\
 *short form: aka*\\
 
 *Values*
@@ -1316,7 +1316,7 @@
 *** /around_kill [monster id] [radius]
 
 *around_kill*\\
-*description:* around kill \\
+*description:* around kill.\\
 *short form: ak*\\
 
 *Values*
@@ -1329,7 +1329,7 @@
 *** /query_test_attack_monster
 
 *query_test_attack_monster*\\
-*description:* query test attack monster \\
+*description:* query test attack monster.\\
 *short form: qtam*\\
 
 
@@ -1338,7 +1338,7 @@
 *** /reload_reborn_monster [node id]
 
 *reload_reborn_monster*\\
-*description:* reload reborn monster \\
+*description:* reload reborn monster.\\
 *short form: rrm*\\
 
 *Values*
@@ -1351,7 +1351,7 @@
 *** /list_pms [pms_id]
 
 *list_pms*\\
-*description:* list pms info on this character \\
+*description:* list pms info on this character.\\
 *short form: listpms*\\
 
 *Values*
@@ -1364,14 +1364,14 @@
 *** /echobyid [greeting_id]
 
 *echobyid*\\
-*description:* show message without prompt by greeting_id \\
+*description:* show message without prompt by greeting_id.\\
 
 --------------
 
 *** /change_hair_color [color_id]
 
 *change_hair_color*\\
-*description:* change character hair color \\
+*description:* change character hair color.\\
 *short form: chc*\\
 
 *Values*
@@ -1384,7 +1384,7 @@
 *** /change_hair [hair_id]
 
 *change_hair*\\
-*description:* change character hair \\
+*description:* change character hair.\\
 *short form: ch*\\
 
 *Values*
@@ -1397,28 +1397,28 @@
 *** /reload_effect
 
 *reload_effect*\\
-*description:* reload effect data \\
+*description:* reload effect data.\\
 
 --------------
 
 *** /reload_template_monster
 
 *reload_template_monster*\\
-*description:* reload template_monster data \\
+*description:* reload template_monster data.\\
 
 --------------
 
 *** /summon_pet [template_id]
 
 *summon_pet*\\
-*description:* summon pet \\
+*description:* summon pet.\\
 
 --------------
 
 *** /gain_skill_point [number]
 
 *gain_skill_point*\\
-*description:* gain skill point \\
+*description:* gain skill point.\\
 *short form: gsp*\\
 
 *Values*
@@ -1431,7 +1431,7 @@
 *** /node [message]
 
 *node*\\
-*description:* say to all man in node \\
+*description:* say to all man in node.\\
 *short form: n*\\
 
 *Values*
@@ -1444,7 +1444,7 @@
 *** /system_area [area_id] [message]
 
 *system_area*\\
-*description:* announce something from system \\
+*description:* announce something from system.\\
 *short form: sysarea*\\
 
 *Values*
@@ -1457,7 +1457,7 @@
 *** /fatality_damage [LiftEntity_id]
 
 *fatality_damage*\\
-*description:* set LiftEntity HP = MP = 1 \\
+*description:* set LiftEntity HP = MP = 1.\\
 *short form: fd*\\
 
 *Values*
@@ -1470,28 +1470,28 @@
 *** /restore_all
 
 *restore_all*\\
-*description:* restore the hp \\
+*description:* restore the hp.\\
 
 --------------
 
 *** /clear_near_items
 
 *clear_near_items*\\
-*description:* clear near items around caster \\
+*description:* clear near items around caster.\\
 
 --------------
 
 *** /get_server_id
 
 *get_server_id*\\
-*description:* get zoneserver id \\
+*description:* get zoneserver id.\\
 
 --------------
 
 *** /test_durability [mob id] [loc] [durability]
 
 *test_durability*\\
-*description:* test durability decrease in attacked \\
+*description:* test durability decrease in attacked.\\
 *short form: td*\\
 
 *Values*
@@ -1504,7 +1504,7 @@
 *** /test_spell_attack [monster id] [spell id] [spell lv] [number]
 
 *test_spell_attack*\\
-*description:* test character \\
+*description:* test character.\\
 *short form: tsa*\\
 
 *Values*
@@ -1517,7 +1517,7 @@
 *** /test_drop_treasure [monster id] [number]
 
 *test_drop_treasure*\\
-*description:* test drop treasure \\
+*description:* test drop treasure.\\
 *short form: tdt*\\
 
 *Values*
@@ -1530,7 +1530,7 @@
 *** /test_pk [monster id]
 
 *test_pk*\\
-*description:* test pk \\
+*description:* test pk.\\
 *short form: tpk*\\
 
 *Values*
@@ -1543,7 +1543,7 @@
 *** /surprise_box [SurpriseBoxID]
 
 *surprise_box*\\
-*description:* invoke surprise box \\
+*description:* invoke surprise box.\\
 *short form: sb*\\
 
 *Values*
@@ -1556,7 +1556,7 @@
 *** /SetExtBornMonster [num] [time sec]
 
 *SetExtBornMonster*\\
-*description:* extern born monster \\
+*description:* extern born monster.\\
 *short form: setextbornmonster*\\
 
 *Values*
@@ -1575,7 +1575,7 @@
 *** /set_family_level [fm_level]
 
 *set_family_level*\\
-*description:* set family level \\
+*description:* set family level.\\
 *short form: sflv*\\
 
 *Values*
@@ -1588,14 +1588,14 @@
 *** /family_level_up
 
 *family_level_up*\\
-*description:* family level up \\
+*description:* family level up.\\
 
 --------------
 
 *** /set_family_emblem [emblem1] [emblem2]
 
 *set_family_emblem*\\
-*description:* set family emblem \\
+*description:* set family emblem.\\
 *short form: sfe*\\
 
 *Values*
@@ -1608,42 +1608,42 @@
 *** /select_family_emblem
 
 *select_family_emblem*\\
-*description:* select family emblem \\
+*description:* select family emblem.\\
 
 --------------
 
 *** /open_exploit_rank
 
 *open_exploit_rank*\\
-*description:* Open Exploit Rank \\
+*description:* Open Exploit Rank.\\
 
 --------------
 
 *** /reload_formula_params
 
 *reload_formula_params*\\
-*description:* reload formula parameters \\
+*description:* reload formula parameters.\\
 
 --------------
 
 *** /reload_grow_table
 
 *reload_grow_table*\\
-*description:* reload grow table \\
+*description:* reload grow table.\\
 
 --------------
 
 *** /give_exploit [exploit amount],
 
 *give_exploit*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /RepairAllEquipment
 
 *RepairAllEquipment*\\
-*description:* RepairAllEquipment \\
+*description:* RepairAllEquipment.\\
 *short form: repairallequipment*\\
 
 
@@ -1652,28 +1652,28 @@
 *** /trace [receive_id] [target_name]
 
 *trace*\\
-*description:* Trace a character by name \\
+*description:* Trace a character by name.\\
 
 --------------
 
 *** /drill_item [slot] [number]
 
 *drill_item*\\
-*description:* DrillItem \\
+*description:* DrillItem.\\
 
 --------------
 
 *** /fubag [id]
 
 *fubag*\\
-*description:* fortune bag item \\
+*description:* fortune bag item.\\
 
 --------------
 
 *** /aw_put_treasure [id] [amount]
 
 *aw_put_treasure*\\
-*description:* put treasure all world \\
+*description:* put treasure all world.\\
 *short form: awpt*\\
 
 *Values*
@@ -1686,7 +1686,7 @@
 *** /setfms [ch_id] [mission_id] [value]
 
 *setfms*\\
-*description:* set fms value on this character \\
+*description:* set fms value on this character.\\
 *short form: setf*\\
 
 *Values*
@@ -1699,14 +1699,14 @@
 *** /clone_quest_treasure [item_id] [number] [node_id] [x] [y] [template_id]
 
 *clone_quest_treasure*\\
-*description:* drop quest item \\
+*description:* drop quest item.\\
 
 --------------
 
 *** /set_bag_time [index] [time]
 
 *set_bag_time*\\
-*description:* set the due date for bags \\
+*description:* set the due date for bags.\\
 *short form: sbt*\\
 
 *Values*
@@ -1719,7 +1719,7 @@
 *** /gain_family_exp [number]
 
 *gain_family_exp*\\
-*description:* gain family exp \\
+*description:* gain family exp.\\
 *short form: gfe*\\
 
 *Values*
@@ -1732,7 +1732,7 @@
 *** /set_prestige_level [prestige_id] [level]
 
 *set_prestige_level*\\
-*description:* set prestige level \\
+*description:* set prestige level.\\
 *short form: spl*\\
 
 *Values*
@@ -1745,7 +1745,7 @@
 *** /gain_prestige_exp [prestige_id] [exp]
 
 *gain_prestige_exp*\\
-*description:* gain prestige exp \\
+*description:* gain prestige exp.\\
 *short form: gpe*\\
 
 *Values*
@@ -1758,7 +1758,7 @@
 *** /cast_spell [number] [number]
 
 *cast_spell*\\
-*description:* cast spell to life \\
+*description:* cast spell to life.\\
 *short form: cs*\\
 
 *Values*
@@ -1771,7 +1771,7 @@
 *** /set_sys_var [word] [number]
 
 *set_sys_var*\\
-*description:* set system varaible \\
+*description:* set system varaible.\\
 *short form: ssv*\\
 
 *Values*
@@ -1784,7 +1784,7 @@
 *** /add_appellation [appellation_id]
 
 *add_appellation*\\
-*description:* add appellation \\
+*description:* add appellation.\\
 *short form: aa*\\
 
 *Values*
@@ -1797,7 +1797,7 @@
 *** /set_present_appellation [appellation_id]
 
 *set_present_appellation*\\
-*description:* set present appellation \\
+*description:* set present appellation.\\
 *short form: spa*\\
 
 *Values*
@@ -1822,7 +1822,7 @@
 *** /remove_elf [elf_loc]
 
 *remove_elf*\\
-*description:* remove elf \\
+*description:* remove elf.\\
 *short form: elf_skill*\\
 
 *Values*
@@ -2139,7 +2139,7 @@
 *** /clone item [item_id] [combo_id]
 
 *cloneitem *\\
-*description:* clone an item which template id is [item_id] and combo id is [combo_id] \\
+*description:* clone an item which template id is [item_id] and combo id is [combo_id].\\
 *short form: clone_item*\\
 
 *Values*
@@ -2158,7 +2158,7 @@
 *** /clone item [item_id] [combo_id] [socket_amount]
 
 *cloneitem *\\
-*description:* clone an item which template id is [item_id] and combo id is [combo_id] \\
+*description:* clone an item which template id is [item_id] and combo id is [combo_id].\\
 *short form: clone_item*\\
 
 *Values*
@@ -2177,7 +2177,7 @@
 *** /return item [receiver_id] [log]
 
 *returnitem *\\
-*description:* use mail return an item to player from log \\
+*description:* use mail return an item to player from log.\\
 *short form: return_item*\\
 
 *Values*
@@ -2196,7 +2196,7 @@
 *** /call elf [loc]
 
 *callelf *\\
-*description:* call elf which loc is [loc] \\
+*description:* call elf which loc is [loc].\\
 *short form: call_elf*\\
 
 *Values*
@@ -2209,7 +2209,7 @@
 *** /return gold [receiver_id] [gold]
 
 *returngold *\\
-*description:* use mail return gold to player \\
+*description:* use mail return gold to player.\\
 *short form: return_gold*\\
 
 *Values*
@@ -2246,7 +2246,7 @@
 *** /clone_npc [npc_id]
 
 *clone_npc*\\
-*description:* clone npc \\
+*description:* clone npc.\\
 *short form: cn*\\
 
 *Values*
@@ -2259,7 +2259,7 @@
 *** /around_kill_all_player [radius]
 
 *around_kill_all_player*\\
-*description:* around kill all player \\
+*description:* around kill all player.\\
 *short form: akap*\\
 
 *Values*
@@ -2272,7 +2272,7 @@
 *** /captcha_id [id] [type]
 
 *captcha_id*\\
-*description:* captcha_id [id] [type] \\
+*description:* captcha_id [id] [type].\\
 *short form: capid*\\
 
 *Values*
@@ -2285,7 +2285,7 @@
 *** /captcha_name [given_word] [type]
 
 *captcha_name*\\
-*description:* captcha_name [given_name] [type] \\
+*description:* captcha_name [given_name] [type].\\
 *short form: capname*\\
 
 *Values*
@@ -2298,7 +2298,7 @@
 *** /change_grow_type [growid]
 
 *change_grow_type*\\
-*description:* change_grow_type [growid] \\
+*description:* change_grow_type [growid].\\
 *short form: cgt*\\
 
 *Values*
@@ -2311,14 +2311,14 @@
 *** /clear_bag_item
 
 *clear_bag_item*\\
-*description:* clear bag item \\
+*description:* clear bag item.\\
 
 --------------
 
 *** /set_statue [node] [id] [action] [key]
 
 *set_statue*\\
-*description:* set statue \\
+*description:* set statue.\\
 *short form: sst*\\
 
 *Values*
@@ -2331,21 +2331,21 @@
 *** /bf_ch_num [bf_type] [level_type] [number]
 
 *bf_ch_num*\\
-*description:* bf_ch_num \\
+*description:* bf_ch_num.\\
 
 --------------
 
 *** /bf_open [open] [bf_today_type]
 
 *bf_open*\\
-*description:* bf_open \\
+*description:* bf_open.\\
 
 --------------
 
 *** /gain_love_coin [coin]
 
 *gain_love_coin*\\
-*description:* gain_love_coin \\
+*description:* gain_love_coin.\\
 *short form: glc*\\
 
 *Values*
@@ -2358,14 +2358,14 @@
 *** /remove_enchant [id] [isteam]
 
 *remove_enchant*\\
-*description:* remove enchant \\
+*description:* remove enchant.\\
 
 --------------
 
 *** /visit_family_instance [family_name]
 
 *visit_family_instance*\\
-*description:* visit_family_instance \\
+*description:* visit_family_instance.\\
 *short form: vfi*\\
 
 *Values*
@@ -2378,7 +2378,7 @@
 *** /gain_building_exp [loc] [exp]
 
 *gain_building_exp*\\
-*description:* gain_building_exp \\
+*description:* gain_building_exp.\\
 *short form: gbe*\\
 
 *Values*
@@ -2391,7 +2391,7 @@
 *** /gain_family_treasury [money]
 
 *gain_family_treasury*\\
-*description:* gain family treasury \\
+*description:* gain family treasury.\\
 *short form: gft*\\
 
 *Values*
@@ -2404,7 +2404,7 @@
 *** /gain_building_durability [loc] [durability]
 
 *gain_building_durability*\\
-*description:* gain building durability \\
+*description:* gain building durability.\\
 *short form: gbd*\\
 
 *Values*
@@ -2417,28 +2417,28 @@
 *** /achievement_item [achievement_id]
 
 *achievement_item*\\
-*description:* achievement_item \\
+*description:* achievement_item.\\
 
 --------------
 
 *** /create_town [node_id]
 
 *create_town*\\
-*description:* create_town \\
+*description:* create_town.\\
 
 --------------
 
 *** /set_territory_open [territory_tid] [duration]
 
 *set_territory_open*\\
-*description:* set_territory_open \\
+*description:* set_territory_open.\\
 
 --------------
 
 *** /clone item [item_id] [combo_id] [socket_amount] [color]
 
 *cloneitem *\\
-*description:* clone an item which template id is [item_id] and combo id is [combo_id] \\
+*description:* clone an item which template id is [item_id] and combo id is [combo_id].\\
 *short form: clone_item*\\
 
 *Values*
@@ -2457,14 +2457,14 @@
 *** /screenmsg [type] [msg]
 
 *screenmsg*\\
-*description:* show screenmsg \\
+*description:* show screenmsg.\\
 
 --------------
 
 *** /set_blocklogin [char_id] [flag_id]
 
 *set_blocklogin*\\
-*description:* set block login value \\
+*description:* set block login value.\\
 *short form: sbl*\\
 
 *Values*
@@ -2477,7 +2477,7 @@
 *** /set_useblocklogin [flag_id]
 
 *set_useblocklogin*\\
-*description:* set use block login value \\
+*description:* set use block login value.\\
 *short form: subl*\\
 
 *Values*
@@ -2490,7 +2490,7 @@
 *** /visit_player_room_id [room_id]
 
 *visit_player_room_id*\\
-*description:* visit player room_id \\
+*description:* visit player room_id.\\
 *short form: vpri*\\
 
 *Values*
@@ -2503,7 +2503,7 @@
 *** /visit_player_room [ch_name]
 
 *visit_player_room*\\
-*description:* visit player room \\
+*description:* visit player room.\\
 *short form: vpr*\\
 
 *Values*
@@ -2516,7 +2516,7 @@
 *** /switch_player_room [01]
 
 *switch_player_room*\\
-*description:* switch player room 0 - off \\
+*description:* switch player room 0 - off.\\
 *short form: spr*\\
 
 *Values*
@@ -2529,7 +2529,7 @@
 *** /switch_room_decorating [room_id] [01]
 
 *switch_room_decorating*\\
-*description:* switch room decorating mode 0 - off \\
+*description:* switch room decorating mode 0 - off.\\
 *short form: sprd*\\
 
 *Values*
@@ -2542,14 +2542,14 @@
 *** /set_territory_status [number] [number]
 
 *set_territory_status*\\
-*description:* set territory status \\
+*description:* set territory status.\\
 
 --------------
 
 *** /captcha_level [level]
 
 *captcha_level*\\
-*description:* captcha_level [level] \\
+*description:* captcha_level [level].\\
 *short form: caplv*\\
 
 *Values*
@@ -2562,7 +2562,7 @@
 *** /set_gm_map_open [node_id] [open]
 
 *set_gm_map_open*\\
-*description:* set gm map open \\
+*description:* set gm map open.\\
 *short form: sgmmo*\\
 
 *Values*
@@ -2575,7 +2575,7 @@
 *** /send_reward_item [number] [number] [number] [number] [number]
 
 *send_reward_item*\\
-*description:* send_reward_item \\
+*description:* send_reward_item.\\
 *short form: sri*\\
 
 *Values*
@@ -2588,14 +2588,14 @@
 *** /set_achievement [achi_id] [point] [isteam]
 
 *set_achievement*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /gain_cs_gold [gold]
 
 *gain_cs_gold*\\
-*description:* \\
+*description:* .\\
 *short form: gcg*\\
 
 *Values*
@@ -2608,7 +2608,7 @@
 *** /send_sys_mall_queue [number]
 
 *send_sys_mall_queue*\\
-*description:* \\
+*description:* .\\
 *short form: send_sys_mail_queue*\\
 
 *Values*
@@ -2627,7 +2627,7 @@
 *** /set_territory_player_limit [territroy_id] [player_limit]
 
 *set_territory_player_limit*\\
-*description:* \\
+*description:* .\\
 *short form: stpl*\\
 
 *Values*
@@ -2640,7 +2640,7 @@
 *** /set_web_btn [number]
 
 *set_web_btn*\\
-*description:* \\
+*description:* .\\
 *short form: swb*\\
 
 *Values*
@@ -2653,7 +2653,7 @@
 *** /recover_territory_event [number]
 
 *recover_territory_event*\\
-*description:* \\
+*description:* .\\
 *short form: rte*\\
 
 *Values*
@@ -2666,14 +2666,14 @@
 *** /family_battle_restart
 
 *family_battle_restart*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /family_battle_setup_judge [phase_type] [phase_index] [family_name]
 
 *family_battle_setup_judge*\\
-*description:* \\
+*description:* .\\
 *short form: fbsj*\\
 
 *Values*
@@ -2686,7 +2686,7 @@
 *** /family_battle_honor_switch [onoff]
 
 *family_battle_honor_switch*\\
-*description:* \\
+*description:* .\\
 *short form: fbhs*\\
 
 *Values*
@@ -2699,14 +2699,14 @@
 *** /family_battle_end
 
 *family_battle_end*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /refresh_recommended_events [number]
 
 *refresh_recommended_events*\\
-*description:* refresh_recommended_events \\
+*description:* refresh_recommended_events.\\
 *short form: rre*\\
 
 *Values*
@@ -2719,7 +2719,7 @@
 *** /family_battle_reset_week_update
 
 *family_battle_reset_week_update*\\
-*description:* \\
+*description:* .\\
 *short form: fbrwu*\\
 
 
@@ -2728,7 +2728,7 @@
 *** /gain_family_honor [number]
 
 *gain_family_honor*\\
-*description:* \\
+*description:* .\\
 *short form: gfh*\\
 
 *Values*
@@ -2741,7 +2741,7 @@
 *** /cross_world [number]
 
 *cross_world*\\
-*description:* \\
+*description:* .\\
 *short form: cw*\\
 
 *Values*
@@ -2754,7 +2754,7 @@
 *** /countdown_msg [start_tim] [time_seconds] [msg]
 
 *countdown_msg*\\
-*description:* Countdown Msg \\
+*description:* Countdown Msg.\\
 *short form: cdm*\\
 
 *Values*
@@ -2767,7 +2767,7 @@
 *** /show_countdown_msg
 
 *show_countdown_msg*\\
-*description:* Show Countdown Msg \\
+*description:* Show Countdown Msg.\\
 *short form: show_cdm*\\
 
 
@@ -2776,7 +2776,7 @@
 *** /del_countdown_msg
 
 *del_countdown_msg*\\
-*description:* Delete Countdown Msg \\
+*description:* Delete Countdown Msg.\\
 *short form: del_cdm*\\
 
 
@@ -2785,7 +2785,7 @@
 *** /show_countdown_msg [number]
 
 *show_countdown_msg*\\
-*description:* Show Countdown Msg \\
+*description:* Show Countdown Msg.\\
 *short form: show_cdm*\\
 
 *Values*
@@ -2798,7 +2798,7 @@
 *** /disband_family [name]
 
 *disband_family*\\
-*description:* \\
+*description:* .\\
 *short form: df*\\
 
 *Values*
@@ -2829,14 +2829,14 @@
 *** /reload_function_switch
 
 *reload_function_switch*\\
-*description:* reload function switch ini \\
+*description:* reload function switch ini.\\
 
 --------------
 
 *** /jail [given_name] [buff_id] [buff_time] [node_id] [gateway_id]
 
 *jail*\\
-*description:* jail character \\
+*description:* jail character.\\
 *short form: set_elf_star*\\
 
 *Values*
@@ -2861,14 +2861,14 @@
 *** /change_gender [gender_id]
 
 *change_gender*\\
-*description:* change character gender \\
+*description:* change character gender.\\
 
 --------------
 
 *** /trans_into_territory [territory_id] [area_id]
 
 *trans_into_territory*\\
-*description:* trans_into_territory \\
+*description:* trans_into_territory.\\
 *short form: tit*\\
 
 *Values*
@@ -2881,7 +2881,7 @@
 *** /effect_map [effect_id] [duration]
 
 *effect_map*\\
-*description:* \\
+*description:* .\\
 *short form: emap*\\
 
 *Values*
@@ -2894,7 +2894,7 @@
 *** /effect_map_time [map_id] [time] [effect_id]
 
 *effect_map_time*\\
-*description:* \\
+*description:* .\\
 *short form: emtime*\\
 
 *Values*
@@ -2907,7 +2907,7 @@
 *** /clone_monster_remote [id] [unit] [world_id] [node_id] [x] [y]
 
 *clone_monster_remote*\\
-*description:* Clone Monster At Player around \\
+*description:* Clone Monster At Player around.\\
 *short form: cmr*\\
 
 *Values*
@@ -2920,7 +2920,7 @@
 *** /set_territory_prepare_time [prepare_time]
 
 *set_territory_prepare_time*\\
-*description:* set_territory_prepare_time \\
+*description:* set_territory_prepare_time.\\
 *short form: stpt*\\
 
 *Values*
@@ -2933,14 +2933,14 @@
 *** /player_room_release_node [number]
 
 *player_room_release_node*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /quiz_game_force_open [number]
 
 *quiz_game_force_open*\\
-*description:* \\
+*description:* .\\
 *short form: qgfo*\\
 
 *Values*
@@ -2953,7 +2953,7 @@
 *** /update_player_node_times [given_name] [node_id] [times]
 
 *update_player_node_times*\\
-*description:* \\
+*description:* .\\
 *short form: upnt*\\
 
 *Values*
@@ -2966,7 +2966,7 @@
 *** /strenghten_equipments [number]
 
 *strenghten_equipments*\\
-*description:* \\
+*description:* .\\
 *short form: se*\\
 
 *Values*
@@ -2979,7 +2979,7 @@
 *** /gain_bind_gold [number]
 
 *gain_bind_gold*\\
-*description:* gain bind gold num \\
+*description:* gain bind gold num.\\
 *short form: gbg*\\
 
 *Values*
@@ -2992,7 +2992,7 @@
 *** /set_node_pvp [number] [number]
 
 *set_node_pvp*\\
-*description:* set_node_pvp \\
+*description:* set_node_pvp.\\
 *short form: snp*\\
 
 *Values*
@@ -3005,7 +3005,7 @@
 *** /set_node_pvp_zone [number] [number]
 
 *set_node_pvp_zone*\\
-*description:* set_node_pvp_zone \\
+*description:* set_node_pvp_zone.\\
 *short form: snpz*\\
 
 *Values*
@@ -3018,14 +3018,14 @@
 *** /event_showmsg [position] [rest_input]
 
 *event_showmsg*\\
-*description:* event trigger to show message \\
+*description:* event trigger to show message.\\
 
 --------------
 
 *** /set_node_exp_nb [number] [number]
 
 *set_node_exp_nb*\\
-*description:* set_node_exp_no_broadcast \\
+*description:* set_node_exp_no_broadcast.\\
 *short form: snen*\\
 
 *Values*
@@ -3038,7 +3038,7 @@
 *** /set_node_gold_nb [number] [number]
 
 *set_node_gold_nb*\\
-*description:* set_node_gold_no_broadcast \\
+*description:* set_node_gold_no_broadcast.\\
 *short form: sngn*\\
 
 *Values*
@@ -3051,7 +3051,7 @@
 *** /set_reborn_mob_pvp [min_left]
 
 *set_reborn_mob_pvp*\\
-*description:* set_reborn_mob_pvp \\
+*description:* set_reborn_mob_pvp.\\
 *short form: srmp*\\
 
 *Values*
@@ -3064,7 +3064,7 @@
 *** /gain_coins
 
 *gain_coins*\\
-*description:* \\
+*description:* .\\
 *short form: gco*\\
 
 | *number* | *number* | |
@@ -3075,35 +3075,35 @@
 *** /npc_talk,
 
 *npc_talk*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /blackout [textindex] [times]
 
 *blackout*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /bc_tran_msg [type] [msg] [screen_msg] [confirmmsg]
 
 *bc_tran_msg*\\
-*description:* broadcast transition msg \\
+*description:* broadcast transition msg.\\
 
 --------------
 
 *** /node_black_out [target] [msg1] [time1] [msg2] [time2] [msg3] [time3]
 
 *node_black_out*\\
-*description:* play blackouting \\
+*description:* play blackouting.\\
 
 --------------
 
 *** /gain_eudemon_level [level]
 
 *gain_eudemon_level*\\
-*description:* gain eudemon level \\
+*description:* gain eudemon level.\\
 *short form: geul*\\
 
 *Values*
@@ -3116,14 +3116,14 @@
 *** /screen_effect [target] [effect_type] [effect_level] [effect_time]
 
 *screen_effect*\\
-*description:* screen effect \\
+*description:* screen effect.\\
 
 --------------
 
 *** /gem_powerup [container_id] [loc] [level]
 
 *gem_powerup*\\
-*description:* gem level up \\
+*description:* gem level up.\\
 *short form: gemup*\\
 
 *Values*
@@ -3136,14 +3136,14 @@
 *** /play_cutscene [file_name] [target] [msg1]
 
 *play_cutscene*\\
-*description:* play cutscene \\
+*description:* play cutscene.\\
 
 --------------
 
 *** /add_memories [memories_id] [num]
 
 *add_memories*\\
-*description:* add memories \\
+*description:* add memories.\\
 *short form: amem*\\
 
 *Values*
@@ -3156,7 +3156,7 @@
 *** /remove_memories [memoried_id]
 
 *remove_memories*\\
-*description:* remove memories \\
+*description:* remove memories.\\
 *short form: rmem*\\
 
 *Values*
@@ -3169,7 +3169,7 @@
 *** /add_memoriesex [memories_id] [num] [extra_info]
 
 *add_memoriesex*\\
-*description:* add memories with extra \\
+*description:* add memories with extra.\\
 *short form: amemex*\\
 
 *Values*
@@ -3182,7 +3182,7 @@
 *** /open_fight [fight_tid] [duration] [one_side_number]
 
 *open_fight*\\
-*description:* open fight [fight id] [duration in sec] [persons need in one-side to open] \\
+*description:* open fight [fight id] [duration in sec] [persons need in one-side to open].\\
 *short form: of*\\
 
 *Values*
@@ -3195,7 +3195,7 @@
 *** /set_lover_point_countdown_timer [number]
 
 *set_lover_point_countdown_timer*\\
-*description:* set_lover_point_countdown_timer \\
+*description:* set_lover_point_countdown_timer.\\
 *short form: lpcd*\\
 
 *Values*
@@ -3208,7 +3208,7 @@
 *** /active_subweapon_to_character [given_name] [is_active]
 
 *active_subweapon_to_character*\\
-*description:* active subweapon to character \\
+*description:* active subweapon to character.\\
 *short form: aswtc*\\
 
 *Values*
@@ -3221,14 +3221,14 @@
 *** /select_family_leader2 [leader_id]
 
 *select_family_leader2*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /switch_fight_time [switch]
 
 *switch_fight_time*\\
-*description:* \\
+*description:* .\\
 *short form: sft*\\
 
 *Values*
@@ -3241,7 +3241,7 @@
 *** /reset_daily_bonus [day_num]
 
 *reset_daily_bonus*\\
-*description:* \\
+*description:* .\\
 *short form: rdb*\\
 
 *Values*
@@ -3254,7 +3254,7 @@
 *** /self_use_effect [effect_id] [duration] [stacks]
 
 *self_use_effect*\\
-*description:* let pc use stacks effect on self \\
+*description:* let pc use stacks effect on self.\\
 *short form: sue*\\
 
 *Values*
@@ -3267,7 +3267,7 @@
 *** /clear_fight [fight_id]
 
 *clear_fight*\\
-*description:* close and clear fight[fight_id] \\
+*description:* close and clear fight[fight_id].\\
 *short form: cf*\\
 
 *Values*
@@ -3280,7 +3280,7 @@
 *** /family_diagram_vit [number]
 
 *family_diagram_vit*\\
-*description:* set player's diagram vit to [number] \\
+*description:* set player's diagram vit to [number].\\
 *short form: fdv*\\
 
 *Values*
@@ -3293,7 +3293,7 @@
 *** /family_diagram_vit [number]
 
 *family_diagram_vit*\\
-*description:* set player's diagram vit to [number] \\
+*description:* set player's diagram vit to [number].\\
 *short form: family_diagram_progress*\\
 
 *Values*
@@ -3312,7 +3312,7 @@
 *** /family_diagram_node_state [node_id] [times]
 
 *family_diagram_node_state*\\
-*description:* set diagram[node_id] clear times to [times] \\
+*description:* set diagram[node_id] clear times to [times].\\
 *short form: fdns*\\
 
 *Values*
@@ -3325,7 +3325,7 @@
 *** /family_diagram_reset [reset_option
 
 *family_diagram_reset*\\
-*description:* reset diagram by [option] 0 only diagram group / 1 diagram group and progress \\
+*description:* reset diagram by [option] 0 only diagram group / 1 diagram group and progress.\\
 *short form: fdr*\\
 
 *Values*
@@ -3338,7 +3338,7 @@
 *** /begin_node_event [event_id]
 
 *begin_node_event*\\
-*description:* begin the event[event_id] at player's node \\
+*description:* begin the event[event_id] at player's node.\\
 *short form: bne*\\
 
 *Values*
@@ -3351,7 +3351,7 @@
 *** /set_hair_id [id]
 
 *set_hair_id*\\
-*description:* set character hair \\
+*description:* set character hair.\\
 *short form: shid*\\
 
 *Values*
@@ -3364,7 +3364,7 @@
 *** /set_face_id [id]
 
 *set_face_id*\\
-*description:* set character face \\
+*description:* set character face.\\
 *short form: sfid*\\
 
 *Values*
@@ -3377,7 +3377,7 @@
 *** /set_hair_color [color]
 
 *set_hair_color*\\
-*description:* set character hair color \\
+*description:* set character hair color.\\
 *short form: shc*\\
 
 *Values*
@@ -3390,7 +3390,7 @@
 *** /set_skin_color [color]
 
 *set_skin_color*\\
-*description:* set character skin color \\
+*description:* set character skin color.\\
 *short form: ssc*\\
 
 *Values*
@@ -3403,7 +3403,7 @@
 *** /set_eyes_color [color]
 
 *set_eyes_color*\\
-*description:* set character eyes color \\
+*description:* set character eyes color.\\
 *short form: sec*\\
 
 *Values*
@@ -3416,7 +3416,7 @@
 *** /set_helmet_color [color]
 
 *set_helmet_color*\\
-*description:* set character helmet color \\
+*description:* set character helmet color.\\
 *short form: s0c*\\
 
 *Values*
@@ -3429,7 +3429,7 @@
 *** /set_clothes_color [color]
 
 *set_clothes_color*\\
-*description:* set character clothes color \\
+*description:* set character clothes color.\\
 *short form: s1c*\\
 
 *Values*
@@ -3442,7 +3442,7 @@
 *** /set_cloak_color [color]
 
 *set_cloak_color*\\
-*description:* set character cloak color \\
+*description:* set character cloak color.\\
 *short form: s2c*\\
 
 *Values*
@@ -3455,7 +3455,7 @@
 *** /update_closet [index]
 
 *update_closet*\\
-*description:* update current color to closet \\
+*description:* update current color to closet.\\
 *short form: ucl*\\
 
 *Values*
@@ -3468,7 +3468,7 @@
 *** /set_spell_level [id] [level]
 
 *set_spell_level*\\
-*description:* set spell level \\
+*description:* set spell level.\\
 *short form: spel*\\
 
 *Values*
@@ -3481,14 +3481,14 @@
 *** /add_class [id]
 
 *add_class*\\
-*description:* add class \\
+*description:* add class.\\
 
 --------------
 
 *** /remove_class [id]
 
 *remove_class*\\
-*description:* remove class \\
+*description:* remove class.\\
 *short form: dcc*\\
 
 *Values*
@@ -3501,7 +3501,7 @@
 *** /set_class_level [number]
 
 *set_class_level*\\
-*description:* set class level \\
+*description:* set class level.\\
 *short form: scl*\\
 
 *Values*
@@ -3514,7 +3514,7 @@
 *** /get_license [number]
 
 *get_license*\\
-*description:* set license \\
+*description:* set license.\\
 *short form: gel*\\
 
 *Values*
@@ -3527,14 +3527,14 @@
 *** /remove_all_license
 
 *remove_all_license*\\
-*description:* remove all license \\
+*description:* remove all license.\\
 
 --------------
 
 *** /set_all_spell_level [number]
 
 *set_all_spell_level*\\
-*description:* set all spell level \\
+*description:* set all spell level.\\
 *short form: sapl*\\
 
 *Values*
@@ -3547,7 +3547,7 @@
 *** /set_node_np
 
 *set_node_np*\\
-*description:* set node np rate \\
+*description:* set node np rate.\\
 *short form: snn*\\
 
 | *number* | *number* | |
@@ -3558,7 +3558,7 @@
 *** /remove_family_emblem [number]
 
 *remove_family_emblem*\\
-*description:* remove family emblem \\
+*description:* remove family emblem.\\
 *short form: rfe*\\
 
 *Values*
@@ -3583,7 +3583,7 @@
 *** /clear_cool_down_time
 
 *clear_cool_down_time*\\
-*description:* clear character's cool down time \\
+*description:* clear character's cool down time.\\
 *short form: ccdt*\\
 
 
@@ -3592,21 +3592,21 @@
 *** /shop [shop_type] [npc_id] [level_min] [level_max]
 
 *shop*\\
-*description:* enter spell shop \\
+*description:* enter spell shop.\\
 
 --------------
 
 *** /put_treasure [id] [amount]
 
 *put_treasure*\\
-*description:* put treasure at ground \\
+*description:* put treasure at ground.\\
 
 --------------
 
 *** /add_lottery_plus [value]
 
 *add_lottery_plus*\\
-*description:* add lottery plus \\
+*description:* add lottery plus.\\
 *short form: alp*\\
 
 *Values*
@@ -3619,7 +3619,7 @@
 *** /reload_elf_lottery_db
 
 *reload_elf_lottery_db*\\
-*description:* reload elf lottery db \\
+*description:* reload elf lottery db.\\
 *short form: reld*\\
 
 
@@ -3628,7 +3628,7 @@
 *** /lottery_week_update [day] [hour] [min]
 
 *lottery_week_update*\\
-*description:* reload week update \\
+*description:* reload week update.\\
 *short form: lwu*\\
 
 *Values*
@@ -3641,21 +3641,21 @@
 *** /clear_lover_disband
 
 *clear_lover_disband*\\
-*description:* clear lover disband \\
+*description:* clear lover disband.\\
 
 --------------
 
 *** /super_clear_bag_item
 
 *super_clear_bag_item*\\
-*description:* super_clear_bag_item \\
+*description:* super_clear_bag_item.\\
 
 --------------
 
 *** /making_item [operation_type] [making_item_way_id]
 
 *making_item*\\
-*description:* learn new making item way \\
+*description:* learn new making item way.\\
 *short form: mi*\\
 
 *Values*
@@ -3668,7 +3668,7 @@
 *** /making_item [operation_type] [type] [exp]
 
 *making_item*\\
-*description:* add making item type exp \\
+*description:* add making item type exp.\\
 *short form: mi*\\
 
 *Values*
@@ -3681,7 +3681,7 @@
 *** /add_hate [caster_id] [target_id] [target_type]
 
 *add_hate*\\
-*description:* add hate to life \\
+*description:* add hate to life.\\
 *short form: ah*\\
 
 *Values*
@@ -3694,14 +3694,14 @@
 *** /achievement_screen_message [achieve_id] [ownder_id]
 
 *achievement_screen_message*\\
-*description:* show screen message when get achievement point \\
+*description:* show screen message when get achievement point.\\
 
 --------------
 
 *** /active_subweapon [number]
 
 *active_subweapon*\\
-*description:* active subweapon \\
+*description:* active subweapon.\\
 *short form: asw*\\
 
 *Values*
@@ -3720,7 +3720,7 @@
 *** /get_lover_point [number]
 
 *get_lover_point*\\
-*description:* get lover point \\
+*description:* get lover point.\\
 *short form: glp*\\
 
 *Values*
@@ -3733,7 +3733,7 @@
 *** /set_lover_level [number]
 
 *set_lover_level*\\
-*description:* set_lover_level \\
+*description:* set_lover_level.\\
 *short form: sll*\\
 
 *Values*
@@ -3746,7 +3746,7 @@
 *** /expand_elf_bank [number]
 
 *expand_elf_bank*\\
-*description:* expand_elf_bank \\
+*description:* expand_elf_bank.\\
 *short form: eeb*\\
 
 *Values*
@@ -3759,7 +3759,7 @@
 *** /add_attr_value [word] [number]
 
 *add_attr_value*\\
-*description:* add attr value \\
+*description:* add attr value.\\
 *short form: atv*\\
 
 *Values*
@@ -3772,14 +3772,14 @@
 *** /reset_daily_mission
 
 *reset_daily_mission*\\
-*description:* reset daily mission \\
+*description:* reset daily mission.\\
 
 --------------
 
 *** /transfer_name [given_name]
 
 *transfer_name*\\
-*description:* transport to character with nickname \\
+*description:* transport to character with nickname.\\
 *short form: tn*\\
 
 *Values*
@@ -3792,7 +3792,7 @@
 *** /gain_dust [number]
 
 *gain_dust*\\
-*description:* gain dust num \\
+*description:* gain dust num.\\
 *short form: gd*\\
 
 *Values*
@@ -3805,14 +3805,14 @@
 *** /reset_group_reward
 
 *reset_group_reward*\\
-*description:* reset group reward \\
+*description:* reset group reward.\\
 
 --------------
 
 *** /open_fortune_bag [fortune_bag_id] [times] [drop_rate]
 
 *open_fortune_bag*\\
-*description:* \\
+*description:* .\\
 *short form: ofb*\\
 
 *Values*
@@ -3825,7 +3825,7 @@
 *** /modify_durability [number] [number]
 
 *modify_durability*\\
-*description:* \\
+*description:* .\\
 *short form: md*\\
 
 *Values*
@@ -3838,7 +3838,7 @@
 *** /captcha_wordtype_noise [number] [wordtype]
 
 *captcha_wordtype_noise*\\
-*description:* \\
+*description:* .\\
 *short form: cawn*\\
 
 *Values*
@@ -3851,21 +3851,21 @@
 *** /gainpp [pptype] [number]
 
 *gainpp*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /clear_spell
 
 *clear_spell*\\
-*description:* clear player all spell \\
+*description:* clear player all spell.\\
 
 --------------
 
 *** /change_weapon_type [number] [number]
 
 *change_weapon_type*\\
-*description:* change my main or second weapon type \\
+*description:* change my main or second weapon type.\\
 *short form: cwt*\\
 
 *Values*
@@ -3878,7 +3878,7 @@
 *** /weapon_strengthen [number] [number] [number] [number]
 
 *weapon_strengthen*\\
-*description:* \\
+*description:* .\\
 *short form: wpns*\\
 
 *Values*
@@ -3891,7 +3891,7 @@
 *** /gain_fragment [number]
 
 *gain_fragment*\\
-*description:* \\
+*description:* .\\
 *short form: gf*\\
 
 *Values*
@@ -3904,14 +3904,14 @@
 *** /clear_advenchants
 
 *clear_advenchants*\\
-*description:* clear adventure enchants \\
+*description:* clear adventure enchants.\\
 
 --------------
 
 *** /set_elf_emblem_attr [number] [number] [number]
 
 *set_elf_emblem_attr*\\
-*description:* \\
+*description:* .\\
 *short form: seea*\\
 
 *Values*
@@ -3924,7 +3924,7 @@
 *** /reset_timer [reset_type]
 
 *reset_timer*\\
-*description:* active reset time \\
+*description:* active reset time.\\
 *short form: rtt*\\
 
 *Values*
@@ -3937,14 +3937,14 @@
 *** /close_node [number] [number]
 
 *close_node*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /set_survival_ghost [name] [survivalmode]
 
 *set_survival_ghost*\\
-*description:* set character survival mode \\
+*description:* set character survival mode.\\
 *short form: ssg*\\
 
 *Values*
@@ -3957,7 +3957,7 @@
 *** /set_personal_log_id [number]
 
 *set_personal_log_id*\\
-*description:* \\
+*description:* .\\
 *short form: spli*\\
 
 *Values*
@@ -3970,7 +3970,7 @@
 *** /reload_trace_event
 
 *reload_trace_event*\\
-*description:* \\
+*description:* .\\
 *short form: rlte*\\
 
 
@@ -3979,7 +3979,7 @@
 *** /update_rank_info [type] [reset]
 
 *update_rank_info*\\
-*description:* \\
+*description:* .\\
 *short form: uri*\\
 
 *Values*
@@ -3992,7 +3992,7 @@
 *** /gm_talk [charname] [message]
 
 *gm_talk*\\
-*description:* \\
+*description:* .\\
 *short form: gt*\\
 
 *Values*
@@ -4005,14 +4005,14 @@
 *** /gm_talk_node [message]
 
 *gm_talk_node*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /check_player_pp [charname]
 
 *check_player_pp*\\
-*description:* \\
+*description:* .\\
 *short form: cpp*\\
 
 *Values*
@@ -4025,14 +4025,14 @@
 *** /close_shop [number] [number]
 
 *close_shop*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /reset_week_achievement [charname] [type]
 
 *reset_week_achievement*\\
-*description:* \\
+*description:* .\\
 *short form: rwa*\\
 
 *Values*
@@ -4045,7 +4045,7 @@
 *** /show_player_node_times [given_name] [node_id]
 
 *show_player_node_times*\\
-*description:* \\
+*description:* .\\
 *short form: spnt*\\
 
 *Values*
@@ -4058,7 +4058,7 @@
 *** /reset_daily_achievement [charname]
 
 *reset_daily_achievement*\\
-*description:* \\
+*description:* .\\
 *short form: rda*\\
 
 *Values*
@@ -4071,7 +4071,7 @@
 *** /sky_tower_open_state [tower_id] [type] [param]
 
 *sky_tower_open_state*\\
-*description:* \\
+*description:* .\\
 *short form: stos*\\
 
 *Values*
@@ -4084,7 +4084,7 @@
 *** /check_achievement_group [charname] [id]
 
 *check_achievement_group*\\
-*description:* \\
+*description:* .\\
 *short form: cag*\\
 
 *Values*
@@ -4097,7 +4097,7 @@
 *** /bgw_account_clear [account_name] [accoount_id]
 
 *bgw_account_clear*\\
-*description:* \\
+*description:* .\\
 *short form: bac*\\
 
 *Values*
@@ -4110,7 +4110,7 @@
 *** /reset_account_achievement [player_name]
 
 *reset_account_achievement*\\
-*description:* \\
+*description:* .\\
 *short form: raa*\\
 
 *Values*
@@ -4123,7 +4123,7 @@
 *** /accept_mission [mission_id]
 
 *accept_mission*\\
-*description:* \\
+*description:* .\\
 *short form: am*\\
 
 *Values*
@@ -4136,7 +4136,7 @@
 *** /set_friend_level [name] [level]
 
 *set_friend_level*\\
-*description:* \\
+*description:* .\\
 *short form: sfrl*\\
 
 *Values*
@@ -4149,7 +4149,7 @@
 *** /update_health_time [online_time] [offline_time]
 
 *update_health_time*\\
-*description:* \\
+*description:* .\\
 *short form: uht*\\
 
 *Values*
@@ -4162,7 +4162,7 @@
 *** /check_player_lottery [charname]
 
 *check_player_lottery*\\
-*description:* \\
+*description:* .\\
 *short form: cpl*\\
 
 *Values*
@@ -4175,7 +4175,7 @@
 *** /set_teach_mode [teach_type] [teach_step]
 
 *set_teach_mode*\\
-*description:* \\
+*description:* .\\
 *short form: stm*\\
 
 *Values*
@@ -4188,21 +4188,21 @@
 *** /shut_down
 
 *shut_down*\\
-*description:* shut down \\
+*description:* shut down.\\
 
 --------------
 
 *** /kick_out [player_ip] [reason]
 
 *kick_out*\\
-*description:* kick out player \\
+*description:* kick out player.\\
 
 --------------
 
 *** /exchange items [char id] [node_id] [pin] [size] [item_id] [item_number]
 
 *exchangeitems *\\
-*description:* ... \\
+*description:* ....\\
 *short form: exchange items*\\
 
 *Values*
@@ -4215,88 +4215,88 @@
 *** /family_set_emblem_fail [char id] [node_id]
 
 *family_set_emblem_fail*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /trace_result [receiver_id] [target_id] [node_id]
 
 *trace_result*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /do_aw_put_treasure [receiver_id] [item_id] [node_id] [amount] [x] [y]
 
 *do_aw_put_treasure*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /update_prestige [ch_id] [node_id] [prestige_id] [level] [exp]
 
 *update_prestige*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /captcha_punish [ch_id] [punish_type] [duration]
 
 *captcha_punish*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /gm_tool_login_result [account] [account_id] [privilege]
 
 *gm_tool_login_result*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /gm_tool_ban_result [ch_name] [gm_name]
 
 *gm_tool_ban_result*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /get_net_cafe_vip [ch_id] [net_cafe_vip] [buff_type]
 
 *get_net_cafe_vip*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /sp_itemmall_req_buy [ch_id] [coin_type] [total_point] [item_id] [amount] [item_color] [due_date_time] [mall_group] [mall_item_index] [item_amount]
 
 *sp_itemmall_req_buy*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /check_communicate_lock_ret [ch_id] [type] [10]
 
 *check_communicate_lock_ret*\\
-*description:* check communicate lock result \\
+*description:* check communicate lock result.\\
 
 --------------
 
 *** /update_health [ch_id] [online_time] [offline_time]
 
 *update_health*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /health [ch_id] [health_rule] [online_time] [offline_time]
 
 *health*\\
-*description:* \\
+*description:* .\\
 
 --------------
 
 *** /get_daily_bonus [ch_id] [daily_state] [request_id]
 
 *get_daily_bonus*\\
-*description:* \\
+*description:* .\\
