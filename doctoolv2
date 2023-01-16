@@ -1,0 +1,72 @@
+#!/bin/bash
+
+#source ../lib/cleanidentation
+
+# Set the input and output file names
+input_file="commands.txt"
+aux_file="commands_trimmed.txt"
+output_file="commands.md"
+
+# Clean the outputfile
+echo "" > $output_file
+
+# Parse data from input
+sed 's/^[ \t]*//; s/\#/===/g' $input_file > $aux_file
+
+# Parse data on the aux file
+sed -i 's,",,g' $aux_file
+
+# Initialize variables
+action=""
+description=""
+action_alt=""
+
+
+# Start the while loop
+while read line; do
+  action=""             # Reset var action
+  description=""        # Reset var desc
+  action_alt=""        # Reset var action_alt
+
+  # Check if line is empty -z $line
+  #elif [[ $line == "" ]]; then
+  #  echo $line >> $output_file
+  # Check if line starts with "==="
+  if [[ $line == "===" ]]; then
+    # Echo the line to the output file
+    echo "\n$line\n" >> $output_file
+    #echo -e "\n" >> $output_file
+  # Check if line starts with '/'  
+  elif [[ $line =~ ^\/ ]]; then
+    # Extract the action and description from the line
+    action=$(echo $line | awk -F ":" '{print $1}')
+    action=$(echo $action | sed "s,\/,,g")
+    #parameters=$(echo $action | awk -F "<," '{print $2}')
+    action=$(echo $action | awk -F "<," '{print $1}')
+    
+    description=$(echo $line | awk -F ":" '{print $2}')
+    description=$(echo $description | sed "s/,//g")
+    description=$(echo $description | tr -d '\n') 
+        
+    # Print the markdown for this action
+    echo "# $action" >> $output_file
+    echo "" >> $output_file
+    echo "| $action | " >> $output_file
+    echo "| description: $description |" >> $output_file
+    echo "|---|---|---|" >> output_file
+    action_alt=""
+  elif [[ $line =~ ^[a-z] ]]; then
+    # Extract the action alternative
+    action_alt=$(echo $line | awk -F "<," '{print $1}')
+    action_alt=$(echo $action_alt | sed "s/,//g")
+    action_alt=$(echo $action_alt | tr -d '\n') 
+    echo "| short form: $action_alt |" >> $output_file
+    echo -e "\n" >> $output_file
+  fi
+  
+done < $aux_file
+
+# Change <> to []
+sed -i 's/</[/g; s/>/]/g' $output_file
+#sed -i 's,\/,,g' $output_file
+

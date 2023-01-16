@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Open the ini file
+while read line; do
+    # Skip the first line if it starts with 'V'
+    if [[ ${line:0:1} == "V" ]]; then
+        continue
+    fi
+
+    # Use awk to extract the action and parameters
+    action=$(echo $line | awk -F, '{print $2}' | awk '{print $1}')
+    parameters=$(echo $line | awk -F, '{print $2}' | awk '{for(i=2;i<=NF;i++){if($i!="0,, ") printf "%s ", $i}}')
+
+    # Add the extracted information to the markdown file
+    echo "| $action | $parameters |" >> output.md
+    echo "|--------|-------------|" >> output.md
+    echo "| short-form: | X |" >> output.md
+    echo "| description: |" >> output.md
+    echo "| values: |" >> output.md
+    echo "| $parameter1 | $parameter2 | $parameter3 | $parameter4 | $parameter5 | $parameter6 |" >> output.md
+    echo "" >> output.md
+done < input.ini
+
