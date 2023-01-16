@@ -100,37 +100,24 @@
 *description:* clone an item which template id is [item_id] and item quantity is [item_num].
 
 *short form: clone_items*\\
-
-*Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
 *short form: cls*\\
 
 *Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
+| *item_id* (*number*) | *item_num* (*number*) |
+| | |
 
 --------------
 
-*** /clone items [item_id] [item_num]
+*** /clone_items [item_id] [item_num]
 
-*cloneitems *\\
+*clone_items *\\
 *description:* clone an item which template id is [item_id] and item quantity is [item_num].
 
-*short form: clone_items*\\
-
-*Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
 *short form: clone_stack_item*\\
 
 *Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
+| *item_id* (*number*) | *item_num* (*number*) |
+| | |
 
 --------------
 
@@ -142,9 +129,8 @@
 *short form: clt*\\
 
 *Values*
-| *item_id* | *to_loc* | |
-| *number* | *number* | |
-| | | | | |
+| *item_id* (*number*) | *to_loc* (*number*) |
+| | |
 
 --------------
 
@@ -155,10 +141,7 @@
 
 *short form: s*\\
 
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
+*message* (*text*) 
 
 --------------
 
@@ -170,9 +153,7 @@
 *short form: w*\\
 
 *Values*
-| *name* | *message* | |
-| *word* | *rest_input* | |
-| | | | | |
+| *name* (*word*) | *message* (*text*)| |
 
 --------------
 
@@ -184,17 +165,17 @@
 *short form: k*\\
 
 *Values*
-| *monster_id* | |
-| *number* | |
-| | | | | |
+| *monster_id* (*number*) |
+| | 
 
 --------------
 
 *** /gain_exp [number]
 
 *gain_exp*\\
-*description:* gain exp num.
+*description:* gain exp.
 
+*MAX VALUE:*
 
 --------------
 
@@ -205,10 +186,7 @@
 
 *short form: mge*\\
 
-*Values*
-| *number* | |
-| *number* | |
-| | | | | |
+*MAX VALUE:*
 
 --------------
 
@@ -219,18 +197,16 @@
 
 *short form: gg*\\
 
-*Values*
-| *number* | |
-| *number* | |
-| | | | | |
+*MAX VALUE: 999999999*
+
+_OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE COMMAND TO GIVE YOU IS HIGHER THAN MAX VALUE!_
 
 --------------
 
 *** /goto [x] [y]
 
 *goto*\\
-*description:* goto x y.
-
+*description:* goto x y coordinates.
 
 --------------
 
@@ -239,7 +215,6 @@
 *users*\\
 *description:* list the node users info.
 
-
 --------------
 
 *** /allusers
@@ -247,14 +222,12 @@
 *allusers*\\
 *description:* list whole world users.
 
-
 --------------
 
 *** /transfer [id]
 
 *transfer*\\
 *description:* .
-
 
 --------------
 
@@ -265,14 +238,12 @@
 
 *short form: lsa*\\
 
-
 --------------
 
 *** /weak [player_id]
 
 *weak*\\
 *description:* let target player weak.
-
 
 --------------
 
@@ -284,9 +255,8 @@
 *short form: sra*\\
 
 *Values*
-| *node_id* | *area_id* | |
-| *number* | *number* | |
-| | | | | |
+| *node_id* (*number*) | *area_id* (*number*) |
+| | |
 
 --------------
 
@@ -298,9 +268,8 @@
 *short form: tpa*\\
 
 *Values*
-| *node_id* | *area_id* | |
-| *number* | *number* | |
-| | | | | |
+| *node_id* (*number*) | *area_id* (*number*) |
+| | |
 
 --------------
 
