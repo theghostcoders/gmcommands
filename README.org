@@ -1,4 +1,4 @@
-
+** All GM Commands Documentation
 
 --------------
 
@@ -10,9 +10,8 @@
 *short form: cm*\\
 
 *Values*
-| *id* | *unit* | *dropid* | |
-| *number* | *number* | *number* | |
-| | | | | |
+| *id* (*number*) | *unit* (*number*) | *dropid* (*number*) |
+| | | |
 
 --------------
 
@@ -20,7 +19,6 @@
 
 *restore*\\
 *description:* restore the hp.
-
 
 --------------
 
@@ -30,16 +28,10 @@
 *description:* reborn mober binding.
 
 *short form: set_rb*\\
-
-*Values*
-| *n* | *id* | *seconds* | |
-| *number* | *number* | *number* | |
-| | | | | |
 *short form: sr*\\
 
 *Values*
-| *n* | *id* | *seconds* | |
-| *number* | *number* | *number* | |
+| *n* (*number*) | *id* (*number*) | *seconds* (*number*) | |
 | | | | | |
 
 --------------
@@ -51,22 +43,18 @@
 
 *short form: lr*\\
 
-
 --------------
 
-*** /rm_rb mob
+*** /rm_rb mob [number]
 
 *rm_rbmob*\\
 *description:* remove reborn mober binding.
 
 *short form: rm_rb*\\
-
-| *number* | |
-| | | | | |
 *short form: rr*\\
 
-| *number* | |
-| | | | | |
+| *number* |
+| |
 
 --------------
 
@@ -78,43 +66,31 @@
 
 --------------
 
-*** /clone item [item_id]
+*** /clone_item [item_id]
 
-*cloneitem *\\
+*clone_item *\\
 *description:* clone an item which template id is [item_id].
 
 *short form: clone_item*\\
-
-*Values*
-| *item_id* | |
-| *number* | |
-| | | | | |
 *short form: ci*\\
 
 *Values*
-| *item_id* | |
-| *number* | |
-| | | | | |
+| *item_id* (*number*) |
+| |
 
 --------------
 
-*** /clone reward item [item_id] [item_num]
+*** /clone_reward_item [item_id] [item_num]
 
 *clonereward item *\\
 *description:* clone an item which template id is [item_id].
 
 *short form: clone_reward_item*\\
-
-*Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
 *short form: clri*\\
 
 *Values*
-| *item_id* | *item_num* | |
-| *number* | *number* | |
-| | | | | |
+| *item_id* (*number*) | *item_num* (*number*) |
+| |
 
 --------------
 
