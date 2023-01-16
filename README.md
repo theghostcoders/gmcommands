@@ -1,6 +1,6 @@
 
 
-===
+---
 
 ### /clone_monster [id] [unit] [dropid]
 
@@ -14,14 +14,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /restore
 
 | restore | 
 | description: restore the hp |
 
-===
+---
 
 ### /set_rb mob [n] [id] [seconds]
 
@@ -42,7 +42,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /ls_rb
 
@@ -50,7 +50,7 @@
 | description: list reborn mober binding |
 | short form: lr |
 
-===
+---
 
 ### /rm_rb mob
 
@@ -65,14 +65,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /status
 
 | status | 
 | description: query the player's status |
 
-===
+---
 
 ### /clone item [item_id]
 
@@ -93,7 +93,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone reward item [item_id] [item_num]
 
@@ -114,7 +114,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone items [item_id] [item_num]
 
@@ -135,7 +135,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone items [item_id] [item_num]
 
@@ -156,7 +156,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone_item_to [item_id] [to_loc]
 
@@ -170,7 +170,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /say [message]
 
@@ -184,7 +184,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /whisper [name] [message]
 
@@ -198,7 +198,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /kill [monster_id]
 
@@ -212,14 +212,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_exp [number]
 
 | gain_exp | 
 | description: gain exp num |
 
-===
+---
 
 ### /mission_gain_exp [number]
 
@@ -233,7 +233,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_gold [number]
 
@@ -247,35 +247,35 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /goto [x] [y]
 
 | goto | 
 | description: goto x y |
 
-===
+---
 
 ### /users
 
 | users | 
 | description: list the node users info |
 
-===
+---
 
 ### /allusers
 
 | allusers | 
 | description: list whole world users |
 
-===
+---
 
 ### /transfer [id]
 
 | transfer | 
 | description: |
 
-===
+---
 
 ### /listarea
 
@@ -283,14 +283,14 @@
 | description: list the areas in the currently node |
 | short form: lsa |
 
-===
+---
 
 ### /weak [player_id]
 
 | weak | 
 | description: let target player weak |
 
-===
+---
 
 ### /setra [node_id] [area_id]
 
@@ -304,7 +304,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /transport_area [node_id] [area_id]
 
@@ -318,7 +318,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /transport_node [node_id]
 
@@ -332,14 +332,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /drop_item [item_id] [number] [flag]
 
 | drop_item | 
 | description: drop item |
 
-===
+---
 
 ### /list_durability [container_id]
 
@@ -353,21 +353,21 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /shop [shop_type] [npc_template_id] [shop_id]
 
 | shop | 
 | description: enter shop |
 
-===
+---
 
 ### /shop [shop_type] [npc_id]
 
 | shop | 
 | description: enter spell shop |
 
-===
+---
 
 ### /effect_life [life_id] [effect_id] [duration] [factor] [isteam]
 
@@ -381,7 +381,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /effect_loc [x] [y] [effect_id] [duration] [factor]
 
@@ -395,14 +395,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /repairshop
 
 | repairshop | 
 | description: enter repair shtop |
 
-===
+---
 
 ### /invincible [01]
 
@@ -416,7 +416,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /vanish [01]
 
@@ -430,14 +430,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /town
 
 | town | 
 | description: transport to town |
 
-===
+---
 
 ### /transport_to_character [given_name]
 
@@ -451,7 +451,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_user_info [given_name]
 
@@ -465,14 +465,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_shortcuts
 
 | get_shortcuts | 
 | description: list shortcuts |
 
-===
+---
 
 ### /update_shortcut [page] [slot] [value]
 
@@ -486,14 +486,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /save_shortcut
 
 | save_shortcut | 
 | description: save shortcuts |
 
-===
+---
 
 ### /display_sum_node_users [01]
 
@@ -507,7 +507,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /display_sum_world_users [01]
 
@@ -521,49 +521,49 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_spellmaster [spellmaster_id]
 
 | get_spellmaster | 
 | description: get a spellmaster |
 
-===
+---
 
 ### /debug [01]
 
 | debug | 
 | description: debug mode 0 - off |
 
-===
+---
 
 ### /list_state
 
 | list_state | 
 | description: list my states |
 
-===
+---
 
 ### /shut_down [minutes]
 
 | shut_down | 
 | description: shut down in x minutes |
 
-===
+---
 
 ### /kick [nick_name]
 
 | kick | 
 | description: kick out character with name |
 
-===
+---
 
 ### /slayer [01]
 
 | slayer | 
 | description: slayer mode 0 - off |
 
-===
+---
 
 ### /announce [message]
 
@@ -577,14 +577,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /storage [npc_id] [01]
 
 | storage | 
 | description: enter storage 0 - Deposit |
 
-===
+---
 
 ### /querychar [charname]
 
@@ -598,7 +598,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /listenchant [charname]
 
@@ -612,14 +612,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /version
 
 | version | 
 | description: |
 
-===
+---
 
 ### /transport_and_deduct [area_id] [money]
 
@@ -633,7 +633,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /query_npc [node_id] [npc_id]
 
@@ -647,7 +647,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /party [message]
 
@@ -661,7 +661,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /party [message]
 
@@ -675,7 +675,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /guild [message]
 
@@ -689,7 +689,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /guild [message]
 
@@ -703,7 +703,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /trade [message]
 
@@ -717,7 +717,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /trade [message]
 
@@ -731,7 +731,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /chat [message]
 
@@ -745,7 +745,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /chat [message]
 
@@ -759,14 +759,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /system [message]
 
 | system | 
 | description: announce something from system |
 
-===
+---
 
 ### /channel_limit [id] [minute]
 
@@ -780,14 +780,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /flush_dba_data
 
 | flush_dba_data | 
 | description: Flush player DBAgent Data |
 
-===
+---
 
 ### /banchar [char_id] [minute]
 
@@ -801,7 +801,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /identify_shop
 
@@ -809,14 +809,14 @@
 | description: enter identify shop |
 | short form: id_shop |
 
-===
+---
 
 ### /disband_family
 
 | disband_family | 
 | description: |
 
-===
+---
 
 ### /select_family_leader [new_leader]
 
@@ -830,7 +830,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /listfms [ch_id] [mission_id]
 
@@ -844,14 +844,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /run [number]
 
 | run | 
 | description: Faster Walk |
 
-===
+---
 
 ### /drop stack item [item_id] [amount]
 
@@ -872,7 +872,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /allworld_cmd [rest_input]
 
@@ -886,7 +886,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /query_npc_involve [npc_id]
 
@@ -900,7 +900,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /channel_limit_name [charname] [minute]
 
@@ -914,7 +914,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /banchar_name [char_name] [minute]
 
@@ -928,7 +928,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /quest [message]
 
@@ -942,7 +942,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /quest [message]
 
@@ -956,7 +956,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_attribute
 
@@ -964,14 +964,14 @@
 | description: reset attribute point |
 | short form: ra |
 
-===
+---
 
 ### /reset_skill
 
 | reset_skill | 
 | description: reset skill point |
 
-===
+---
 
 ### /reset_attribute_gold [how_much]
 
@@ -985,7 +985,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_skill_gold [how_much]
 
@@ -999,14 +999,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_spell [spell_id]
 
 | get_spell | 
 | description: get a spell |
 
-===
+---
 
 ### /inlay_shop [npc_id]
 
@@ -1020,7 +1020,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /broadcast_system_message [msg_id] [times] [interval] [msg]
 
@@ -1034,14 +1034,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /echo [message]
 
 | echo | 
 | description: show message without prompt |
 
-===
+---
 
 ### /clone_monster_locate [mob_id] [absolute] [loc_x] [loc_y]
 
@@ -1055,7 +1055,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone_monster_around [mob_id] [absolute] [angle] [range]
 
@@ -1069,7 +1069,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /npc_use_channel [npc_id] [channel_id] [type] [message]
 
@@ -1083,7 +1083,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /npc_use_spell [npc_id] [spell_id]
 
@@ -1097,7 +1097,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /self_use_effect [effect_id] [duration]
 
@@ -1111,7 +1111,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /change_class [class_id]
 
@@ -1125,7 +1125,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /adjust_spell_anitime [spell_id] [animeTime_ofs]
 
@@ -1139,14 +1139,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /escape
 
 | escape | 
 | description: transfer team member to the last enter normal area |
 
-===
+---
 
 ### /set_level [level]
 
@@ -1160,7 +1160,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_monster_damage [monster id] [physico damage] [attack var] [physico defence] [magic damage] [magic attack var] [magic defence]
 
@@ -1174,7 +1174,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_monster_movement [monster id] [movement] [roammovement] [attack delay]
 
@@ -1188,7 +1188,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /show_monster [template monster id]
 
@@ -1202,7 +1202,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_monster_sight [monster id] [sight]
 
@@ -1216,7 +1216,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /test_character_attack [monster id]
 
@@ -1230,7 +1230,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /test_monster_attack [monster id]
 
@@ -1244,7 +1244,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_sevel_grow [con] [str] [int] [dex] [vol] [max_hp] [max_mp]
 
@@ -1258,7 +1258,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /querylevelgrow
 
@@ -1266,21 +1266,21 @@
 | description: |
 | short form: query_level_grow |
 
-===
+---
 
 ### /set_item [item id] [word] [number]
 
 | set_item | 
 | description: |
 
-===
+---
 
 ### /save_monster [template monster id]
 
 | save_monster | 
 | description: save monster to db |
 
-===
+---
 
 ### /get_effect_data [effect id]
 
@@ -1294,7 +1294,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_effect_data [effect id] [family type] [target type] [duration] [period] [width] [height] [enchant type] [resist type] [param min] [param max] [next id] [level]
 
@@ -1308,7 +1308,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_effect_command [effect id] [command type] [commands]
 
@@ -1322,7 +1322,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_spell_data [spell id]
 
@@ -1336,7 +1336,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount] [seconds] [width] [height] [patrol_id]
 
@@ -1350,7 +1350,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_all_template_monsters
 
@@ -1358,7 +1358,7 @@
 | description: get all template monster |
 | short form: gatm |
 
-===
+---
 
 ### /monster_goto [monster id] [x] [y]
 
@@ -1372,7 +1372,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /around_kill_all [radius]
 
@@ -1386,7 +1386,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /around_kill [monster id] [radius]
 
@@ -1400,7 +1400,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /query_test_attack_monster
 
@@ -1408,7 +1408,7 @@
 | description: query test attack monster |
 | short form: qtam |
 
-===
+---
 
 ### /reload_reborn_monster [node id]
 
@@ -1422,7 +1422,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /list_pms [pms_id]
 
@@ -1436,14 +1436,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /echobyid [greeting_id]
 
 | echobyid | 
 | description: show message without prompt by greeting_id |
 
-===
+---
 
 ### /change_hair_color [color_id]
 
@@ -1457,7 +1457,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /change_hair [hair_id]
 
@@ -1471,28 +1471,28 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reload_effect
 
 | reload_effect | 
 | description: reload effect data |
 
-===
+---
 
 ### /reload_template_monster
 
 | reload_template_monster | 
 | description: reload template_monster data |
 
-===
+---
 
 ### /summon_pet [template_id]
 
 | summon_pet | 
 | description: summon pet |
 
-===
+---
 
 ### /gain_skill_point [number]
 
@@ -1506,7 +1506,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /node [message]
 
@@ -1520,7 +1520,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /system_area [area_id] [message]
 
@@ -1534,7 +1534,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /fatality_damage [LiftEntity_id]
 
@@ -1548,28 +1548,28 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /restore_all
 
 | restore_all | 
 | description: restore the hp |
 
-===
+---
 
 ### /clear_near_items
 
 | clear_near_items | 
 | description: clear near items around caster |
 
-===
+---
 
 ### /get_server_id
 
 | get_server_id | 
 | description: get zoneserver id |
 
-===
+---
 
 ### /test_durability [mob id] [loc] [durability]
 
@@ -1583,7 +1583,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /test_spell_attack [monster id] [spell id] [spell lv] [number]
 
@@ -1597,7 +1597,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /test_drop_treasure [monster id] [number]
 
@@ -1611,7 +1611,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /test_pk [monster id]
 
@@ -1625,7 +1625,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /surprise_box [SurpriseBoxID]
 
@@ -1639,7 +1639,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /SetExtBornMonster [num] [time sec]
 
@@ -1660,7 +1660,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_family_level [fm_level]
 
@@ -1674,14 +1674,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_level_up
 
 | family_level_up | 
 | description: family level up |
 
-===
+---
 
 ### /set_family_emblem [emblem1] [emblem2]
 
@@ -1695,42 +1695,42 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /select_family_emblem
 
 | select_family_emblem | 
 | description: select family emblem |
 
-===
+---
 
 ### /open_exploit_rank
 
 | open_exploit_rank | 
 | description: Open Exploit Rank |
 
-===
+---
 
 ### /reload_formula_params
 
 | reload_formula_params | 
 | description: reload formula parameters |
 
-===
+---
 
 ### /reload_grow_table
 
 | reload_grow_table | 
 | description: reload grow table |
 
-===
+---
 
 ### /give_exploit [exploit amount],
 
 | give_exploit | 
 | description: |
 
-===
+---
 
 ### /RepairAllEquipment
 
@@ -1738,28 +1738,28 @@
 | description: RepairAllEquipment |
 | short form: repairallequipment |
 
-===
+---
 
 ### /trace [receive_id] [target_name]
 
 | trace | 
 | description: Trace a character by name |
 
-===
+---
 
 ### /drill_item [slot] [number]
 
 | drill_item | 
 | description: DrillItem |
 
-===
+---
 
 ### /fubag [id]
 
 | fubag | 
 | description: fortune bag item |
 
-===
+---
 
 ### /aw_put_treasure [id] [amount]
 
@@ -1773,7 +1773,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /setfms [ch_id] [mission_id] [value]
 
@@ -1787,14 +1787,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone_quest_treasure [item_id] [number] [node_id] [x] [y] [template_id]
 
 | clone_quest_treasure | 
 | description: drop quest item |
 
-===
+---
 
 ### /set_bag_time [index] [time]
 
@@ -1808,7 +1808,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_family_exp [number]
 
@@ -1822,7 +1822,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_prestige_level [prestige_id] [level]
 
@@ -1836,7 +1836,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_prestige_exp [prestige_id] [exp]
 
@@ -1850,7 +1850,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /cast_spell [number] [number]
 
@@ -1864,7 +1864,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_sys_var [word] [number]
 
@@ -1878,7 +1878,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /add_appellation [appellation_id]
 
@@ -1892,7 +1892,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_present_appellation [appellation_id]
 
@@ -1920,7 +1920,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /remove_elf [elf_loc]
 
@@ -2282,7 +2282,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone item [item_id] [combo_id]
 
@@ -2303,7 +2303,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone item [item_id] [combo_id] [socket_amount]
 
@@ -2324,7 +2324,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /return item [receiver_id] [log]
 
@@ -2345,7 +2345,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /call elf [loc]
 
@@ -2359,7 +2359,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /return gold [receiver_id] [gold]
 
@@ -2401,7 +2401,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone_npc [npc_id]
 
@@ -2415,7 +2415,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /around_kill_all_player [radius]
 
@@ -2429,7 +2429,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /captcha_id [id] [type]
 
@@ -2443,7 +2443,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /captcha_name [given_word] [type]
 
@@ -2457,7 +2457,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /change_grow_type [growid]
 
@@ -2471,14 +2471,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clear_bag_item
 
 | clear_bag_item | 
 | description: clear bag item |
 
-===
+---
 
 ### /set_statue [node] [id] [action] [key]
 
@@ -2492,21 +2492,21 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /bf_ch_num [bf_type] [level_type] [number]
 
 | bf_ch_num | 
 | description: bf_ch_num |
 
-===
+---
 
 ### /bf_open [open] [bf_today_type]
 
 | bf_open | 
 | description: bf_open |
 
-===
+---
 
 ### /gain_love_coin [coin]
 
@@ -2520,14 +2520,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /remove_enchant [id] [isteam]
 
 | remove_enchant | 
 | description: remove enchant |
 
-===
+---
 
 ### /visit_family_instance [family_name]
 
@@ -2541,7 +2541,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_building_exp [loc] [exp]
 
@@ -2555,7 +2555,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_family_treasury [money]
 
@@ -2569,7 +2569,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_building_durability [loc] [durability]
 
@@ -2583,28 +2583,28 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /achievement_item [achievement_id]
 
 | achievement_item | 
 | description: achievement_item |
 
-===
+---
 
 ### /create_town [node_id]
 
 | create_town | 
 | description: create_town |
 
-===
+---
 
 ### /set_territory_open [territory_tid] [duration]
 
 | set_territory_open | 
 | description: set_territory_open |
 
-===
+---
 
 ### /clone item [item_id] [combo_id] [socket_amount] [color]
 
@@ -2625,14 +2625,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /screenmsg [type] [msg]
 
 | screenmsg | 
 | description: show screenmsg |
 
-===
+---
 
 ### /set_blocklogin [char_id] [flag_id]
 
@@ -2646,7 +2646,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_useblocklogin [flag_id]
 
@@ -2660,7 +2660,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /visit_player_room_id [room_id]
 
@@ -2674,7 +2674,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /visit_player_room [ch_name]
 
@@ -2688,7 +2688,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /switch_player_room [01]
 
@@ -2702,7 +2702,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /switch_room_decorating [room_id] [01]
 
@@ -2716,14 +2716,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_territory_status [number] [number]
 
 | set_territory_status | 
 | description: set territory status |
 
-===
+---
 
 ### /captcha_level [level]
 
@@ -2737,7 +2737,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_gm_map_open [node_id] [open]
 
@@ -2751,7 +2751,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /send_reward_item [number] [number] [number] [number] [number]
 
@@ -2765,14 +2765,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_achievement [achi_id] [point] [isteam]
 
 | set_achievement | 
 | description: |
 
-===
+---
 
 ### /gain_cs_gold [gold]
 
@@ -2786,7 +2786,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /send_sys_mall_queue [number]
 
@@ -2807,7 +2807,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_territory_player_limit [territroy_id] [player_limit]
 
@@ -2821,7 +2821,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_web_btn [number]
 
@@ -2835,7 +2835,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /recover_territory_event [number]
 
@@ -2849,14 +2849,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_battle_restart
 
 | family_battle_restart | 
 | description: |
 
-===
+---
 
 ### /family_battle_setup_judge [phase_type] [phase_index] [family_name]
 
@@ -2870,7 +2870,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_battle_honor_switch [onoff]
 
@@ -2884,14 +2884,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_battle_end
 
 | family_battle_end | 
 | description: |
 
-===
+---
 
 ### /refresh_recommended_events [number]
 
@@ -2905,7 +2905,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_battle_reset_week_update
 
@@ -2913,7 +2913,7 @@
 | description: |
 | short form: fbrwu |
 
-===
+---
 
 ### /gain_family_honor [number]
 
@@ -2927,7 +2927,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /cross_world [number]
 
@@ -2941,7 +2941,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /countdown_msg [start_tim] [time_seconds] [msg]
 
@@ -2955,7 +2955,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /show_countdown_msg
 
@@ -2963,7 +2963,7 @@
 | description: Show Countdown Msg |
 | short form: show_cdm |
 
-===
+---
 
 ### /del_countdown_msg
 
@@ -2971,7 +2971,7 @@
 | description: Delete Countdown Msg |
 | short form: del_cdm |
 
-===
+---
 
 ### /show_countdown_msg [number]
 
@@ -2985,7 +2985,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /disband_family [name]
 
@@ -3020,14 +3020,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reload_function_switch
 
 | reload_function_switch | 
 | description: reload function switch ini |
 
-===
+---
 
 ### /jail [given_name] [buff_id] [buff_time] [node_id] [gateway_id]
 
@@ -3055,14 +3055,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /change_gender [gender_id]
 
 | change_gender | 
 | description: change character gender |
 
-===
+---
 
 ### /trans_into_territory [territory_id] [area_id]
 
@@ -3076,7 +3076,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /effect_map [effect_id] [duration]
 
@@ -3090,7 +3090,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /effect_map_time [map_id] [time] [effect_id]
 
@@ -3104,7 +3104,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clone_monster_remote [id] [unit] [world_id] [node_id] [x] [y]
 
@@ -3118,7 +3118,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_territory_prepare_time [prepare_time]
 
@@ -3132,14 +3132,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /player_room_release_node [number]
 
 | player_room_release_node | 
 | description: |
 
-===
+---
 
 ### /quiz_game_force_open [number]
 
@@ -3153,7 +3153,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /update_player_node_times [given_name] [node_id] [times]
 
@@ -3167,7 +3167,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /strenghten_equipments [number]
 
@@ -3181,7 +3181,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_bind_gold [number]
 
@@ -3195,7 +3195,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_node_pvp [number] [number]
 
@@ -3209,7 +3209,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_node_pvp_zone [number] [number]
 
@@ -3223,14 +3223,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /event_showmsg [position] [rest_input]
 
 | event_showmsg | 
 | description: event trigger to show message |
 
-===
+---
 
 ### /set_node_exp_nb [number] [number]
 
@@ -3244,7 +3244,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_node_gold_nb [number] [number]
 
@@ -3258,7 +3258,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_reborn_mob_pvp [min_left]
 
@@ -3272,7 +3272,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_coins
 
@@ -3283,35 +3283,35 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /npc_talk,
 
 | npc_talk | 
 | description: |
 
-===
+---
 
 ### /blackout [textindex] [times]
 
 | blackout | 
 | description: |
 
-===
+---
 
 ### /bc_tran_msg [type] [msg] [screen_msg] [confirmmsg]
 
 | bc_tran_msg | 
 | description: broadcast transition msg |
 
-===
+---
 
 ### /node_black_out [target] [msg1] [time1] [msg2] [time2] [msg3] [time3]
 
 | node_black_out | 
 | description: play blackouting |
 
-===
+---
 
 ### /gain_eudemon_level [level]
 
@@ -3325,14 +3325,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /screen_effect [target] [effect_type] [effect_level] [effect_time]
 
 | screen_effect | 
 | description: screen effect |
 
-===
+---
 
 ### /gem_powerup [container_id] [loc] [level]
 
@@ -3346,14 +3346,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /play_cutscene [file_name] [target] [msg1]
 
 | play_cutscene | 
 | description: play cutscene |
 
-===
+---
 
 ### /add_memories [memories_id] [num]
 
@@ -3367,7 +3367,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /remove_memories [memoried_id]
 
@@ -3381,7 +3381,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /add_memoriesex [memories_id] [num] [extra_info]
 
@@ -3395,7 +3395,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /open_fight [fight_tid] [duration] [one_side_number]
 
@@ -3409,7 +3409,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_lover_point_countdown_timer [number]
 
@@ -3423,7 +3423,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /active_subweapon_to_character [given_name] [is_active]
 
@@ -3437,14 +3437,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /select_family_leader2 [leader_id]
 
 | select_family_leader2 | 
 | description: |
 
-===
+---
 
 ### /switch_fight_time [switch]
 
@@ -3458,7 +3458,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_daily_bonus [day_num]
 
@@ -3472,7 +3472,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /self_use_effect [effect_id] [duration] [stacks]
 
@@ -3486,7 +3486,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clear_fight [fight_id]
 
@@ -3500,7 +3500,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_diagram_vit [number]
 
@@ -3514,7 +3514,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_diagram_vit [number]
 
@@ -3535,7 +3535,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_diagram_node_state [node_id] [times]
 
@@ -3549,7 +3549,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_diagram_reset [reset_option
 
@@ -3563,7 +3563,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /begin_node_event [event_id]
 
@@ -3577,7 +3577,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_hair_id [id]
 
@@ -3591,7 +3591,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_face_id [id]
 
@@ -3605,7 +3605,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_hair_color [color]
 
@@ -3619,7 +3619,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_skin_color [color]
 
@@ -3633,7 +3633,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_eyes_color [color]
 
@@ -3647,7 +3647,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_helmet_color [color]
 
@@ -3661,7 +3661,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_clothes_color [color]
 
@@ -3675,7 +3675,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_cloak_color [color]
 
@@ -3689,7 +3689,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /update_closet [index]
 
@@ -3703,7 +3703,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_spell_level [id] [level]
 
@@ -3717,14 +3717,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /add_class [id]
 
 | add_class | 
 | description: add class |
 
-===
+---
 
 ### /remove_class [id]
 
@@ -3738,7 +3738,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_class_level [number]
 
@@ -3752,7 +3752,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_license [number]
 
@@ -3766,14 +3766,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /remove_all_license
 
 | remove_all_license | 
 | description: remove all license |
 
-===
+---
 
 ### /set_all_spell_level [number]
 
@@ -3787,7 +3787,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_node_np
 
@@ -3798,7 +3798,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /remove_family_emblem [number]
 
@@ -3826,7 +3826,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clear_cool_down_time
 
@@ -3834,21 +3834,21 @@
 | description: clear character's cool down time |
 | short form: ccdt |
 
-===
+---
 
 ### /shop [shop_type] [npc_id] [level_min] [level_max]
 
 | shop | 
 | description: enter spell shop |
 
-===
+---
 
 ### /put_treasure [id] [amount]
 
 | put_treasure | 
 | description: put treasure at ground |
 
-===
+---
 
 ### /add_lottery_plus [value]
 
@@ -3862,7 +3862,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reload_elf_lottery_db
 
@@ -3870,7 +3870,7 @@
 | description: reload elf lottery db |
 | short form: reld |
 
-===
+---
 
 ### /lottery_week_update [day] [hour] [min]
 
@@ -3884,21 +3884,21 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clear_lover_disband
 
 | clear_lover_disband | 
 | description: clear lover disband |
 
-===
+---
 
 ### /super_clear_bag_item
 
 | super_clear_bag_item | 
 | description: super_clear_bag_item |
 
-===
+---
 
 ### /making_item [operation_type] [making_item_way_id]
 
@@ -3912,7 +3912,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /making_item [operation_type] [type] [exp]
 
@@ -3926,7 +3926,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /add_hate [caster_id] [target_id] [target_type]
 
@@ -3940,14 +3940,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /achievement_screen_message [achieve_id] [ownder_id]
 
 | achievement_screen_message | 
 | description: show screen message when get achievement point |
 
-===
+---
 
 ### /active_subweapon [number]
 
@@ -3968,7 +3968,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /get_lover_point [number]
 
@@ -3982,7 +3982,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_lover_level [number]
 
@@ -3996,7 +3996,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /expand_elf_bank [number]
 
@@ -4010,7 +4010,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /add_attr_value [word] [number]
 
@@ -4024,14 +4024,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_daily_mission
 
 | reset_daily_mission | 
 | description: reset daily mission |
 
-===
+---
 
 ### /transfer_name [given_name]
 
@@ -4045,7 +4045,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_dust [number]
 
@@ -4059,14 +4059,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_group_reward
 
 | reset_group_reward | 
 | description: reset group reward |
 
-===
+---
 
 ### /open_fortune_bag [fortune_bag_id] [times] [drop_rate]
 
@@ -4080,7 +4080,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /modify_durability [number] [number]
 
@@ -4094,7 +4094,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /captcha_wordtype_noise [number] [wordtype]
 
@@ -4108,21 +4108,21 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gainpp [pptype] [number]
 
 | gainpp | 
 | description: |
 
-===
+---
 
 ### /clear_spell
 
 | clear_spell | 
 | description: clear player all spell |
 
-===
+---
 
 ### /change_weapon_type [number] [number]
 
@@ -4136,7 +4136,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /weapon_strengthen [number] [number] [number] [number]
 
@@ -4150,7 +4150,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gain_fragment [number]
 
@@ -4164,14 +4164,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /clear_advenchants
 
 | clear_advenchants | 
 | description: clear adventure enchants |
 
-===
+---
 
 ### /set_elf_emblem_attr [number] [number] [number]
 
@@ -4185,7 +4185,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_timer [reset_type]
 
@@ -4199,14 +4199,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /close_node [number] [number]
 
 | close_node | 
 | description: |
 
-===
+---
 
 ### /set_survival_ghost [name] [survivalmode]
 
@@ -4220,7 +4220,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_personal_log_id [number]
 
@@ -4234,7 +4234,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reload_trace_event
 
@@ -4242,7 +4242,7 @@
 | description: |
 | short form: rlte |
 
-===
+---
 
 ### /update_rank_info [type] [reset]
 
@@ -4256,7 +4256,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gm_talk [charname] [message]
 
@@ -4270,14 +4270,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /gm_talk_node [message]
 
 | gm_talk_node | 
 | description: |
 
-===
+---
 
 ### /check_player_pp [charname]
 
@@ -4291,14 +4291,14 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /close_shop [number] [number]
 
 | close_shop | 
 | description: |
 
-===
+---
 
 ### /reset_week_achievement [charname] [type]
 
@@ -4312,7 +4312,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /show_player_node_times [given_name] [node_id]
 
@@ -4326,7 +4326,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_daily_achievement [charname]
 
@@ -4340,7 +4340,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /sky_tower_open_state [tower_id] [type] [param]
 
@@ -4354,7 +4354,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /check_achievement_group [charname] [id]
 
@@ -4368,7 +4368,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /bgw_account_clear [account_name] [accoount_id]
 
@@ -4382,7 +4382,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /reset_account_achievement [player_name]
 
@@ -4396,7 +4396,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /accept_mission [mission_id]
 
@@ -4410,7 +4410,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_friend_level [name] [level]
 
@@ -4424,7 +4424,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /update_health_time [online_time] [offline_time]
 
@@ -4438,7 +4438,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /check_player_lottery [charname]
 
@@ -4452,7 +4452,7 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /set_teach_mode [teach_type] [teach_step]
 
@@ -4466,21 +4466,21 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /shut_down
 
 | shut_down | 
 | description: shut down |
 
-===
+---
 
 ### /kick_out [player_ip] [reason]
 
 | kick_out | 
 | description: kick out player |
 
-===
+---
 
 ### /exchange items [char id] [node_id] [pin] [size] [item_id] [item_number]
 
@@ -4494,91 +4494,91 @@
 |---|---|---|
 | | | 
 
-===
+---
 
 ### /family_set_emblem_fail [char id] [node_id]
 
 | family_set_emblem_fail | 
 | description: |
 
-===
+---
 
 ### /trace_result [receiver_id] [target_id] [node_id]
 
 | trace_result | 
 | description: |
 
-===
+---
 
 ### /do_aw_put_treasure [receiver_id] [item_id] [node_id] [amount] [x] [y]
 
 | do_aw_put_treasure | 
 | description: |
 
-===
+---
 
 ### /update_prestige [ch_id] [node_id] [prestige_id] [level] [exp]
 
 | update_prestige | 
 | description: |
 
-===
+---
 
 ### /captcha_punish [ch_id] [punish_type] [duration]
 
 | captcha_punish | 
 | description: |
 
-===
+---
 
 ### /gm_tool_login_result [account] [account_id] [privilege]
 
 | gm_tool_login_result | 
 | description: |
 
-===
+---
 
 ### /gm_tool_ban_result [ch_name] [gm_name]
 
 | gm_tool_ban_result | 
 | description: |
 
-===
+---
 
 ### /get_net_cafe_vip [ch_id] [net_cafe_vip] [buff_type]
 
 | get_net_cafe_vip | 
 | description: |
 
-===
+---
 
 ### /sp_itemmall_req_buy [ch_id] [coin_type] [total_point] [item_id] [amount] [item_color] [due_date_time] [mall_group] [mall_item_index] [item_amount]
 
 | sp_itemmall_req_buy | 
 | description: |
 
-===
+---
 
 ### /check_communicate_lock_ret [ch_id] [type] [10]
 
 | check_communicate_lock_ret | 
 | description: check communicate lock result |
 
-===
+---
 
 ### /update_health [ch_id] [online_time] [offline_time]
 
 | update_health | 
 | description: |
 
-===
+---
 
 ### /health [ch_id] [health_rule] [online_time] [offline_time]
 
 | health | 
 | description: |
 
-===
+---
 
 ### /get_daily_bonus [ch_id] [daily_state] [request_id]
 
