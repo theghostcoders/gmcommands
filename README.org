@@ -1,4 +1,6 @@
-** All GM Commands Documentation
+* All GM Commands Documentation
+
+** SPAWN COMMANDS
 
 --------------
 
@@ -13,14 +15,322 @@
 | *id* (*number*) | *unit* (*number*) | *dropid* (*number*) |
 | | | |
 
+
+--------------
+
+*** /clone_monster_locate [mob_id] [absolute] [loc_x] [loc_y]
+
+*clone_monster_locate*\\
+*description:* clone monster in absolute/relate coordinate in same node with player.
+
+*short form: cml*\\
+
+*Values*
+| *mob_id* | *absolute* | *loc_x* | *loc_y* | |
+| *number* | *number* | *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /clone_monster_around [mob_id] [absolute] [angle] [range]
+
+*clone_monster_around*\\
+*description:* clone monster around player by absolute/relate angle.
+
+*short form: cma*\\
+
+*Values*
+| *mob_id* | *absolute* | *angle* | *range* | |
+| *number* | *number* | *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /set_monster_damage [monster id] [physico damage] [attack var] [physico defence] [magic damage] [magic attack var] [magic defence]
+
+*set_monster_damage*\\
+*description:* set monster damage.
+
+*short form: smd*\\
+
+*Values*
+| *monster id* | *physico damage* | *attack var* | *physico defence* | *magic damage* | *magic attack var* | *magic defence* | |
+| *number* | *number* | *number* | *number* | *number* | *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /set_monster_movement [monster id] [movement] [roammovement] [attack delay]
+
+*set_monster_movement*\\
+*description:* set monster.
+
+*short form: smm*\\
+
+*Values*
+| *monster id* | *movement* | *roammovement* | *attack delay* | |
+| *number* | *number* | *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /set_monster_sight [monster id] [sight]
+
+*set_monster_sight*\\
+*description:* set monster sight.
+
+*short form: sms*\\
+
+*Values*
+| *monster id* | *sight* | |
+| *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount] [seconds] [width] [height] [patrol_id]
+
+*set_reborn_monster*\\
+*description:* reborn mober binding.
+
+*short form: srm*\\
+
+*Values*
+| *handle* | *x* | *y* | *monster_temp_id* | *amount* | *seconds* | *width* | *height* | *patrol_id* | |
+| *number* | *word* | *word* | *number* | *number* | *number* | *word* | *word* | *number* | |
+| | | | | |
+
+--------------
+
+*** /get_all_template_monsters
+
+*get_all_template_monsters*\\
+*description:* get all template monster.
+
+*short form: gatm*\\
+
+
+--------------
+
+*** /monster_goto [monster id] [x] [y]
+
+*monster_goto*\\
+*description:* goto x y.
+
+*short form: wm*\\
+
+*Values*
+| *monster id* | *x* | *y* | |
+| *number* | *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /SetExtBornMonster [num] [time sec]
+
+*SetExtBornMonster*\\
+*description:* extern born monster.
+
+*short form: setextbornmonster*\\
+
+*Values*
+| *num* | *time sec* | |
+| *number* | *number* | |
+| | | | | |
+*short form: sebm*\\
+
+*Values*
+| *num* | *time sec* | |
+| *number* | *number* | |
+| | | | | |
+
+--------------
+
+*** /reload_reborn_monster [node id]
+
+*reload_reborn_monster*\\
+*description:* reload reborn monster.
+
+*short form: rrm*\\
+
+*Values*
+| *node id* | |
+| *number* | |
+| | | | | |
+
+--------------
+
+** Unuseful Commands
+
+All commands from this section you can get via SHORTCUTS. So no point in using them...
+
+--------------
+
+*** /say [message]
+
+*say*\\
+*description:* say something.
+
+*short form: s*\\
+*shortcut: CTRL+S*
+
+*message* (*text*) 
+
+--------------
+
+*** /whisper [name] [message]
+
+*whisper*\\
+*description:* whisper someone something.
+
+*short form: w*\\
+*shortcut: CTRL+R (to answer a whisper)
+
+*Values*
+| *name* (*word*) | *message* (*text*)| |
+
+--------------
+
+*** /party [message]
+
+*party*\\
+*description:* say something in party channel.
+
+*short form: p*\\
+*short form: party_2*\\
+
+*shortcut: CTRL+P
+
+*Values*
+| *message (text)* |
+
+--------------
+
+*** /guild [message]
+
+*guild*\\
+*description:* say something in guild channel.
+
+*short form: g*\\
+*short form: guild_3*\\
+
+*shortcut: CTRL+G
+
+*Values*
+| *message (text)* |
+
+--------------
+
+*** /trade [message]
+
+*trade*\\
+*description:* say something in trade channel.
+
+*short form: t*\\
+*short form: trade_4*\\
+
+*shortcut: CTRL+B
+
+*Values*
+| *message (text)* |
+
+--------------
+
+*** /chat [message]
+
+*chat*\\
+*description:* say somehting in chat channel.
+
+*short form: c*\\
+*short form: chat_5*\\
+
+*shortcut: CTRL+S
+
+*Values*
+| *message (text)* |
+
+--------------
+
+
+
+** Support
+
 --------------
 
 *** /restore
 
 *restore*\\
-*description:* restore the hp.
+*description:* restore 100% hp/mp from you.
 
 --------------
+
+*** /restore_all
+
+*restore_all*\\
+*description:* restore the hp.
+
+
+--------------
+
+
+** INFO
+
+Commands at this section help you as GM to gain info about the things.
+
+--------------
+
+*** /status
+
+*status*\\
+*description:* query the player's status.
+
+--------------
+
+*** /users
+
+*users*\\
+*description:* list the node users info.
+
+--------------
+
+*** /allusers
+
+*allusers*\\
+*description:* list whole world users.
+
+--------------
+
+*** /transfer [id]
+
+*transfer*\\
+*description:* .
+
+--------------
+
+*** /listarea
+
+*listarea*\\
+*description:* list the areas in the currently node.
+
+*short form: lsa*\\
+
+--------------
+
+*** /list_durability [container_id]
+
+*list_durability*\\
+*description:* list durability status.
+
+*short form: ld*\\
+
+*Values*
+| *container_id* | |
+| *number* | |
+| | | | | |
+
+--------------
+
+** UNCATEGORIZED
 
 *** /set_rb mob [n] [id] [seconds]
 
@@ -55,13 +365,6 @@
 
 | *number* |
 | |
-
---------------
-
-*** /status
-
-*status*\\
-*description:* query the player's status.
 
 
 --------------
@@ -134,29 +437,6 @@
 
 --------------
 
-*** /say [message]
-
-*say*\\
-*description:* say something.
-
-*short form: s*\\
-
-*message* (*text*) 
-
---------------
-
-*** /whisper [name] [message]
-
-*whisper*\\
-*description:* whisper someone something.
-
-*short form: w*\\
-
-*Values*
-| *name* (*word*) | *message* (*text*)| |
-
---------------
-
 *** /kill [monster_id]
 
 *kill*\\
@@ -208,35 +488,7 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *goto*\\
 *description:* goto x y coordinates.
 
---------------
 
-*** /users
-
-*users*\\
-*description:* list the node users info.
-
---------------
-
-*** /allusers
-
-*allusers*\\
-*description:* list whole world users.
-
---------------
-
-*** /transfer [id]
-
-*transfer*\\
-*description:* .
-
---------------
-
-*** /listarea
-
-*listarea*\\
-*description:* list the areas in the currently node.
-
-*short form: lsa*\\
 
 --------------
 
@@ -293,19 +545,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *description:* drop item.
 
 
---------------
-
-*** /list_durability [container_id]
-
-*list_durability*\\
-*description:* list durability status.
-
-*short form: ld*\\
-
-*Values*
-| *container_id* | |
-| *number* | |
-| | | | | |
 
 --------------
 
@@ -393,7 +632,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 *town*\\
 *description:* transport to town.
-
 
 --------------
 
@@ -613,118 +851,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *Values*
 | *node_id* | *npc_id* | |
 | *number* | |
-| | | | | |
-
---------------
-
-*** /party [message]
-
-*party*\\
-*description:* say something in party channel.
-
-*short form: p*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /party [message]
-
-*party*\\
-*description:* say something in party channel.
-
-*short form: party_2*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /guild [message]
-
-*guild*\\
-*description:* say something in guild channel.
-
-*short form: g*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /guild [message]
-
-*guild*\\
-*description:* say something in guild channel.
-
-*short form: guild_3*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /trade [message]
-
-*trade*\\
-*description:* say something in trade channel.
-
-*short form: t*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /trade [message]
-
-*trade*\\
-*description:* say something in trade channel.
-
-*short form: trade_4*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /chat [message]
-
-*chat*\\
-*description:* say somehting in chat channel.
-
-*short form: c*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
-| | | | | |
-
---------------
-
-*** /chat [message]
-
-*chat*\\
-*description:* say somehting in chat channel.
-
-*short form: chat_5*\\
-
-*Values*
-| *message* | |
-| *rest_input* | |
 | | | | | |
 
 --------------
@@ -1018,35 +1144,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *echo*\\
 *description:* show message without prompt.
 
-
---------------
-
-*** /clone_monster_locate [mob_id] [absolute] [loc_x] [loc_y]
-
-*clone_monster_locate*\\
-*description:* clone monster in absolute/relate coordinate in same node with player.
-
-*short form: cml*\\
-
-*Values*
-| *mob_id* | *absolute* | *loc_x* | *loc_y* | |
-| *number* | *number* | *number* | *number* | |
-| | | | | |
-
---------------
-
-*** /clone_monster_around [mob_id] [absolute] [angle] [range]
-
-*clone_monster_around*\\
-*description:* clone monster around player by absolute/relate angle.
-
-*short form: cma*\\
-
-*Values*
-| *mob_id* | *absolute* | *angle* | *range* | |
-| *number* | *number* | *number* | *number* | |
-| | | | | |
-
 --------------
 
 *** /npc_use_channel [npc_id] [channel_id] [type] [message]
@@ -1141,34 +1238,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 --------------
 
-*** /set_monster_damage [monster id] [physico damage] [attack var] [physico defence] [magic damage] [magic attack var] [magic defence]
-
-*set_monster_damage*\\
-*description:* set monster damage.
-
-*short form: smd*\\
-
-*Values*
-| *monster id* | *physico damage* | *attack var* | *physico defence* | *magic damage* | *magic attack var* | *magic defence* | |
-| *number* | *number* | *number* | *number* | *number* | *number* | *number* | |
-| | | | | |
-
---------------
-
-*** /set_monster_movement [monster id] [movement] [roammovement] [attack delay]
-
-*set_monster_movement*\\
-*description:* set monster.
-
-*short form: smm*\\
-
-*Values*
-| *monster id* | *movement* | *roammovement* | *attack delay* | |
-| *number* | *number* | *number* | *number* | |
-| | | | | |
-
---------------
-
 *** /show_monster [template monster id]
 
 *show_monster*\\
@@ -1179,20 +1248,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *Values*
 | *template monster id* | |
 | *number* | |
-| | | | | |
-
---------------
-
-*** /set_monster_sight [monster id] [sight]
-
-*set_monster_sight*\\
-*description:* set monster sight.
-
-*short form: sms*\\
-
-*Values*
-| *monster id* | *sight* | |
-| *number* | *number* | |
 | | | | | |
 
 --------------
@@ -1321,44 +1376,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 --------------
 
-*** /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount] [seconds] [width] [height] [patrol_id]
-
-*set_reborn_monster*\\
-*description:* reborn mober binding.
-
-*short form: srm*\\
-
-*Values*
-| *handle* | *x* | *y* | *monster_temp_id* | *amount* | *seconds* | *width* | *height* | *patrol_id* | |
-| *number* | *word* | *word* | *number* | *number* | *number* | *word* | *word* | *number* | |
-| | | | | |
-
---------------
-
-*** /get_all_template_monsters
-
-*get_all_template_monsters*\\
-*description:* get all template monster.
-
-*short form: gatm*\\
-
-
---------------
-
-*** /monster_goto [monster id] [x] [y]
-
-*monster_goto*\\
-*description:* goto x y.
-
-*short form: wm*\\
-
-*Values*
-| *monster id* | *x* | *y* | |
-| *number* | *number* | *number* | |
-| | | | | |
-
---------------
-
 *** /around_kill_all [radius]
 
 *around_kill_all*\\
@@ -1393,21 +1410,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *description:* query test attack monster.
 
 *short form: qtam*\\
-
-
---------------
-
-*** /reload_reborn_monster [node id]
-
-*reload_reborn_monster*\\
-*description:* reload reborn monster.
-
-*short form: rrm*\\
-
-*Values*
-| *node id* | |
-| *number* | |
-| | | | | |
 
 --------------
 
@@ -1541,14 +1543,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 --------------
 
-*** /restore_all
-
-*restore_all*\\
-*description:* restore the hp.
-
-
---------------
-
 *** /clear_near_items
 
 *clear_near_items*\\
@@ -1631,26 +1625,6 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 *Values*
 | *SurpriseBoxID* | |
 | *number* | |
-| | | | | |
-
---------------
-
-*** /SetExtBornMonster [num] [time sec]
-
-*SetExtBornMonster*\\
-*description:* extern born monster.
-
-*short form: setextbornmonster*\\
-
-*Values*
-| *num* | *time sec* | |
-| *number* | *number* | |
-| | | | | |
-*short form: sebm*\\
-
-*Values*
-| *num* | *time sec* | |
-| *number* | *number* | |
 | | | | | |
 
 --------------
@@ -3925,7 +3899,7 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 --------------
 
-*** /achievement_screen_message [achieve_id] [ownder_id]
+*** /achievement_screen_message [achieve_id] [owner_id]
 
 *achievement_screen_message*\\
 *description:* show screen message when get achievement point.
@@ -4591,4 +4565,5 @@ _OBS: GOLD WON'T BE ADDED IF THE SUM OF WHAT YOU HAVE + WHAT YOU'RE ASKING THE C
 
 *get_daily_bonus*\\
 *description:* .
+
 
