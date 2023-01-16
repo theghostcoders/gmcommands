@@ -1,7250 +1,4302 @@
+
+
 --------------
 
 *** /clone_monster [id] [unit] [dropid]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_monster-id-unit-dropid
-    :END:
 
-  *clone_monster*
-  | description: Clone Monster At Player around |
-  | short form: cm |
+*clone_monster*
+*description:* Clone Monster At Player around 
+*short form:* cm
 
-
-  | Values |
-  | id | unit | dropid | |
-  | :----: | :----: | :----: |
-  | number | number | number | |
-  | :----: | :----: | :----: |
-  | |
-
+*Values*
+| *id* | *unit* | *dropid* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /restore
-    :PROPERTIES:
-    :CUSTOM_ID: restore
-    :END:
 
-#+BEGIN_VERSE
-  restore |
-  description: restore the hp |
-#+END_VERSE
+*restore*
+*description:* restore the hp 
 
 --------------
 
 *** /set_rb mob [n] [id] [seconds]
-    :PROPERTIES:
-    :CUSTOM_ID: set_rb-mob-n-id-seconds
-    :END:
 
-#+BEGIN_VERSE
-  set_rbmob |
-  description: reborn mober binding |
-  short form: set_rb |
-#+END_VERSE
+*set_rbmob *
+*description:* reborn mober binding 
+*short form:* set_rb
 
-#+BEGIN_VERSE
-  Values |
-  n | id | seconds | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sr |
-#+END_VERSE
+*Values*
+| *n* | *id* | *seconds* | |
+| *number* | *number* | *number* | |
+| | | 
+*short form:* sr
 
-#+BEGIN_VERSE
-  Values |
-  n | id | seconds | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *n* | *id* | *seconds* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /ls_rb
-    :PROPERTIES:
-    :CUSTOM_ID: ls_rb
-    :END:
 
-#+BEGIN_VERSE
-  ls_rb |
-  description: list reborn mober binding |
-  short form: lr |
-#+END_VERSE
+*ls_rb*
+*description:* list reborn mober binding 
+*short form:* lr
+
 
 --------------
 
 *** /rm_rb mob
-    :PROPERTIES:
-    :CUSTOM_ID: rm_rb-mob
-    :END:
 
-#+BEGIN_VERSE
-  rm_rbmob |
-  description: remove reborn mober binding |
-  short form: rm_rb |
-#+END_VERSE
+*rm_rbmob*
+*description:* remove reborn mober binding 
+*short form:* rm_rb
 
-| number         |  |  |
-|----------------+--+--|
-|                |  |  |
-| short form: rr |  |  |
+| *number* | |
+| | | 
+*short form:* rr
 
-| number |  |  |
-|--------+--+--|
-|        |  |  |
+| *number* | |
+| | | 
 
 --------------
 
 *** /status
-    :PROPERTIES:
-    :CUSTOM_ID: status
-    :END:
 
-#+BEGIN_VERSE
-  status |
-  description: query the player's status |
-#+END_VERSE
+*status*
+*description:* query the player's status 
 
 --------------
 
 *** /clone item [item_id]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-item-item_id
-    :END:
 
-#+BEGIN_VERSE
-  cloneitem |
-  description: clone an item which template id is [item_id] |
-  short form: clone_item |
-#+END_VERSE
+*cloneitem *
+*description:* clone an item which template id is [item_id] 
+*short form:* clone_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ci |
-#+END_VERSE
+*Values*
+| *item_id* | |
+| *number* | |
+| | | 
+*short form:* ci
 
-#+BEGIN_VERSE
-  Values |
-  item_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /clone reward item [item_id] [item_num]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-reward-item-item_id-item_num
-    :END:
 
-#+BEGIN_VERSE
-  clonereward item |
-  description: clone an item which template id is [item_id] |
-  short form: clone_reward_item |
-#+END_VERSE
+*clonereward item *
+*description:* clone an item which template id is [item_id] 
+*short form:* clone_reward_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: clri |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
+*short form:* clri
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone items [item_id] [item_num]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-items-item_id-item_num
-    :END:
 
-#+BEGIN_VERSE
-  cloneitems |
-  description: clone an item which template id is [item_id] and item quantity is [item_num] |
-  short form: clone_items |
-#+END_VERSE
+*cloneitems *
+*description:* clone an item which template id is [item_id] and item quantity is [item_num] 
+*short form:* clone_items
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: cls |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
+*short form:* cls
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone items [item_id] [item_num]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-items-item_id-item_num-1
-    :END:
 
-#+BEGIN_VERSE
-  cloneitems |
-  description: clone an item which template id is [item_id] and item quantity is [item_num] |
-  short form: clone_items |
-#+END_VERSE
+*cloneitems *
+*description:* clone an item which template id is [item_id] and item quantity is [item_num] 
+*short form:* clone_items
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: clone_stack_item |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
+*short form:* clone_stack_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | item_num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *item_num* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone_item_to [item_id] [to_loc]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_item_to-item_id-to_loc
-    :END:
 
-#+BEGIN_VERSE
-  clone_item_to |
-  description: clone an item which template id is [item_id] and put into inventory at location [to_loc] |
-  short form: clt |
-#+END_VERSE
+*clone_item_to*
+*description:* clone an item which template id is [item_id] and put into inventory at location [to_loc] 
+*short form:* clt
 
-#+BEGIN_VERSE
-  Values |
-  item_id | to_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *to_loc* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /say [message]
-    :PROPERTIES:
-    :CUSTOM_ID: say-message
-    :END:
 
-#+BEGIN_VERSE
-  say |
-  description: say something |
-  short form: s |
-#+END_VERSE
+*say*
+*description:* say something 
+*short form:* s
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /whisper [name] [message]
-    :PROPERTIES:
-    :CUSTOM_ID: whisper-name-message
-    :END:
 
-#+BEGIN_VERSE
-  whisper |
-  description: whisper someone something |
-  short form: w |
-#+END_VERSE
+*whisper*
+*description:* whisper someone something 
+*short form:* w
 
-#+BEGIN_VERSE
-  Values |
-  name | message | |
-  :----: | :----: | :----: |
-  word | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *name* | *message* | |
+| *word* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /kill [monster_id]
-    :PROPERTIES:
-    :CUSTOM_ID: kill-monster_id
-    :END:
 
-#+BEGIN_VERSE
-  kill |
-  description: monster! DIE! |
-  short form: k |
-#+END_VERSE
+*kill*
+*description:* monster! DIE! 
+*short form:* k
 
-#+BEGIN_VERSE
-  Values |
-  monster_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /gain_exp [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_exp-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_exp |
-  description: gain exp num |
-#+END_VERSE
+*gain_exp*
+*description:* gain exp num 
 
 --------------
 
 *** /mission_gain_exp [number]
-    :PROPERTIES:
-    :CUSTOM_ID: mission_gain_exp-number
-    :END:
 
-#+BEGIN_VERSE
-  mission_gain_exp |
-  description: gain exp num |
-  short form: mge |
-#+END_VERSE
+*mission_gain_exp*
+*description:* gain exp num 
+*short form:* mge
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /gain_gold [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_gold-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_gold |
-  description: gain gold num |
-  short form: gg |
-#+END_VERSE
+*gain_gold*
+*description:* gain gold num 
+*short form:* gg
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /goto [x] [y]
-    :PROPERTIES:
-    :CUSTOM_ID: goto-x-y
-    :END:
 
-#+BEGIN_VERSE
-  goto |
-  description: goto x y |
-#+END_VERSE
+*goto*
+*description:* goto x y 
 
 --------------
 
 *** /users
-    :PROPERTIES:
-    :CUSTOM_ID: users
-    :END:
 
-#+BEGIN_VERSE
-  users |
-  description: list the node users info |
-#+END_VERSE
+*users*
+*description:* list the node users info 
 
 --------------
 
 *** /allusers
-    :PROPERTIES:
-    :CUSTOM_ID: allusers
-    :END:
 
-#+BEGIN_VERSE
-  allusers |
-  description: list whole world users |
-#+END_VERSE
+*allusers*
+*description:* list whole world users 
 
 --------------
 
 *** /transfer [id]
-    :PROPERTIES:
-    :CUSTOM_ID: transfer-id
-    :END:
 
-#+BEGIN_VERSE
-  transfer |
-  description: |
-#+END_VERSE
+*transfer*
+*description:* 
 
 --------------
 
 *** /listarea
-    :PROPERTIES:
-    :CUSTOM_ID: listarea
-    :END:
 
-#+BEGIN_VERSE
-  listarea |
-  description: list the areas in the currently node |
-  short form: lsa |
-#+END_VERSE
+*listarea*
+*description:* list the areas in the currently node 
+*short form:* lsa
+
 
 --------------
 
 *** /weak [player_id]
-    :PROPERTIES:
-    :CUSTOM_ID: weak-player_id
-    :END:
 
-#+BEGIN_VERSE
-  weak |
-  description: let target player weak |
-#+END_VERSE
+*weak*
+*description:* let target player weak 
 
 --------------
 
 *** /setra [node_id] [area_id]
-    :PROPERTIES:
-    :CUSTOM_ID: setra-node_id-area_id
-    :END:
 
-#+BEGIN_VERSE
-  setra |
-  description: set revive area |
-  short form: sra |
-#+END_VERSE
+*setra*
+*description:* set revive area 
+*short form:* sra
 
-#+BEGIN_VERSE
-  Values |
-  node_id | area_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | *area_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /transport_area [node_id] [area_id]
-    :PROPERTIES:
-    :CUSTOM_ID: transport_area-node_id-area_id
-    :END:
 
-#+BEGIN_VERSE
-  transport_area |
-  description: transport to area |
-  short form: tpa |
-#+END_VERSE
+*transport_area*
+*description:* transport to area 
+*short form:* tpa
 
-#+BEGIN_VERSE
-  Values |
-  node_id | area_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | *area_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /transport_node [node_id]
-    :PROPERTIES:
-    :CUSTOM_ID: transport_node-node_id
-    :END:
 
-#+BEGIN_VERSE
-  transport_node |
-  description: transport to node |
-  short form: tpn |
-#+END_VERSE
+*transport_node*
+*description:* transport to node 
+*short form:* tpn
 
-#+BEGIN_VERSE
-  Values |
-  node_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /drop_item [item_id] [number] [flag]
-    :PROPERTIES:
-    :CUSTOM_ID: drop_item-item_id-number-flag
-    :END:
 
-#+BEGIN_VERSE
-  drop_item |
-  description: drop item |
-#+END_VERSE
+*drop_item*
+*description:* drop item 
 
 --------------
 
 *** /list_durability [container_id]
-    :PROPERTIES:
-    :CUSTOM_ID: list_durability-container_id
-    :END:
 
-#+BEGIN_VERSE
-  list_durability |
-  description: list durability status |
-  short form: ld |
-#+END_VERSE
+*list_durability*
+*description:* list durability status 
+*short form:* ld
 
-#+BEGIN_VERSE
-  Values |
-  container_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *container_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /shop [shop_type] [npc_template_id] [shop_id]
-    :PROPERTIES:
-    :CUSTOM_ID: shop-shop_type-npc_template_id-shop_id
-    :END:
 
-#+BEGIN_VERSE
-  shop |
-  description: enter shop |
-#+END_VERSE
+*shop*
+*description:* enter shop 
 
 --------------
 
 *** /shop [shop_type] [npc_id]
-    :PROPERTIES:
-    :CUSTOM_ID: shop-shop_type-npc_id
-    :END:
 
-#+BEGIN_VERSE
-  shop |
-  description: enter spell shop |
-#+END_VERSE
+*shop*
+*description:* enter spell shop 
 
 --------------
 
 *** /effect_life [life_id] [effect_id] [duration] [factor] [isteam]
-    :PROPERTIES:
-    :CUSTOM_ID: effect_life-life_id-effect_id-duration-factor-isteam
-    :END:
 
-#+BEGIN_VERSE
-  effect_life |
-  description: |
-  short form: elf |
-#+END_VERSE
+*effect_life*
+*description:* 
+*short form:* elf
 
-#+BEGIN_VERSE
-  Values |
-  life_id | effect_id | duration | factor | isteam | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *life_id* | *effect_id* | *duration* | *factor* | *isteam* | |
+| *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /effect_loc [x] [y] [effect_id] [duration] [factor]
-    :PROPERTIES:
-    :CUSTOM_ID: effect_loc-x-y-effect_id-duration-factor
-    :END:
 
-#+BEGIN_VERSE
-  effect_loc |
-  description: |
-  short form: eloc |
-#+END_VERSE
+*effect_loc*
+*description:* 
+*short form:* eloc
 
-#+BEGIN_VERSE
-  Values |
-  x | y | effect_id | duration | factor | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *x* | *y* | *effect_id* | *duration* | *factor* | |
+| *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /repairshop
-    :PROPERTIES:
-    :CUSTOM_ID: repairshop
-    :END:
 
-#+BEGIN_VERSE
-  repairshop |
-  description: enter repair shtop |
-#+END_VERSE
+*repairshop*
+*description:* enter repair shtop 
 
 --------------
 
 *** /invincible [01]
-    :PROPERTIES:
-    :CUSTOM_ID: invincible-01
-    :END:
 
-#+BEGIN_VERSE
-  invincible |
-  description: invincible mode 0 - off |
-  short form: inv |
-#+END_VERSE
+*invincible*
+*description:* invincible mode 0 - off 
+*short form:* inv
 
-#+BEGIN_VERSE
-  Values |
-  01 | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *01* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /vanish [01]
-    :PROPERTIES:
-    :CUSTOM_ID: vanish-01
-    :END:
 
-#+BEGIN_VERSE
-  vanish |
-  description: invisible mode 0 - off |
-  short form: van |
-#+END_VERSE
+*vanish*
+*description:* invisible mode 0 - off 
+*short form:* van
 
-#+BEGIN_VERSE
-  Values |
-  01 | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *01* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /town
-    :PROPERTIES:
-    :CUSTOM_ID: town
-    :END:
 
-#+BEGIN_VERSE
-  town |
-  description: transport to town |
-#+END_VERSE
+*town*
+*description:* transport to town 
 
 --------------
 
 *** /transport_to_character [given_name]
-    :PROPERTIES:
-    :CUSTOM_ID: transport_to_character-given_name
-    :END:
 
-#+BEGIN_VERSE
-  transport_to_character |
-  description: transport to character with nickname |
-  short form: tpc |
-#+END_VERSE
+*transport_to_character*
+*description:* transport to character with nickname 
+*short form:* tpc
 
-#+BEGIN_VERSE
-  Values |
-  given_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /get_user_info [given_name]
-    :PROPERTIES:
-    :CUSTOM_ID: get_user_info-given_name
-    :END:
 
-#+BEGIN_VERSE
-  get_user_info |
-  description: findout about an nickname |
-  short form: gui |
-#+END_VERSE
+*get_user_info*
+*description:* findout about an nickname 
+*short form:* gui
 
-#+BEGIN_VERSE
-  Values |
-  given_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /get_shortcuts
-    :PROPERTIES:
-    :CUSTOM_ID: get_shortcuts
-    :END:
 
-#+BEGIN_VERSE
-  get_shortcuts |
-  description: list shortcuts |
-#+END_VERSE
+*get_shortcuts*
+*description:* list shortcuts 
 
 --------------
 
 *** /update_shortcut [page] [slot] [value]
-    :PROPERTIES:
-    :CUSTOM_ID: update_shortcut-page-slot-value
-    :END:
 
-#+BEGIN_VERSE
-  update_shortcut |
-  description: modify shortcuts (page and slot starts from 0) |
-  short form: us |
-#+END_VERSE
+*update_shortcut*
+*description:* modify shortcuts (page and slot starts from 0) 
+*short form:* us
 
-#+BEGIN_VERSE
-  Values |
-  page | slot | value | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *page* | *slot* | *value* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /save_shortcut
-    :PROPERTIES:
-    :CUSTOM_ID: save_shortcut
-    :END:
 
-#+BEGIN_VERSE
-  save_shortcut |
-  description: save shortcuts |
-#+END_VERSE
+*save_shortcut*
+*description:* save shortcuts 
 
 --------------
 
 *** /display_sum_node_users [01]
-    :PROPERTIES:
-    :CUSTOM_ID: display_sum_node_users-01
-    :END:
 
-#+BEGIN_VERSE
-  display_sum_node_users |
-  description: |
-  short form: dnu |
-#+END_VERSE
+*display_sum_node_users*
+*description:* 
+*short form:* dnu
 
-#+BEGIN_VERSE
-  Values |
-  01 | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *01* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /display_sum_world_users [01]
-    :PROPERTIES:
-    :CUSTOM_ID: display_sum_world_users-01
-    :END:
 
-#+BEGIN_VERSE
-  display_sum_world_users |
-  description: list whole world users mode 0 - off |
-  short form: dwu |
-#+END_VERSE
+*display_sum_world_users*
+*description:* list whole world users mode 0 - off 
+*short form:* dwu
 
-#+BEGIN_VERSE
-  Values |
-  01 | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *01* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /get_spellmaster [spellmaster_id]
-    :PROPERTIES:
-    :CUSTOM_ID: get_spellmaster-spellmaster_id
-    :END:
 
-#+BEGIN_VERSE
-  get_spellmaster |
-  description: get a spellmaster |
-#+END_VERSE
+*get_spellmaster*
+*description:* get a spellmaster 
 
 --------------
 
 *** /debug [01]
-    :PROPERTIES:
-    :CUSTOM_ID: debug-01
-    :END:
 
-#+BEGIN_VERSE
-  debug |
-  description: debug mode 0 - off |
-#+END_VERSE
+*debug*
+*description:* debug mode 0 - off 
 
 --------------
 
 *** /list_state
-    :PROPERTIES:
-    :CUSTOM_ID: list_state
-    :END:
 
-#+BEGIN_VERSE
-  list_state |
-  description: list my states |
-#+END_VERSE
+*list_state*
+*description:* list my states 
 
 --------------
 
 *** /shut_down [minutes]
-    :PROPERTIES:
-    :CUSTOM_ID: shut_down-minutes
-    :END:
 
-#+BEGIN_VERSE
-  shut_down |
-  description: shut down in x minutes |
-#+END_VERSE
+*shut_down*
+*description:* shut down in x minutes 
 
 --------------
 
 *** /kick [nick_name]
-    :PROPERTIES:
-    :CUSTOM_ID: kick-nick_name
-    :END:
 
-#+BEGIN_VERSE
-  kick |
-  description: kick out character with name |
-#+END_VERSE
+*kick*
+*description:* kick out character with name 
 
 --------------
 
 *** /slayer [01]
-    :PROPERTIES:
-    :CUSTOM_ID: slayer-01
-    :END:
 
-#+BEGIN_VERSE
-  slayer |
-  description: slayer mode 0 - off |
-#+END_VERSE
+*slayer*
+*description:* slayer mode 0 - off 
 
 --------------
 
 *** /announce [message]
-    :PROPERTIES:
-    :CUSTOM_ID: announce-message
-    :END:
 
-#+BEGIN_VERSE
-  announce |
-  description: announce something |
-  short form: gm |
-#+END_VERSE
+*announce*
+*description:* announce something 
+*short form:* gm
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /storage [npc_id] [01]
-    :PROPERTIES:
-    :CUSTOM_ID: storage-npc_id-01
-    :END:
 
-#+BEGIN_VERSE
-  storage |
-  description: enter storage 0 - Deposit |
-#+END_VERSE
+*storage*
+*description:* enter storage 0 - Deposit 
 
 --------------
 
 *** /querychar [charname]
-    :PROPERTIES:
-    :CUSTOM_ID: querychar-charname
-    :END:
 
-#+BEGIN_VERSE
-  querychar |
-  description: |
-  short form: qc |
-#+END_VERSE
+*querychar*
+*description:* 
+*short form:* qc
 
-#+BEGIN_VERSE
-  Values |
-  charname | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /listenchant [charname]
-    :PROPERTIES:
-    :CUSTOM_ID: listenchant-charname
-    :END:
 
-#+BEGIN_VERSE
-  listenchant |
-  description: |
-  short form: le |
-#+END_VERSE
+*listenchant*
+*description:* 
+*short form:* le
 
-#+BEGIN_VERSE
-  Values |
-  charname | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /version
-    :PROPERTIES:
-    :CUSTOM_ID: version
-    :END:
 
-#+BEGIN_VERSE
-  version |
-  description: |
-#+END_VERSE
+*version*
+*description:* 
 
 --------------
 
 *** /transport_and_deduct [area_id] [money]
-    :PROPERTIES:
-    :CUSTOM_ID: transport_and_deduct-area_id-money
-    :END:
 
-#+BEGIN_VERSE
-  transport_and_deduct |
-  description: transport to area and deduct money |
-  short form: tam |
-#+END_VERSE
+*transport_and_deduct*
+*description:* transport to area and deduct money 
+*short form:* tam
 
-#+BEGIN_VERSE
-  Values |
-  area_id | money | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *area_id* | *money* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /query_npc [node_id] [npc_id]
-    :PROPERTIES:
-    :CUSTOM_ID: query_npc-node_id-npc_id
-    :END:
 
-#+BEGIN_VERSE
-  query_npc |
-  description: query npc [number] to show on map |
-  short form: qn |
-#+END_VERSE
+*query_npc*
+*description:* query npc [number] to show on map 
+*short form:* qn
 
-#+BEGIN_VERSE
-  Values |
-  node_id | npc_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | *npc_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /party [message]
-    :PROPERTIES:
-    :CUSTOM_ID: party-message
-    :END:
 
-#+BEGIN_VERSE
-  party |
-  description: say something in party channel |
-  short form: p |
-#+END_VERSE
+*party*
+*description:* say something in party channel 
+*short form:* p
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /party [message]
-    :PROPERTIES:
-    :CUSTOM_ID: party-message-1
-    :END:
 
-#+BEGIN_VERSE
-  party |
-  description: say something in party channel |
-  short form: party_2 |
-#+END_VERSE
+*party*
+*description:* say something in party channel 
+*short form:* party_2
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /guild [message]
-    :PROPERTIES:
-    :CUSTOM_ID: guild-message
-    :END:
 
-#+BEGIN_VERSE
-  guild |
-  description: say something in guild channel |
-  short form: g |
-#+END_VERSE
+*guild*
+*description:* say something in guild channel 
+*short form:* g
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /guild [message]
-    :PROPERTIES:
-    :CUSTOM_ID: guild-message-1
-    :END:
 
-#+BEGIN_VERSE
-  guild |
-  description: say something in guild channel |
-  short form: guild_3 |
-#+END_VERSE
+*guild*
+*description:* say something in guild channel 
+*short form:* guild_3
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /trade [message]
-    :PROPERTIES:
-    :CUSTOM_ID: trade-message
-    :END:
 
-#+BEGIN_VERSE
-  trade |
-  description: say something in trade channel |
-  short form: t |
-#+END_VERSE
+*trade*
+*description:* say something in trade channel 
+*short form:* t
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /trade [message]
-    :PROPERTIES:
-    :CUSTOM_ID: trade-message-1
-    :END:
 
-#+BEGIN_VERSE
-  trade |
-  description: say something in trade channel |
-  short form: trade_4 |
-#+END_VERSE
+*trade*
+*description:* say something in trade channel 
+*short form:* trade_4
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /chat [message]
-    :PROPERTIES:
-    :CUSTOM_ID: chat-message
-    :END:
 
-#+BEGIN_VERSE
-  chat |
-  description: say somehting in chat channel |
-  short form: c |
-#+END_VERSE
+*chat*
+*description:* say somehting in chat channel 
+*short form:* c
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /chat [message]
-    :PROPERTIES:
-    :CUSTOM_ID: chat-message-1
-    :END:
 
-#+BEGIN_VERSE
-  chat |
-  description: say somehting in chat channel |
-  short form: chat_5 |
-#+END_VERSE
+*chat*
+*description:* say somehting in chat channel 
+*short form:* chat_5
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /system [message]
-    :PROPERTIES:
-    :CUSTOM_ID: system-message
-    :END:
 
-#+BEGIN_VERSE
-  system |
-  description: announce something from system |
-#+END_VERSE
+*system*
+*description:* announce something from system 
 
 --------------
 
 *** /channel_limit [id] [minute]
-    :PROPERTIES:
-    :CUSTOM_ID: channel_limit-id-minute
-    :END:
 
-#+BEGIN_VERSE
-  channel_limit |
-  description: channel usage limitation |
-  short form: cl |
-#+END_VERSE
+*channel_limit*
+*description:* channel usage limitation 
+*short form:* cl
 
-#+BEGIN_VERSE
-  Values |
-  id | minute | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | *minute* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /flush_dba_data
-    :PROPERTIES:
-    :CUSTOM_ID: flush_dba_data
-    :END:
 
-#+BEGIN_VERSE
-  flush_dba_data |
-  description: Flush player DBAgent Data |
-#+END_VERSE
+*flush_dba_data*
+*description:* Flush player DBAgent Data 
 
 --------------
 
 *** /banchar [char_id] [minute]
-    :PROPERTIES:
-    :CUSTOM_ID: banchar-char_id-minute
-    :END:
 
-#+BEGIN_VERSE
-  banchar |
-  description: ban character |
-  short form: bc |
-#+END_VERSE
+*banchar*
+*description:* ban character 
+*short form:* bc
 
-#+BEGIN_VERSE
-  Values |
-  char_id | minute | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *char_id* | *minute* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /identify_shop
-    :PROPERTIES:
-    :CUSTOM_ID: identify_shop
-    :END:
 
-#+BEGIN_VERSE
-  identify_shop |
-  description: enter identify shop |
-  short form: id_shop |
-#+END_VERSE
+*identify_shop*
+*description:* enter identify shop 
+*short form:* id_shop
+
 
 --------------
 
 *** /disband_family
-    :PROPERTIES:
-    :CUSTOM_ID: disband_family
-    :END:
 
-#+BEGIN_VERSE
-  disband_family |
-  description: |
-#+END_VERSE
+*disband_family*
+*description:* 
 
 --------------
 
 *** /select_family_leader [new_leader]
-    :PROPERTIES:
-    :CUSTOM_ID: select_family_leader-new_leader
-    :END:
 
-#+BEGIN_VERSE
-  select_family_leader |
-  description: |
-  short form: sfl |
-#+END_VERSE
+*select_family_leader*
+*description:* 
+*short form:* sfl
 
-#+BEGIN_VERSE
-  Values |
-  new_leader | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *new_leader* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /listfms [ch_id] [mission_id]
-    :PROPERTIES:
-    :CUSTOM_ID: listfms-ch_id-mission_id
-    :END:
 
-#+BEGIN_VERSE
-  listfms |
-  description: list fms info on this character |
-  short form: lsf |
-#+END_VERSE
+*listfms*
+*description:* list fms info on this character 
+*short form:* lsf
 
-#+BEGIN_VERSE
-  Values |
-  ch_id | mission_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *ch_id* | *mission_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /run [number]
-    :PROPERTIES:
-    :CUSTOM_ID: run-number
-    :END:
 
-#+BEGIN_VERSE
-  run |
-  description: Faster Walk |
-#+END_VERSE
+*run*
+*description:* Faster Walk 
 
 --------------
 
 *** /drop stack item [item_id] [amount]
-    :PROPERTIES:
-    :CUSTOM_ID: drop-stack-item-item_id-amount
-    :END:
 
-#+BEGIN_VERSE
-  dropstack item |
-  description: drop item by amount |
-  short form: drop_items |
-#+END_VERSE
+*dropstack item *
+*description:* drop item by amount 
+*short form:* drop_items
 
-#+BEGIN_VERSE
-  Values |
-  item_id | amount | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: drop_stack_item |
-#+END_VERSE
+*Values*
+| *item_id* | *amount* | |
+| *number* | *number* | |
+| | | 
+*short form:* drop_stack_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | amount | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *amount* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /allworld_cmd [rest_input]
-    :PROPERTIES:
-    :CUSTOM_ID: allworld_cmd-rest_input
-    :END:
 
-#+BEGIN_VERSE
-  allworld_cmd |
-  description: all world text command |
-  short form: aw |
-#+END_VERSE
+*allworld_cmd*
+*description:* all world text command 
+*short form:* aw
 
-#+BEGIN_VERSE
-  Values |
-  rest_input | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *rest_input* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /query_npc_involve [npc_id]
-    :PROPERTIES:
-    :CUSTOM_ID: query_npc_involve-npc_id
-    :END:
 
-#+BEGIN_VERSE
-  query_npc_involve |
-  description: query npc [number] to list how many missionlist involved |
-  short form: qni |
-#+END_VERSE
+*query_npc_involve*
+*description:* query npc [number] to list how many missionlist involved 
+*short form:* qni
 
-#+BEGIN_VERSE
-  Values |
-  npc_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *npc_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /channel_limit_name [charname] [minute]
-    :PROPERTIES:
-    :CUSTOM_ID: channel_limit_name-charname-minute
-    :END:
 
-#+BEGIN_VERSE
-  channel_limit_name |
-  description: channel usage limitation |
-  short form: cln |
-#+END_VERSE
+*channel_limit_name*
+*description:* channel usage limitation 
+*short form:* cln
 
-#+BEGIN_VERSE
-  Values |
-  charname | minute | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | *minute* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /banchar_name [char_name] [minute]
-    :PROPERTIES:
-    :CUSTOM_ID: banchar_name-char_name-minute
-    :END:
 
-#+BEGIN_VERSE
-  banchar_name |
-  description: ban character |
-  short form: bcn |
-#+END_VERSE
+*banchar_name*
+*description:* ban character 
+*short form:* bcn
 
-#+BEGIN_VERSE
-  Values |
-  char_name | minute | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *char_name* | *minute* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /quest [message]
-    :PROPERTIES:
-    :CUSTOM_ID: quest-message
-    :END:
 
-#+BEGIN_VERSE
-  quest |
-  description: say somehting in quest channel |
-  short form: q |
-#+END_VERSE
+*quest*
+*description:* say somehting in quest channel 
+*short form:* q
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /quest [message]
-    :PROPERTIES:
-    :CUSTOM_ID: quest-message-1
-    :END:
 
-#+BEGIN_VERSE
-  quest |
-  description: say somehting in quest channel |
-  short form: quest_6 |
-#+END_VERSE
+*quest*
+*description:* say somehting in quest channel 
+*short form:* quest_6
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /reset_attribute
-    :PROPERTIES:
-    :CUSTOM_ID: reset_attribute
-    :END:
 
-#+BEGIN_VERSE
-  reset_attribute |
-  description: reset attribute point |
-  short form: ra |
-#+END_VERSE
+*reset_attribute*
+*description:* reset attribute point 
+*short form:* ra
+
 
 --------------
 
 *** /reset_skill
-    :PROPERTIES:
-    :CUSTOM_ID: reset_skill
-    :END:
 
-#+BEGIN_VERSE
-  reset_skill |
-  description: reset skill point |
-#+END_VERSE
+*reset_skill*
+*description:* reset skill point 
 
 --------------
 
 *** /reset_attribute_gold [how_much]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_attribute_gold-how_much
-    :END:
 
-#+BEGIN_VERSE
-  reset_attribute_gold |
-  description: reset attribute point for gold |
-  short form: rag |
-#+END_VERSE
+*reset_attribute_gold*
+*description:* reset attribute point for gold 
+*short form:* rag
 
-#+BEGIN_VERSE
-  Values |
-  how_much | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *how_much* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reset_skill_gold [how_much]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_skill_gold-how_much
-    :END:
 
-#+BEGIN_VERSE
-  reset_skill_gold |
-  description: reset skill point for gold |
-  short form: rsg |
-#+END_VERSE
+*reset_skill_gold*
+*description:* reset skill point for gold 
+*short form:* rsg
 
-#+BEGIN_VERSE
-  Values |
-  how_much | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *how_much* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /get_spell [spell_id]
-    :PROPERTIES:
-    :CUSTOM_ID: get_spell-spell_id
-    :END:
 
-#+BEGIN_VERSE
-  get_spell |
-  description: get a spell |
-#+END_VERSE
+*get_spell*
+*description:* get a spell 
 
 --------------
 
 *** /inlay_shop [npc_id]
-    :PROPERTIES:
-    :CUSTOM_ID: inlay_shop-npc_id
-    :END:
 
-#+BEGIN_VERSE
-  inlay_shop |
-  description: enter inlay shop |
-  short form: in_shop |
-#+END_VERSE
+*inlay_shop*
+*description:* enter inlay shop 
+*short form:* in_shop
 
-#+BEGIN_VERSE
-  Values |
-  npc_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *npc_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /broadcast_system_message [msg_id] [times] [interval] [msg]
-    :PROPERTIES:
-    :CUSTOM_ID: broadcast_system_message-msg_id-times-interval-msg
-    :END:
 
-#+BEGIN_VERSE
-  broadcast_system_message |
-  description: |
-  short form: bsm |
-#+END_VERSE
+*broadcast_system_message*
+*description:* 
+*short form:* bsm
 
-#+BEGIN_VERSE
-  Values |
-  msg_id | times | interval | msg | |
-  :----: | :----: | :----: |
-  number | number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *msg_id* | *times* | *interval* | *msg* | |
+| *number* | *number* | *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /echo [message]
-    :PROPERTIES:
-    :CUSTOM_ID: echo-message
-    :END:
 
-#+BEGIN_VERSE
-  echo |
-  description: show message without prompt |
-#+END_VERSE
+*echo*
+*description:* show message without prompt 
 
 --------------
 
 *** /clone_monster_locate [mob_id] [absolute] [loc_x] [loc_y]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_monster_locate-mob_id-absolute-loc_x-loc_y
-    :END:
 
-#+BEGIN_VERSE
-  clone_monster_locate |
-  description: clone monster in absolute/relate coordinate in same node with player |
-  short form: cml |
-#+END_VERSE
+*clone_monster_locate*
+*description:* clone monster in absolute/relate coordinate in same node with player 
+*short form:* cml
 
-#+BEGIN_VERSE
-  Values |
-  mob_id | absolute | loc_x | loc_y | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *mob_id* | *absolute* | *loc_x* | *loc_y* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone_monster_around [mob_id] [absolute] [angle] [range]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_monster_around-mob_id-absolute-angle-range
-    :END:
 
-#+BEGIN_VERSE
-  clone_monster_around |
-  description: clone monster around player by absolute/relate angle |
-  short form: cma |
-#+END_VERSE
+*clone_monster_around*
+*description:* clone monster around player by absolute/relate angle 
+*short form:* cma
 
-#+BEGIN_VERSE
-  Values |
-  mob_id | absolute | angle | range | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *mob_id* | *absolute* | *angle* | *range* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /npc_use_channel [npc_id] [channel_id] [type] [message]
-    :PROPERTIES:
-    :CUSTOM_ID: npc_use_channel-npc_id-channel_id-type-message
-    :END:
 
-#+BEGIN_VERSE
-  npc_use_channel |
-  description: let npc use channel to say something |
-  short form: nuc |
-#+END_VERSE
+*npc_use_channel*
+*description:* let npc use channel to say something 
+*short form:* nuc
 
-#+BEGIN_VERSE
-  Values |
-  npc_id | channel_id | type | message | |
-  :----: | :----: | :----: |
-  number | number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *npc_id* | *channel_id* | *type* | *message* | |
+| *number* | *number* | *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /npc_use_spell [npc_id] [spell_id]
-    :PROPERTIES:
-    :CUSTOM_ID: npc_use_spell-npc_id-spell_id
-    :END:
 
-#+BEGIN_VERSE
-  npc_use_spell |
-  description: let npc use spell on pc in the same node |
-  short form: nus |
-#+END_VERSE
+*npc_use_spell*
+*description:* let npc use spell on pc in the same node 
+*short form:* nus
 
-#+BEGIN_VERSE
-  Values |
-  npc_id | spell_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *npc_id* | *spell_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /self_use_effect [effect_id] [duration]
-    :PROPERTIES:
-    :CUSTOM_ID: self_use_effect-effect_id-duration
-    :END:
 
-#+BEGIN_VERSE
-  self_use_effect |
-  description: let pc use effect on self |
-  short form: sue |
-#+END_VERSE
+*self_use_effect*
+*description:* let pc use effect on self 
+*short form:* sue
 
-#+BEGIN_VERSE
-  Values |
-  effect_id | duration | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect_id* | *duration* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /change_class [class_id]
-    :PROPERTIES:
-    :CUSTOM_ID: change_class-class_id
-    :END:
 
-#+BEGIN_VERSE
-  change_class |
-  description: change current class |
-  short form: cc |
-#+END_VERSE
+*change_class*
+*description:* change current class 
+*short form:* cc
 
-#+BEGIN_VERSE
-  Values |
-  class_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *class_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /adjust_spell_anitime [spell_id] [animeTime_ofs]
-    :PROPERTIES:
-    :CUSTOM_ID: adjust_spell_anitime-spell_id-animetime_ofs
-    :END:
 
-#+BEGIN_VERSE
-  adjust_spell_anitime |
-  description: change spell animation time |
-  short form: asa |
-#+END_VERSE
+*adjust_spell_anitime*
+*description:* change spell animation time 
+*short form:* asa
 
-#+BEGIN_VERSE
-  Values |
-  spell_id | animeTime_ofs | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *spell_id* | *animeTime_ofs* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /escape
-    :PROPERTIES:
-    :CUSTOM_ID: escape
-    :END:
 
-#+BEGIN_VERSE
-  escape |
-  description: transfer team member to the last enter normal area |
-#+END_VERSE
+*escape*
+*description:* transfer team member to the last enter normal area 
 
 --------------
 
 *** /set_level [level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_level-level
-    :END:
 
-#+BEGIN_VERSE
-  set_level |
-  description: set character level |
-  short form: sl |
-#+END_VERSE
+*set_level*
+*description:* set character level 
+*short form:* sl
 
-#+BEGIN_VERSE
-  Values |
-  level | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *level* | |
+| *number* | |
+| | | 
 
 --------------
 
-*** /set_monster_damage [monster id] [physico damage] [attack var]
-[physico defence] [magic damage] [magic attack var] [magic defence]
-    :PROPERTIES:
-    :CUSTOM_ID: set_monster_damage-monster-id-physico-damage-attack-var-physico-defence-magic-damage-magic-attack-var-magic-defence
-    :END:
+*** /set_monster_damage [monster id] [physico damage] [attack var] [physico defence] [magic damage] [magic attack var] [magic defence]
 
-#+BEGIN_VERSE
-  set_monster_damage |
-  description: set monster damage |
-  short form: smd |
-#+END_VERSE
+*set_monster_damage*
+*description:* set monster damage 
+*short form:* smd
 
-#+BEGIN_VERSE
-  Values |
-  monster id | physico damage | attack var | physico defence | magic damage | magic attack var | magic defence | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *physico damage* | *attack var* | *physico defence* | *magic damage* | *magic attack var* | *magic defence* | |
+| *number* | *number* | *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
-*** /set_monster_movement [monster id] [movement] [roammovement] [attack
-delay]
-    :PROPERTIES:
-    :CUSTOM_ID: set_monster_movement-monster-id-movement-roammovement-attack-delay
-    :END:
+*** /set_monster_movement [monster id] [movement] [roammovement] [attack delay]
 
-#+BEGIN_VERSE
-  set_monster_movement |
-  description: set monster |
-  short form: smm |
-#+END_VERSE
+*set_monster_movement*
+*description:* set monster 
+*short form:* smm
 
-#+BEGIN_VERSE
-  Values |
-  monster id | movement | roammovement | attack delay | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *movement* | *roammovement* | *attack delay* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /show_monster [template monster id]
-    :PROPERTIES:
-    :CUSTOM_ID: show_monster-template-monster-id
-    :END:
 
-#+BEGIN_VERSE
-  show_monster |
-  description: show monster information |
-  short form: sm |
-#+END_VERSE
+*show_monster*
+*description:* show monster information 
+*short form:* sm
 
-#+BEGIN_VERSE
-  Values |
-  template monster id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *template monster id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_monster_sight [monster id] [sight]
-    :PROPERTIES:
-    :CUSTOM_ID: set_monster_sight-monster-id-sight
-    :END:
 
-#+BEGIN_VERSE
-  set_monster_sight |
-  description: set monster sight |
-  short form: sms |
-#+END_VERSE
+*set_monster_sight*
+*description:* set monster sight 
+*short form:* sms
 
-#+BEGIN_VERSE
-  Values |
-  monster id | sight | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *sight* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /test_character_attack [monster id]
-    :PROPERTIES:
-    :CUSTOM_ID: test_character_attack-monster-id
-    :END:
 
-#+BEGIN_VERSE
-  test_character_attack |
-  description: test character |
-  short form: tca |
-#+END_VERSE
+*test_character_attack*
+*description:* test character 
+*short form:* tca
 
-#+BEGIN_VERSE
-  Values |
-  monster id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /test_monster_attack [monster id]
-    :PROPERTIES:
-    :CUSTOM_ID: test_monster_attack-monster-id
-    :END:
 
-#+BEGIN_VERSE
-  test_monster_attack |
-  description: test monster |
-  short form: tma |
-#+END_VERSE
+*test_monster_attack*
+*description:* test monster 
+*short form:* tma
 
-#+BEGIN_VERSE
-  Values |
-  monster id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_sevel_grow [con] [str] [int] [dex] [vol] [max_hp] [max_mp]
-    :PROPERTIES:
-    :CUSTOM_ID: set_sevel_grow-con-str-int-dex-vol-max_hp-max_mp
-    :END:
 
-#+BEGIN_VERSE
-  set_sevel_grow |
-  description: set attr |
-  short form: set_level_grow |
-#+END_VERSE
+*set_sevel_grow*
+*description:* set attr 
+*short form:* set_level_grow
 
-#+BEGIN_VERSE
-  Values |
-  con | str | int | dex | vol | max_hp | max_mp | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *con* | *str* | *int* | *dex* | *vol* | *max_hp* | *max_mp* | |
+| *number* | *number* | *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /querylevelgrow
-    :PROPERTIES:
-    :CUSTOM_ID: querylevelgrow
-    :END:
 
-#+BEGIN_VERSE
-  querylevelgrow |
-  description: |
-  short form: query_level_grow |
-#+END_VERSE
+*querylevelgrow*
+*description:* 
+*short form:* query_level_grow
+
 
 --------------
 
 *** /set_item [item id] [word] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_item-item-id-word-number
-    :END:
 
-#+BEGIN_VERSE
-  set_item |
-  description: |
-#+END_VERSE
+*set_item*
+*description:* 
 
 --------------
 
 *** /save_monster [template monster id]
-    :PROPERTIES:
-    :CUSTOM_ID: save_monster-template-monster-id
-    :END:
 
-#+BEGIN_VERSE
-  save_monster |
-  description: save monster to db |
-#+END_VERSE
+*save_monster*
+*description:* save monster to db 
 
 --------------
 
 *** /get_effect_data [effect id]
-    :PROPERTIES:
-    :CUSTOM_ID: get_effect_data-effect-id
-    :END:
 
-#+BEGIN_VERSE
-  get_effect_data |
-  description: get effect data |
-  short form: ged |
-#+END_VERSE
+*get_effect_data*
+*description:* get effect data 
+*short form:* ged
 
-#+BEGIN_VERSE
-  Values |
-  effect id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect id* | |
+| *number* | |
+| | | 
 
 --------------
 
-*** /set_effect_data [effect id] [family type] [target type] [duration]
-[period] [width] [height] [enchant type] [resist type] [param min]
-[param max] [next id] [level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_effect_data-effect-id-family-type-target-type-duration-period-width-height-enchant-type-resist-type-param-min-param-max-next-id-level
-    :END:
+*** /set_effect_data [effect id] [family type] [target type] [duration] [period] [width] [height] [enchant type] [resist type] [param min] [param max] [next id] [level]
 
-#+BEGIN_VERSE
-  set_effect_data |
-  description: set effect data |
-  short form: sed |
-#+END_VERSE
+*set_effect_data*
+*description:* set effect data 
+*short form:* sed
 
-#+BEGIN_VERSE
-  Values |
-  effect id | family type | target type | duration | period | width | height | enchant type | resist type | param min | param max | next id | level | |
-  :----: | :----: | :----: |
-  number | word | word | number | number | number | number | word | word | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect id* | *family type* | *target type* | *duration* | *period* | *width* | *height* | *enchant type* | *resist type* | *param min* | *param max* | *next id* | *level* | |
+| *number* | *word* | *word* | *number* | *number* | *number* | *number* | *word* | *word* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_effect_command [effect id] [command type] [commands]
-    :PROPERTIES:
-    :CUSTOM_ID: set_effect_command-effect-id-command-type-commands
-    :END:
 
-#+BEGIN_VERSE
-  set_effect_command |
-  description: set effect command |
-  short form: sec |
-#+END_VERSE
+*set_effect_command*
+*description:* set effect command 
+*short form:* sec
 
-#+BEGIN_VERSE
-  Values |
-  effect id | command type | commands | |
-  :----: | :----: | :----: |
-  number | word | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect id* | *command type* | *commands* | |
+| *number* | *word* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /get_spell_data [spell id]
-    :PROPERTIES:
-    :CUSTOM_ID: get_spell_data-spell-id
-    :END:
 
-#+BEGIN_VERSE
-  get_spell_data |
-  description: get spell data |
-  short form: gsd |
-#+END_VERSE
+*get_spell_data*
+*description:* get spell data 
+*short form:* gsd
 
-#+BEGIN_VERSE
-  Values |
-  spell id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *spell id* | |
+| *number* | |
+| | | 
 
 --------------
 
-*** /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount]
-[seconds] [width] [height] [patrol_id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_reborn_monster-handle-x-y-monster_temp_id-amount-seconds-width-height-patrol_id
-    :END:
+*** /set_reborn_monster [handle] [x] [y] [monster_temp_id] [amount] [seconds] [width] [height] [patrol_id]
 
-#+BEGIN_VERSE
-  set_reborn_monster |
-  description: reborn mober binding |
-  short form: srm |
-#+END_VERSE
+*set_reborn_monster*
+*description:* reborn mober binding 
+*short form:* srm
 
-#+BEGIN_VERSE
-  Values |
-  handle | x | y | monster_temp_id | amount | seconds | width | height | patrol_id | |
-  :----: | :----: | :----: |
-  number | word | word | number | number | number | word | word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *handle* | *x* | *y* | *monster_temp_id* | *amount* | *seconds* | *width* | *height* | *patrol_id* | |
+| *number* | *word* | *word* | *number* | *number* | *number* | *word* | *word* | *number* | |
+| | | 
 
 --------------
 
 *** /get_all_template_monsters
-    :PROPERTIES:
-    :CUSTOM_ID: get_all_template_monsters
-    :END:
 
-#+BEGIN_VERSE
-  get_all_template_monsters |
-  description: get all template monster |
-  short form: gatm |
-#+END_VERSE
+*get_all_template_monsters*
+*description:* get all template monster 
+*short form:* gatm
+
 
 --------------
 
 *** /monster_goto [monster id] [x] [y]
-    :PROPERTIES:
-    :CUSTOM_ID: monster_goto-monster-id-x-y
-    :END:
 
-#+BEGIN_VERSE
-  monster_goto |
-  description: goto x y |
-  short form: wm |
-#+END_VERSE
+*monster_goto*
+*description:* goto x y 
+*short form:* wm
 
-#+BEGIN_VERSE
-  Values |
-  monster id | x | y | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *x* | *y* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /around_kill_all [radius]
-    :PROPERTIES:
-    :CUSTOM_ID: around_kill_all-radius
-    :END:
 
-#+BEGIN_VERSE
-  around_kill_all |
-  description: around kill all |
-  short form: aka |
-#+END_VERSE
+*around_kill_all*
+*description:* around kill all 
+*short form:* aka
 
-#+BEGIN_VERSE
-  Values |
-  radius | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *radius* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /around_kill [monster id] [radius]
-    :PROPERTIES:
-    :CUSTOM_ID: around_kill-monster-id-radius
-    :END:
 
-#+BEGIN_VERSE
-  around_kill |
-  description: around kill |
-  short form: ak |
-#+END_VERSE
+*around_kill*
+*description:* around kill 
+*short form:* ak
 
-#+BEGIN_VERSE
-  Values |
-  monster id | radius | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *radius* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /query_test_attack_monster
-    :PROPERTIES:
-    :CUSTOM_ID: query_test_attack_monster
-    :END:
 
-#+BEGIN_VERSE
-  query_test_attack_monster |
-  description: query test attack monster |
-  short form: qtam |
-#+END_VERSE
+*query_test_attack_monster*
+*description:* query test attack monster 
+*short form:* qtam
+
 
 --------------
 
 *** /reload_reborn_monster [node id]
-    :PROPERTIES:
-    :CUSTOM_ID: reload_reborn_monster-node-id
-    :END:
 
-#+BEGIN_VERSE
-  reload_reborn_monster |
-  description: reload reborn monster |
-  short form: rrm |
-#+END_VERSE
+*reload_reborn_monster*
+*description:* reload reborn monster 
+*short form:* rrm
 
-#+BEGIN_VERSE
-  Values |
-  node id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /list_pms [pms_id]
-    :PROPERTIES:
-    :CUSTOM_ID: list_pms-pms_id
-    :END:
 
-#+BEGIN_VERSE
-  list_pms |
-  description: list pms info on this character |
-  short form: listpms |
-#+END_VERSE
+*list_pms*
+*description:* list pms info on this character 
+*short form:* listpms
 
-#+BEGIN_VERSE
-  Values |
-  pms_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *pms_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /echobyid [greeting_id]
-    :PROPERTIES:
-    :CUSTOM_ID: echobyid-greeting_id
-    :END:
 
-#+BEGIN_VERSE
-  echobyid |
-  description: show message without prompt by greeting_id |
-#+END_VERSE
+*echobyid*
+*description:* show message without prompt by greeting_id 
 
 --------------
 
 *** /change_hair_color [color_id]
-    :PROPERTIES:
-    :CUSTOM_ID: change_hair_color-color_id
-    :END:
 
-#+BEGIN_VERSE
-  change_hair_color |
-  description: change character hair color |
-  short form: chc |
-#+END_VERSE
+*change_hair_color*
+*description:* change character hair color 
+*short form:* chc
 
-#+BEGIN_VERSE
-  Values |
-  color_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /change_hair [hair_id]
-    :PROPERTIES:
-    :CUSTOM_ID: change_hair-hair_id
-    :END:
 
-#+BEGIN_VERSE
-  change_hair |
-  description: change character hair |
-  short form: ch |
-#+END_VERSE
+*change_hair*
+*description:* change character hair 
+*short form:* ch
 
-#+BEGIN_VERSE
-  Values |
-  hair_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *hair_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reload_effect
-    :PROPERTIES:
-    :CUSTOM_ID: reload_effect
-    :END:
 
-#+BEGIN_VERSE
-  reload_effect |
-  description: reload effect data |
-#+END_VERSE
+*reload_effect*
+*description:* reload effect data 
 
 --------------
 
 *** /reload_template_monster
-    :PROPERTIES:
-    :CUSTOM_ID: reload_template_monster
-    :END:
 
-#+BEGIN_VERSE
-  reload_template_monster |
-  description: reload template_monster data |
-#+END_VERSE
+*reload_template_monster*
+*description:* reload template_monster data 
 
 --------------
 
 *** /summon_pet [template_id]
-    :PROPERTIES:
-    :CUSTOM_ID: summon_pet-template_id
-    :END:
 
-#+BEGIN_VERSE
-  summon_pet |
-  description: summon pet |
-#+END_VERSE
+*summon_pet*
+*description:* summon pet 
 
 --------------
 
 *** /gain_skill_point [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_skill_point-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_skill_point |
-  description: gain skill point |
-  short form: gsp |
-#+END_VERSE
+*gain_skill_point*
+*description:* gain skill point 
+*short form:* gsp
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /node [message]
-    :PROPERTIES:
-    :CUSTOM_ID: node-message
-    :END:
 
-#+BEGIN_VERSE
-  node |
-  description: say to all man in node |
-  short form: n |
-#+END_VERSE
+*node*
+*description:* say to all man in node 
+*short form:* n
 
-#+BEGIN_VERSE
-  Values |
-  message | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *message* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /system_area [area_id] [message]
-    :PROPERTIES:
-    :CUSTOM_ID: system_area-area_id-message
-    :END:
 
-#+BEGIN_VERSE
-  system_area |
-  description: announce something from system |
-  short form: sysarea |
-#+END_VERSE
+*system_area*
+*description:* announce something from system 
+*short form:* sysarea
 
-#+BEGIN_VERSE
-  Values |
-  area_id | message | |
-  :----: | :----: | :----: |
-  word | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *area_id* | *message* | |
+| *word* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /fatality_damage [LiftEntity_id]
-    :PROPERTIES:
-    :CUSTOM_ID: fatality_damage-liftentity_id
-    :END:
 
-#+BEGIN_VERSE
-  fatality_damage |
-  description: set LiftEntity HP = MP = 1 |
-  short form: fd |
-#+END_VERSE
+*fatality_damage*
+*description:* set LiftEntity HP = MP = 1 
+*short form:* fd
 
-#+BEGIN_VERSE
-  Values |
-  LiftEntity_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *LiftEntity_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /restore_all
-    :PROPERTIES:
-    :CUSTOM_ID: restore_all
-    :END:
 
-#+BEGIN_VERSE
-  restore_all |
-  description: restore the hp |
-#+END_VERSE
+*restore_all*
+*description:* restore the hp 
 
 --------------
 
 *** /clear_near_items
-    :PROPERTIES:
-    :CUSTOM_ID: clear_near_items
-    :END:
 
-#+BEGIN_VERSE
-  clear_near_items |
-  description: clear near items around caster |
-#+END_VERSE
+*clear_near_items*
+*description:* clear near items around caster 
 
 --------------
 
 *** /get_server_id
-    :PROPERTIES:
-    :CUSTOM_ID: get_server_id
-    :END:
 
-#+BEGIN_VERSE
-  get_server_id |
-  description: get zoneserver id |
-#+END_VERSE
+*get_server_id*
+*description:* get zoneserver id 
 
 --------------
 
 *** /test_durability [mob id] [loc] [durability]
-    :PROPERTIES:
-    :CUSTOM_ID: test_durability-mob-id-loc-durability
-    :END:
 
-#+BEGIN_VERSE
-  test_durability |
-  description: test durability decrease in attacked |
-  short form: td |
-#+END_VERSE
+*test_durability*
+*description:* test durability decrease in attacked 
+*short form:* td
 
-#+BEGIN_VERSE
-  Values |
-  mob id | loc | durability | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *mob id* | *loc* | *durability* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /test_spell_attack [monster id] [spell id] [spell lv] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: test_spell_attack-monster-id-spell-id-spell-lv-number
-    :END:
 
-#+BEGIN_VERSE
-  test_spell_attack |
-  description: test character |
-  short form: tsa |
-#+END_VERSE
+*test_spell_attack*
+*description:* test character 
+*short form:* tsa
 
-#+BEGIN_VERSE
-  Values |
-  monster id | spell id | spell lv | number | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *spell id* | *spell lv* | *number* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /test_drop_treasure [monster id] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: test_drop_treasure-monster-id-number
-    :END:
 
-#+BEGIN_VERSE
-  test_drop_treasure |
-  description: test drop treasure |
-  short form: tdt |
-#+END_VERSE
+*test_drop_treasure*
+*description:* test drop treasure 
+*short form:* tdt
 
-#+BEGIN_VERSE
-  Values |
-  monster id | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /test_pk [monster id]
-    :PROPERTIES:
-    :CUSTOM_ID: test_pk-monster-id
-    :END:
 
-#+BEGIN_VERSE
-  test_pk |
-  description: test pk |
-  short form: tpk |
-#+END_VERSE
+*test_pk*
+*description:* test pk 
+*short form:* tpk
 
-#+BEGIN_VERSE
-  Values |
-  monster id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *monster id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /surprise_box [SurpriseBoxID]
-    :PROPERTIES:
-    :CUSTOM_ID: surprise_box-surpriseboxid
-    :END:
 
-#+BEGIN_VERSE
-  surprise_box |
-  description: invoke surprise box |
-  short form: sb |
-#+END_VERSE
+*surprise_box*
+*description:* invoke surprise box 
+*short form:* sb
 
-#+BEGIN_VERSE
-  Values |
-  SurpriseBoxID | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *SurpriseBoxID* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /SetExtBornMonster [num] [time sec]
-    :PROPERTIES:
-    :CUSTOM_ID: setextbornmonster-num-time-sec
-    :END:
 
-#+BEGIN_VERSE
-  SetExtBornMonster |
-  description: extern born monster |
-  short form: setextbornmonster |
-#+END_VERSE
+*SetExtBornMonster*
+*description:* extern born monster 
+*short form:* setextbornmonster
 
-#+BEGIN_VERSE
-  Values |
-  num | time sec | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sebm |
-#+END_VERSE
+*Values*
+| *num* | *time sec* | |
+| *number* | *number* | |
+| | | 
+*short form:* sebm
 
-#+BEGIN_VERSE
-  Values |
-  num | time sec | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *num* | *time sec* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_family_level [fm_level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_family_level-fm_level
-    :END:
 
-#+BEGIN_VERSE
-  set_family_level |
-  description: set family level |
-  short form: sflv |
-#+END_VERSE
+*set_family_level*
+*description:* set family level 
+*short form:* sflv
 
-#+BEGIN_VERSE
-  Values |
-  fm_level | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *fm_level* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_level_up
-    :PROPERTIES:
-    :CUSTOM_ID: family_level_up
-    :END:
 
-#+BEGIN_VERSE
-  family_level_up |
-  description: family level up |
-#+END_VERSE
+*family_level_up*
+*description:* family level up 
 
 --------------
 
 *** /set_family_emblem [emblem1] [emblem2]
-    :PROPERTIES:
-    :CUSTOM_ID: set_family_emblem-emblem1-emblem2
-    :END:
 
-#+BEGIN_VERSE
-  set_family_emblem |
-  description: set family emblem |
-  short form: sfe |
-#+END_VERSE
+*set_family_emblem*
+*description:* set family emblem 
+*short form:* sfe
 
-#+BEGIN_VERSE
-  Values |
-  emblem1 | emblem2 | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *emblem1* | *emblem2* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /select_family_emblem
-    :PROPERTIES:
-    :CUSTOM_ID: select_family_emblem
-    :END:
 
-#+BEGIN_VERSE
-  select_family_emblem |
-  description: select family emblem |
-#+END_VERSE
+*select_family_emblem*
+*description:* select family emblem 
 
 --------------
 
 *** /open_exploit_rank
-    :PROPERTIES:
-    :CUSTOM_ID: open_exploit_rank
-    :END:
 
-#+BEGIN_VERSE
-  open_exploit_rank |
-  description: Open Exploit Rank |
-#+END_VERSE
+*open_exploit_rank*
+*description:* Open Exploit Rank 
 
 --------------
 
 *** /reload_formula_params
-    :PROPERTIES:
-    :CUSTOM_ID: reload_formula_params
-    :END:
 
-#+BEGIN_VERSE
-  reload_formula_params |
-  description: reload formula parameters |
-#+END_VERSE
+*reload_formula_params*
+*description:* reload formula parameters 
 
 --------------
 
 *** /reload_grow_table
-    :PROPERTIES:
-    :CUSTOM_ID: reload_grow_table
-    :END:
 
-#+BEGIN_VERSE
-  reload_grow_table |
-  description: reload grow table |
-#+END_VERSE
+*reload_grow_table*
+*description:* reload grow table 
 
 --------------
 
 *** /give_exploit [exploit amount],
-    :PROPERTIES:
-    :CUSTOM_ID: give_exploit-exploit-amount
-    :END:
 
-#+BEGIN_VERSE
-  give_exploit |
-  description: |
-#+END_VERSE
+*give_exploit*
+*description:* 
 
 --------------
 
 *** /RepairAllEquipment
-    :PROPERTIES:
-    :CUSTOM_ID: repairallequipment
-    :END:
 
-#+BEGIN_VERSE
-  RepairAllEquipment |
-  description: RepairAllEquipment |
-  short form: repairallequipment |
-#+END_VERSE
+*RepairAllEquipment*
+*description:* RepairAllEquipment 
+*short form:* repairallequipment
+
 
 --------------
 
 *** /trace [receive_id] [target_name]
-    :PROPERTIES:
-    :CUSTOM_ID: trace-receive_id-target_name
-    :END:
 
-#+BEGIN_VERSE
-  trace |
-  description: Trace a character by name |
-#+END_VERSE
+*trace*
+*description:* Trace a character by name 
 
 --------------
 
 *** /drill_item [slot] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: drill_item-slot-number
-    :END:
 
-#+BEGIN_VERSE
-  drill_item |
-  description: DrillItem |
-#+END_VERSE
+*drill_item*
+*description:* DrillItem 
 
 --------------
 
 *** /fubag [id]
-    :PROPERTIES:
-    :CUSTOM_ID: fubag-id
-    :END:
 
-#+BEGIN_VERSE
-  fubag |
-  description: fortune bag item |
-#+END_VERSE
+*fubag*
+*description:* fortune bag item 
 
 --------------
 
 *** /aw_put_treasure [id] [amount]
-    :PROPERTIES:
-    :CUSTOM_ID: aw_put_treasure-id-amount
-    :END:
 
-#+BEGIN_VERSE
-  aw_put_treasure |
-  description: put treasure all world |
-  short form: awpt |
-#+END_VERSE
+*aw_put_treasure*
+*description:* put treasure all world 
+*short form:* awpt
 
-#+BEGIN_VERSE
-  Values |
-  id | amount | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | *amount* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /setfms [ch_id] [mission_id] [value]
-    :PROPERTIES:
-    :CUSTOM_ID: setfms-ch_id-mission_id-value
-    :END:
 
-#+BEGIN_VERSE
-  setfms |
-  description: set fms value on this character |
-  short form: setf |
-#+END_VERSE
+*setfms*
+*description:* set fms value on this character 
+*short form:* setf
 
-#+BEGIN_VERSE
-  Values |
-  ch_id | mission_id | value | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *ch_id* | *mission_id* | *value* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
-*** /clone_quest_treasure [item_id] [number] [node_id] [x] [y]
-[template_id]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_quest_treasure-item_id-number-node_id-x-y-template_id
-    :END:
+*** /clone_quest_treasure [item_id] [number] [node_id] [x] [y] [template_id]
 
-#+BEGIN_VERSE
-  clone_quest_treasure |
-  description: drop quest item |
-#+END_VERSE
+*clone_quest_treasure*
+*description:* drop quest item 
 
 --------------
 
 *** /set_bag_time [index] [time]
-    :PROPERTIES:
-    :CUSTOM_ID: set_bag_time-index-time
-    :END:
 
-#+BEGIN_VERSE
-  set_bag_time |
-  description: set the due date for bags |
-  short form: sbt |
-#+END_VERSE
+*set_bag_time*
+*description:* set the due date for bags 
+*short form:* sbt
 
-#+BEGIN_VERSE
-  Values |
-  index | time | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *index* | *time* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gain_family_exp [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_family_exp-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_family_exp |
-  description: gain family exp |
-  short form: gfe |
-#+END_VERSE
+*gain_family_exp*
+*description:* gain family exp 
+*short form:* gfe
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_prestige_level [prestige_id] [level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_prestige_level-prestige_id-level
-    :END:
 
-#+BEGIN_VERSE
-  set_prestige_level |
-  description: set prestige level |
-  short form: spl |
-#+END_VERSE
+*set_prestige_level*
+*description:* set prestige level 
+*short form:* spl
 
-#+BEGIN_VERSE
-  Values |
-  prestige_id | level | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *prestige_id* | *level* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gain_prestige_exp [prestige_id] [exp]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_prestige_exp-prestige_id-exp
-    :END:
 
-#+BEGIN_VERSE
-  gain_prestige_exp |
-  description: gain prestige exp |
-  short form: gpe |
-#+END_VERSE
+*gain_prestige_exp*
+*description:* gain prestige exp 
+*short form:* gpe
 
-#+BEGIN_VERSE
-  Values |
-  prestige_id | exp | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *prestige_id* | *exp* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /cast_spell [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: cast_spell-number-number
-    :END:
 
-#+BEGIN_VERSE
-  cast_spell |
-  description: cast spell to life |
-  short form: cs |
-#+END_VERSE
+*cast_spell*
+*description:* cast spell to life 
+*short form:* cs
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_sys_var [word] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_sys_var-word-number
-    :END:
 
-#+BEGIN_VERSE
-  set_sys_var |
-  description: set system varaible |
-  short form: ssv |
-#+END_VERSE
+*set_sys_var*
+*description:* set system varaible 
+*short form:* ssv
 
-#+BEGIN_VERSE
-  Values |
-  word | number | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *word* | *number* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /add_appellation [appellation_id]
-    :PROPERTIES:
-    :CUSTOM_ID: add_appellation-appellation_id
-    :END:
 
-#+BEGIN_VERSE
-  add_appellation |
-  description: add appellation |
-  short form: aa |
-#+END_VERSE
+*add_appellation*
+*description:* add appellation 
+*short form:* aa
 
-#+BEGIN_VERSE
-  Values |
-  appellation_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *appellation_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_present_appellation [appellation_id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_present_appellation-appellation_id
-    :END:
 
-#+BEGIN_VERSE
-  set_present_appellation |
-  description: set present appellation |
-  short form: spa |
-#+END_VERSE
+*set_present_appellation*
+*description:* set present appellation 
+*short form:* spa
 
-#+BEGIN_VERSE
-  Values |
-  appellation_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: add_elf |
-#+END_VERSE
+*Values*
+| *appellation_id* | |
+| *number* | |
+| | | 
+*short form:* add_elf
 
-#+BEGIN_VERSE
-  Values |
-  appellation_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ae |
-#+END_VERSE
+*Values*
+| *appellation_id* | |
+| *number* | |
+| | | 
+*short form:* ae
 
-#+BEGIN_VERSE
-  Values |
-  appellation_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *appellation_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /remove_elf [elf_loc]
-    :PROPERTIES:
-    :CUSTOM_ID: remove_elf-elf_loc
-    :END:
 
-#+BEGIN_VERSE
-  remove_elf |
-  description: remove elf |
-  short form: elf_skill |
-#+END_VERSE
+*remove_elf*
+*description:* remove elf 
+*short form:* elf_skill
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  add 1/remove 0 | elf_loc | skill_id | |
-  :----: | :----: | :----: |
-  | |
-  short form: elf_skill |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *add 1/remove 0* | *elf_loc* | *skill_id* | |
+| | | 
+*short form:* elf_skill
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_level |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | *number* | |
+| | | 
+*short form:* set_elf_level
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  elf_loc | level | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_level |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *elf_loc* | *level* | |
+| | | 
+*short form:* set_elf_level
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sel |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* sel
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_mood |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* set_elf_mood
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  elf_loc | mood | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_mood |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *elf_loc* | *mood* | |
+| | | 
+*short form:* set_elf_mood
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sem |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* sem
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: use_item_to |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* use_item_to
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  inv/equ | container_index | loc | target_id | param | |
-  :----: | :----: | :----: |
-  | |
-  short form: use_item_to |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *inv/equ* | *container_index* | *loc* | *target_id* | *param* | |
+| | | 
+*short form:* use_item_to
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  word | number | number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-  short form: uit |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *word* | *number* | *number* | *number* | *rest_input* | |
+| | | 
+*short form:* uit
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  word | number | number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_spell_card |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *word* | *number* | *number* | *number* | *rest_input* | |
+| | | 
+*short form:* set_spell_card
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  index | item_number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_spell_card |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *index* | *item_number* | |
+| | | 
+*short form:* set_spell_card
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ssc |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* ssc
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: gain_elf_exp |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* gain_elf_exp
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  elf_loc | exp | |
-  :----: | :----: | :----: |
-  | |
-  short form: gain_elf_exp |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *elf_loc* | *exp* | |
+| | | 
+*short form:* gain_elf_exp
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: gee |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* gee
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: gain_elf_familiar |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* gain_elf_familiar
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  elf_loc | familiar | |
-  :----: | :----: | :----: |
-  | |
-  short form: gain_elf_familiar |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *elf_loc* | *familiar* | |
+| | | 
+*short form:* gain_elf_familiar
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: gef |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* gef
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: show_debug_message |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* show_debug_message
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  0/1 | |
-  :----: | :----: | :----: |
-  | |
-  short form: show_debug_message |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *0/1* | |
+| | | 
+*short form:* show_debug_message
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sdm |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | |
+| | | 
+*short form:* sdm
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_log_level |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | |
+| | | 
+*short form:* set_log_level
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  server | level | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_log_level |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *server* | *level* | |
+| | | 
+*short form:* set_log_level
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: slog |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *word* | *number* | |
+| | | 
+*short form:* slog
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_assert |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *word* | *number* | |
+| | | 
+*short form:* set_assert
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  server | 0/1 | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_assert |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *server* | *0/1* | |
+| | | 
+*short form:* set_assert
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_spell_card_attr |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *word* | *number* | |
+| | | 
+*short form:* set_spell_card_attr
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  value | value | value | value | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_spell_card_attr |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *value* | *value* | *value* | *value* | |
+| | | 
+*short form:* set_spell_card_attr
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_action |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
+*short form:* set_elf_action
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  loc | animation_id | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_action |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *loc* | *animation_id* | |
+| | | 
+*short form:* set_elf_action
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sea |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* sea
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: inside |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* inside
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  class | |
-  :----: | :----: | :----: |
-  | |
-  short form: inside |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *class* | |
+| | | 
+*short form:* inside
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: auction_sell |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | |
+| | | 
+*short form:* auction_sell
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  item_id | amount | |
-  :----: | :----: | :----: |
-  | |
-  short form: auction_sell |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *item_id* | *amount* | |
+| | | 
+*short form:* auction_sell
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: as |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* as
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: friend_together: player add frined |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* friend_together: player add frined
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: friend_together |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* friend_together
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: reload_itemmall_db: reload itemmall db |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* reload_itemmall_db: reload itemmall db
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: reload_itemmall_db |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* reload_itemmall_db
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_exp: set node exp rate |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* set_node_exp: set node exp rate
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_exp |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* set_node_exp
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sne |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* sne
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_gold: set node gold rate |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* set_node_gold: set node gold rate
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_gold |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* set_node_gold
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: sng |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* sng
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_drop: set node drop rate |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* set_node_drop: set node drop rate
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_node_drop |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* set_node_drop
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: snd |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* snd
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: show_hate: Show Character All Hate |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | *number* | |
+| | | 
+*short form:* show_hate: Show Character All Hate
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  | |
-  short form: show_hate |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| | | 
+*short form:* show_hate
 
-#+BEGIN_VERSE
-  Values |
-  elf_loc | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *elf_loc* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /clone item [item_id] [combo_id]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-item-item_id-combo_id
-    :END:
 
-#+BEGIN_VERSE
-  cloneitem |
-  description: clone an item which template id is [item_id] and combo id is [combo_id] |
-  short form: clone_item |
-#+END_VERSE
+*cloneitem *
+*description:* clone an item which template id is [item_id] and combo id is [combo_id] 
+*short form:* clone_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ci |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | |
+| *number* | *number* | |
+| | | 
+*short form:* ci
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone item [item_id] [combo_id] [socket_amount]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-item-item_id-combo_id-socket_amount
-    :END:
 
-#+BEGIN_VERSE
-  cloneitem |
-  description: clone an item which template id is [item_id] and combo id is [combo_id] |
-  short form: clone_item |
-#+END_VERSE
+*cloneitem *
+*description:* clone an item which template id is [item_id] and combo id is [combo_id] 
+*short form:* clone_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | socket_amount | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ci |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | *socket_amount* | |
+| *number* | *number* | *number* | |
+| | | 
+*short form:* ci
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | socket_amount | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | *socket_amount* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /return item [receiver_id] [log]
-    :PROPERTIES:
-    :CUSTOM_ID: return-item-receiver_id-log
-    :END:
 
-#+BEGIN_VERSE
-  returnitem |
-  description: use mail return an item to player from log |
-  short form: return_item |
-#+END_VERSE
+*returnitem *
+*description:* use mail return an item to player from log 
+*short form:* return_item
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | log | |
-  :----: | :----: | :----: |
-  number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-  short form: ri |
-#+END_VERSE
+*Values*
+| *receiver_id* | *log* | |
+| *number* | *rest_input* | |
+| | | 
+*short form:* ri
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | log | |
-  :----: | :----: | :----: |
-  number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *receiver_id* | *log* | |
+| *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /call elf [loc]
-    :PROPERTIES:
-    :CUSTOM_ID: call-elf-loc
-    :END:
 
-#+BEGIN_VERSE
-  callelf |
-  description: call elf which loc is [loc] |
-  short form: call_elf |
-#+END_VERSE
+*callelf *
+*description:* call elf which loc is [loc] 
+*short form:* call_elf
 
-#+BEGIN_VERSE
-  Values |
-  loc | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *loc* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /return gold [receiver_id] [gold]
-    :PROPERTIES:
-    :CUSTOM_ID: return-gold-receiver_id-gold
-    :END:
 
-#+BEGIN_VERSE
-  returngold |
-  description: use mail return gold to player |
-  short form: return_gold |
-#+END_VERSE
+*returngold *
+*description:* use mail return gold to player 
+*short form:* return_gold
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | gold | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: rg |
-#+END_VERSE
+*Values*
+| *receiver_id* | *gold* | |
+| *number* | *number* | |
+| | | 
+*short form:* rg
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | gold | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: fight switch |
-#+END_VERSE
+*Values*
+| *receiver_id* | *gold* | |
+| *number* | *number* | |
+| | | 
+*short form:* fight switch
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | gold | |
-  :----: | :----: | :----: |
-  0/1 | fight_tid | seconds | |
-  :----: | :----: | :----: |
-  | |
-  short form: fight_switch |
-#+END_VERSE
+*Values*
+| *receiver_id* | *gold* | |
+| *0/1* | *fight_tid* | *seconds* | |
+| | | 
+*short form:* fight_switch
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | gold | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: fs |
-#+END_VERSE
+*Values*
+| *receiver_id* | *gold* | |
+| *number* | *number* | *number* | |
+| | | 
+*short form:* fs
 
-#+BEGIN_VERSE
-  Values |
-  receiver_id | gold | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *receiver_id* | *gold* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone_npc [npc_id]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_npc-npc_id
-    :END:
 
-#+BEGIN_VERSE
-  clone_npc |
-  description: clone npc |
-  short form: cn |
-#+END_VERSE
+*clone_npc*
+*description:* clone npc 
+*short form:* cn
 
-#+BEGIN_VERSE
-  Values |
-  npc_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *npc_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /around_kill_all_player [radius]
-    :PROPERTIES:
-    :CUSTOM_ID: around_kill_all_player-radius
-    :END:
 
-#+BEGIN_VERSE
-  around_kill_all_player |
-  description: around kill all player |
-  short form: akap |
-#+END_VERSE
+*around_kill_all_player*
+*description:* around kill all player 
+*short form:* akap
 
-#+BEGIN_VERSE
-  Values |
-  radius | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *radius* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /captcha_id [id] [type]
-    :PROPERTIES:
-    :CUSTOM_ID: captcha_id-id-type
-    :END:
 
-#+BEGIN_VERSE
-  captcha_id |
-  description: captcha_id [id] [type] |
-  short form: capid |
-#+END_VERSE
+*captcha_id*
+*description:* captcha_id [id] [type] 
+*short form:* capid
 
-#+BEGIN_VERSE
-  Values |
-  id | type | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | *type* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /captcha_name [given_word] [type]
-    :PROPERTIES:
-    :CUSTOM_ID: captcha_name-given_word-type
-    :END:
 
-#+BEGIN_VERSE
-  captcha_name |
-  description: captcha_name [given_name] [type] |
-  short form: capname |
-#+END_VERSE
+*captcha_name*
+*description:* captcha_name [given_name] [type] 
+*short form:* capname
 
-#+BEGIN_VERSE
-  Values |
-  given_word | type | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_word* | *type* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /change_grow_type [growid]
-    :PROPERTIES:
-    :CUSTOM_ID: change_grow_type-growid
-    :END:
 
-#+BEGIN_VERSE
-  change_grow_type |
-  description: change_grow_type [growid] |
-  short form: cgt |
-#+END_VERSE
+*change_grow_type*
+*description:* change_grow_type [growid] 
+*short form:* cgt
 
-#+BEGIN_VERSE
-  Values |
-  growid | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *growid* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /clear_bag_item
-    :PROPERTIES:
-    :CUSTOM_ID: clear_bag_item
-    :END:
 
-#+BEGIN_VERSE
-  clear_bag_item |
-  description: clear bag item |
-#+END_VERSE
+*clear_bag_item*
+*description:* clear bag item 
 
 --------------
 
 *** /set_statue [node] [id] [action] [key]
-    :PROPERTIES:
-    :CUSTOM_ID: set_statue-node-id-action-key
-    :END:
 
-#+BEGIN_VERSE
-  set_statue |
-  description: set statue |
-  short form: sst |
-#+END_VERSE
+*set_statue*
+*description:* set statue 
+*short form:* sst
 
-#+BEGIN_VERSE
-  Values |
-  node | id | action | key | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node* | *id* | *action* | *key* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /bf_ch_num [bf_type] [level_type] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: bf_ch_num-bf_type-level_type-number
-    :END:
 
-#+BEGIN_VERSE
-  bf_ch_num |
-  description: bf_ch_num |
-#+END_VERSE
+*bf_ch_num*
+*description:* bf_ch_num 
 
 --------------
 
 *** /bf_open [open] [bf_today_type]
-    :PROPERTIES:
-    :CUSTOM_ID: bf_open-open-bf_today_type
-    :END:
 
-#+BEGIN_VERSE
-  bf_open |
-  description: bf_open |
-#+END_VERSE
+*bf_open*
+*description:* bf_open 
 
 --------------
 
 *** /gain_love_coin [coin]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_love_coin-coin
-    :END:
 
-#+BEGIN_VERSE
-  gain_love_coin |
-  description: gain_love_coin |
-  short form: glc |
-#+END_VERSE
+*gain_love_coin*
+*description:* gain_love_coin 
+*short form:* glc
 
-#+BEGIN_VERSE
-  Values |
-  coin | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *coin* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /remove_enchant [id] [isteam]
-    :PROPERTIES:
-    :CUSTOM_ID: remove_enchant-id-isteam
-    :END:
 
-#+BEGIN_VERSE
-  remove_enchant |
-  description: remove enchant |
-#+END_VERSE
+*remove_enchant*
+*description:* remove enchant 
 
 --------------
 
 *** /visit_family_instance [family_name]
-    :PROPERTIES:
-    :CUSTOM_ID: visit_family_instance-family_name
-    :END:
 
-#+BEGIN_VERSE
-  visit_family_instance |
-  description: visit_family_instance |
-  short form: vfi |
-#+END_VERSE
+*visit_family_instance*
+*description:* visit_family_instance 
+*short form:* vfi
 
-#+BEGIN_VERSE
-  Values |
-  family_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *family_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /gain_building_exp [loc] [exp]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_building_exp-loc-exp
-    :END:
 
-#+BEGIN_VERSE
-  gain_building_exp |
-  description: gain_building_exp |
-  short form: gbe |
-#+END_VERSE
+*gain_building_exp*
+*description:* gain_building_exp 
+*short form:* gbe
 
-#+BEGIN_VERSE
-  Values |
-  loc | exp | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *loc* | *exp* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gain_family_treasury [money]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_family_treasury-money
-    :END:
 
-#+BEGIN_VERSE
-  gain_family_treasury |
-  description: gain family treasury |
-  short form: gft |
-#+END_VERSE
+*gain_family_treasury*
+*description:* gain family treasury 
+*short form:* gft
 
-#+BEGIN_VERSE
-  Values |
-  money | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *money* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /gain_building_durability [loc] [durability]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_building_durability-loc-durability
-    :END:
 
-#+BEGIN_VERSE
-  gain_building_durability |
-  description: gain building durability |
-  short form: gbd |
-#+END_VERSE
+*gain_building_durability*
+*description:* gain building durability 
+*short form:* gbd
 
-#+BEGIN_VERSE
-  Values |
-  loc | durability | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *loc* | *durability* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /achievement_item [achievement_id]
-    :PROPERTIES:
-    :CUSTOM_ID: achievement_item-achievement_id
-    :END:
 
-#+BEGIN_VERSE
-  achievement_item |
-  description: achievement_item |
-#+END_VERSE
+*achievement_item*
+*description:* achievement_item 
 
 --------------
 
 *** /create_town [node_id]
-    :PROPERTIES:
-    :CUSTOM_ID: create_town-node_id
-    :END:
 
-#+BEGIN_VERSE
-  create_town |
-  description: create_town |
-#+END_VERSE
+*create_town*
+*description:* create_town 
 
 --------------
 
 *** /set_territory_open [territory_tid] [duration]
-    :PROPERTIES:
-    :CUSTOM_ID: set_territory_open-territory_tid-duration
-    :END:
 
-#+BEGIN_VERSE
-  set_territory_open |
-  description: set_territory_open |
-#+END_VERSE
+*set_territory_open*
+*description:* set_territory_open 
 
 --------------
 
 *** /clone item [item_id] [combo_id] [socket_amount] [color]
-    :PROPERTIES:
-    :CUSTOM_ID: clone-item-item_id-combo_id-socket_amount-color
-    :END:
 
-#+BEGIN_VERSE
-  cloneitem |
-  description: clone an item which template id is [item_id] and combo id is [combo_id] |
-  short form: clone_item |
-#+END_VERSE
+*cloneitem *
+*description:* clone an item which template id is [item_id] and combo id is [combo_id] 
+*short form:* clone_item
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | socket_amount | color | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ci |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | *socket_amount* | *color* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
+*short form:* ci
 
-#+BEGIN_VERSE
-  Values |
-  item_id | combo_id | socket_amount | color | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *item_id* | *combo_id* | *socket_amount* | *color* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /screenmsg [type] [msg]
-    :PROPERTIES:
-    :CUSTOM_ID: screenmsg-type-msg
-    :END:
 
-#+BEGIN_VERSE
-  screenmsg |
-  description: show screenmsg |
-#+END_VERSE
+*screenmsg*
+*description:* show screenmsg 
 
 --------------
 
 *** /set_blocklogin [char_id] [flag_id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_blocklogin-char_id-flag_id
-    :END:
 
-#+BEGIN_VERSE
-  set_blocklogin |
-  description: set block login value |
-  short form: sbl |
-#+END_VERSE
+*set_blocklogin*
+*description:* set block login value 
+*short form:* sbl
 
-#+BEGIN_VERSE
-  Values |
-  char_id | flag_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *char_id* | *flag_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_useblocklogin [flag_id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_useblocklogin-flag_id
-    :END:
 
-#+BEGIN_VERSE
-  set_useblocklogin |
-  description: set use block login value |
-  short form: subl |
-#+END_VERSE
+*set_useblocklogin*
+*description:* set use block login value 
+*short form:* subl
 
-#+BEGIN_VERSE
-  Values |
-  flag_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *flag_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /visit_player_room_id [room_id]
-    :PROPERTIES:
-    :CUSTOM_ID: visit_player_room_id-room_id
-    :END:
 
-#+BEGIN_VERSE
-  visit_player_room_id |
-  description: visit player room_id |
-  short form: vpri |
-#+END_VERSE
+*visit_player_room_id*
+*description:* visit player room_id 
+*short form:* vpri
 
-#+BEGIN_VERSE
-  Values |
-  room_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *room_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /visit_player_room [ch_name]
-    :PROPERTIES:
-    :CUSTOM_ID: visit_player_room-ch_name
-    :END:
 
-#+BEGIN_VERSE
-  visit_player_room |
-  description: visit player room |
-  short form: vpr |
-#+END_VERSE
+*visit_player_room*
+*description:* visit player room 
+*short form:* vpr
 
-#+BEGIN_VERSE
-  Values |
-  ch_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *ch_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /switch_player_room [01]
-    :PROPERTIES:
-    :CUSTOM_ID: switch_player_room-01
-    :END:
 
-#+BEGIN_VERSE
-  switch_player_room |
-  description: switch player room 0 - off |
-  short form: spr |
-#+END_VERSE
+*switch_player_room*
+*description:* switch player room 0 - off 
+*short form:* spr
 
-#+BEGIN_VERSE
-  Values |
-  01 | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *01* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /switch_room_decorating [room_id] [01]
-    :PROPERTIES:
-    :CUSTOM_ID: switch_room_decorating-room_id-01
-    :END:
 
-#+BEGIN_VERSE
-  switch_room_decorating |
-  description: switch room decorating mode 0 - off |
-  short form: sprd |
-#+END_VERSE
+*switch_room_decorating*
+*description:* switch room decorating mode 0 - off 
+*short form:* sprd
 
-#+BEGIN_VERSE
-  Values |
-  room_id | 01 | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *room_id* | *01* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_territory_status [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_territory_status-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_territory_status |
-  description: set territory status |
-#+END_VERSE
+*set_territory_status*
+*description:* set territory status 
 
 --------------
 
 *** /captcha_level [level]
-    :PROPERTIES:
-    :CUSTOM_ID: captcha_level-level
-    :END:
 
-#+BEGIN_VERSE
-  captcha_level |
-  description: captcha_level [level] |
-  short form: caplv |
-#+END_VERSE
+*captcha_level*
+*description:* captcha_level [level] 
+*short form:* caplv
 
-#+BEGIN_VERSE
-  Values |
-  level | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *level* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_gm_map_open [node_id] [open]
-    :PROPERTIES:
-    :CUSTOM_ID: set_gm_map_open-node_id-open
-    :END:
 
-#+BEGIN_VERSE
-  set_gm_map_open |
-  description: set gm map open |
-  short form: sgmmo |
-#+END_VERSE
+*set_gm_map_open*
+*description:* set gm map open 
+*short form:* sgmmo
 
-#+BEGIN_VERSE
-  Values |
-  node_id | open | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | *open* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /send_reward_item [number] [number] [number] [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: send_reward_item-number-number-number-number-number
-    :END:
 
-#+BEGIN_VERSE
-  send_reward_item |
-  description: send_reward_item |
-  short form: sri |
-#+END_VERSE
+*send_reward_item*
+*description:* send_reward_item 
+*short form:* sri
 
-#+BEGIN_VERSE
-  Values |
-  number | number | number | number | number | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | *number* | *number* | *number* | |
+| *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_achievement [achi_id] [point] [isteam]
-    :PROPERTIES:
-    :CUSTOM_ID: set_achievement-achi_id-point-isteam
-    :END:
 
-#+BEGIN_VERSE
-  set_achievement |
-  description: |
-#+END_VERSE
+*set_achievement*
+*description:* 
 
 --------------
 
 *** /gain_cs_gold [gold]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_cs_gold-gold
-    :END:
 
-#+BEGIN_VERSE
-  gain_cs_gold |
-  description: |
-  short form: gcg |
-#+END_VERSE
+*gain_cs_gold*
+*description:* 
+*short form:* gcg
 
-#+BEGIN_VERSE
-  Values |
-  gold | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *gold* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /send_sys_mall_queue [number]
-    :PROPERTIES:
-    :CUSTOM_ID: send_sys_mall_queue-number
-    :END:
 
-#+BEGIN_VERSE
-  send_sys_mall_queue |
-  description: |
-  short form: send_sys_mail_queue |
-#+END_VERSE
+*send_sys_mall_queue*
+*description:* 
+*short form:* send_sys_mail_queue
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ssmq |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
+*short form:* ssmq
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_territory_player_limit [territroy_id] [player_limit]
-    :PROPERTIES:
-    :CUSTOM_ID: set_territory_player_limit-territroy_id-player_limit
-    :END:
 
-#+BEGIN_VERSE
-  set_territory_player_limit |
-  description: |
-  short form: stpl |
-#+END_VERSE
+*set_territory_player_limit*
+*description:* 
+*short form:* stpl
 
-#+BEGIN_VERSE
-  Values |
-  territroy_id | player_limit | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *territroy_id* | *player_limit* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_web_btn [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_web_btn-number
-    :END:
 
-#+BEGIN_VERSE
-  set_web_btn |
-  description: |
-  short form: swb |
-#+END_VERSE
+*set_web_btn*
+*description:* 
+*short form:* swb
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /recover_territory_event [number]
-    :PROPERTIES:
-    :CUSTOM_ID: recover_territory_event-number
-    :END:
 
-#+BEGIN_VERSE
-  recover_territory_event |
-  description: |
-  short form: rte |
-#+END_VERSE
+*recover_territory_event*
+*description:* 
+*short form:* rte
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_battle_restart
-    :PROPERTIES:
-    :CUSTOM_ID: family_battle_restart
-    :END:
 
-#+BEGIN_VERSE
-  family_battle_restart |
-  description: |
-#+END_VERSE
+*family_battle_restart*
+*description:* 
 
 --------------
 
 *** /family_battle_setup_judge [phase_type] [phase_index] [family_name]
-    :PROPERTIES:
-    :CUSTOM_ID: family_battle_setup_judge-phase_type-phase_index-family_name
-    :END:
 
-#+BEGIN_VERSE
-  family_battle_setup_judge |
-  description: |
-  short form: fbsj |
-#+END_VERSE
+*family_battle_setup_judge*
+*description:* 
+*short form:* fbsj
 
-#+BEGIN_VERSE
-  Values |
-  phase_type | phase_index | family_name | |
-  :----: | :----: | :----: |
-  number | number | word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *phase_type* | *phase_index* | *family_name* | |
+| *number* | *number* | *word* | |
+| | | 
 
 --------------
 
 *** /family_battle_honor_switch [onoff]
-    :PROPERTIES:
-    :CUSTOM_ID: family_battle_honor_switch-onoff
-    :END:
 
-#+BEGIN_VERSE
-  family_battle_honor_switch |
-  description: |
-  short form: fbhs |
-#+END_VERSE
+*family_battle_honor_switch*
+*description:* 
+*short form:* fbhs
 
-#+BEGIN_VERSE
-  Values |
-  onoff | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *onoff* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_battle_end
-    :PROPERTIES:
-    :CUSTOM_ID: family_battle_end
-    :END:
 
-#+BEGIN_VERSE
-  family_battle_end |
-  description: |
-#+END_VERSE
+*family_battle_end*
+*description:* 
 
 --------------
 
 *** /refresh_recommended_events [number]
-    :PROPERTIES:
-    :CUSTOM_ID: refresh_recommended_events-number
-    :END:
 
-#+BEGIN_VERSE
-  refresh_recommended_events |
-  description: refresh_recommended_events |
-  short form: rre |
-#+END_VERSE
+*refresh_recommended_events*
+*description:* refresh_recommended_events 
+*short form:* rre
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_battle_reset_week_update
-    :PROPERTIES:
-    :CUSTOM_ID: family_battle_reset_week_update
-    :END:
 
-#+BEGIN_VERSE
-  family_battle_reset_week_update |
-  description: |
-  short form: fbrwu |
-#+END_VERSE
+*family_battle_reset_week_update*
+*description:* 
+*short form:* fbrwu
+
 
 --------------
 
 *** /gain_family_honor [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_family_honor-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_family_honor |
-  description: |
-  short form: gfh |
-#+END_VERSE
+*gain_family_honor*
+*description:* 
+*short form:* gfh
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /cross_world [number]
-    :PROPERTIES:
-    :CUSTOM_ID: cross_world-number
-    :END:
 
-#+BEGIN_VERSE
-  cross_world |
-  description: |
-  short form: cw |
-#+END_VERSE
+*cross_world*
+*description:* 
+*short form:* cw
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /countdown_msg [start_tim] [time_seconds] [msg]
-    :PROPERTIES:
-    :CUSTOM_ID: countdown_msg-start_tim-time_seconds-msg
-    :END:
 
-#+BEGIN_VERSE
-  countdown_msg |
-  description: Countdown Msg |
-  short form: cdm |
-#+END_VERSE
+*countdown_msg*
+*description:* Countdown Msg 
+*short form:* cdm
 
-#+BEGIN_VERSE
-  Values |
-  start_tim | time_seconds | msg | |
-  :----: | :----: | :----: |
-  number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *start_tim* | *time_seconds* | *msg* | |
+| *number* | *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /show_countdown_msg
-    :PROPERTIES:
-    :CUSTOM_ID: show_countdown_msg
-    :END:
 
-#+BEGIN_VERSE
-  show_countdown_msg |
-  description: Show Countdown Msg |
-  short form: show_cdm |
-#+END_VERSE
+*show_countdown_msg*
+*description:* Show Countdown Msg 
+*short form:* show_cdm
+
 
 --------------
 
 *** /del_countdown_msg
-    :PROPERTIES:
-    :CUSTOM_ID: del_countdown_msg
-    :END:
 
-#+BEGIN_VERSE
-  del_countdown_msg |
-  description: Delete Countdown Msg |
-  short form: del_cdm |
-#+END_VERSE
+*del_countdown_msg*
+*description:* Delete Countdown Msg 
+*short form:* del_cdm
+
 
 --------------
 
 *** /show_countdown_msg [number]
-    :PROPERTIES:
-    :CUSTOM_ID: show_countdown_msg-number
-    :END:
 
-#+BEGIN_VERSE
-  show_countdown_msg |
-  description: Show Countdown Msg |
-  short form: show_cdm |
-#+END_VERSE
+*show_countdown_msg*
+*description:* Show Countdown Msg 
+*short form:* show_cdm
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /disband_family [name]
-    :PROPERTIES:
-    :CUSTOM_ID: disband_family-name
-    :END:
 
-#+BEGIN_VERSE
-  disband_family |
-  description: |
-  short form: df |
-#+END_VERSE
+*disband_family*
+*description:* 
+*short form:* df
 
-#+BEGIN_VERSE
-  Values |
-  name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-  short form: transport_to_npc |
-#+END_VERSE
+*Values*
+| *name* | |
+| *word* | |
+| | | 
+*short form:* transport_to_npc
 
-#+BEGIN_VERSE
-  Values |
-  name | |
-  :----: | :----: | :----: |
-  value | |
-  :----: | :----: | :----: |
-  | |
-  short form: transport_to_npc |
-#+END_VERSE
+*Values*
+| *name* | |
+| *value* | |
+| | | 
+*short form:* transport_to_npc
 
-#+BEGIN_VERSE
-  Values |
-  name | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: tpnpc |
-#+END_VERSE
+*Values*
+| *name* | |
+| *number* | |
+| | | 
+*short form:* tpnpc
 
-#+BEGIN_VERSE
-  Values |
-  name | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *name* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reload_function_switch
-    :PROPERTIES:
-    :CUSTOM_ID: reload_function_switch
-    :END:
 
-#+BEGIN_VERSE
-  reload_function_switch |
-  description: reload function switch ini |
-#+END_VERSE
+*reload_function_switch*
+*description:* reload function switch ini 
 
 --------------
 
 *** /jail [given_name] [buff_id] [buff_time] [node_id] [gateway_id]
-    :PROPERTIES:
-    :CUSTOM_ID: jail-given_name-buff_id-buff_time-node_id-gateway_id
-    :END:
 
-#+BEGIN_VERSE
-  jail |
-  description: jail character |
-  short form: set_elf_star |
-#+END_VERSE
+*jail*
+*description:* jail character 
+*short form:* set_elf_star
 
-#+BEGIN_VERSE
-  Values |
-  given_name | buff_id | buff_time | node_id | gateway_id | |
-  :----: | :----: | :----: |
-  elf_loc | star | |
-  :----: | :----: | :----: |
-  | |
-  short form: set_elf_star |
-#+END_VERSE
+*Values*
+| *given_name* | *buff_id* | *buff_time* | *node_id* | *gateway_id* | |
+| *elf_loc* | *star* | |
+| | | 
+*short form:* set_elf_star
 
-#+BEGIN_VERSE
-  Values |
-  given_name | buff_id | buff_time | node_id | gateway_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-  short form: ses |
-#+END_VERSE
+*Values*
+| *given_name* | *buff_id* | *buff_time* | *node_id* | *gateway_id* | |
+| *number* | *number* | |
+| | | 
+*short form:* ses
 
-#+BEGIN_VERSE
-  Values |
-  given_name | buff_id | buff_time | node_id | gateway_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | *buff_id* | *buff_time* | *node_id* | *gateway_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /change_gender [gender_id]
-    :PROPERTIES:
-    :CUSTOM_ID: change_gender-gender_id
-    :END:
 
-#+BEGIN_VERSE
-  change_gender |
-  description: change character gender |
-#+END_VERSE
+*change_gender*
+*description:* change character gender 
 
 --------------
 
 *** /trans_into_territory [territory_id] [area_id]
-    :PROPERTIES:
-    :CUSTOM_ID: trans_into_territory-territory_id-area_id
-    :END:
 
-#+BEGIN_VERSE
-  trans_into_territory |
-  description: trans_into_territory |
-  short form: tit |
-#+END_VERSE
+*trans_into_territory*
+*description:* trans_into_territory 
+*short form:* tit
 
-#+BEGIN_VERSE
-  Values |
-  territory_id | area_id | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *territory_id* | *area_id* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /effect_map [effect_id] [duration]
-    :PROPERTIES:
-    :CUSTOM_ID: effect_map-effect_id-duration
-    :END:
 
-#+BEGIN_VERSE
-  effect_map |
-  description: |
-  short form: emap |
-#+END_VERSE
+*effect_map*
+*description:* 
+*short form:* emap
 
-#+BEGIN_VERSE
-  Values |
-  effect_id | duration | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect_id* | *duration* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /effect_map_time [map_id] [time] [effect_id]
-    :PROPERTIES:
-    :CUSTOM_ID: effect_map_time-map_id-time-effect_id
-    :END:
 
-#+BEGIN_VERSE
-  effect_map_time |
-  description: |
-  short form: emtime |
-#+END_VERSE
+*effect_map_time*
+*description:* 
+*short form:* emtime
 
-#+BEGIN_VERSE
-  Values |
-  map_id | time | effect_id | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *map_id* | *time* | *effect_id* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clone_monster_remote [id] [unit] [world_id] [node_id] [x] [y]
-    :PROPERTIES:
-    :CUSTOM_ID: clone_monster_remote-id-unit-world_id-node_id-x-y
-    :END:
 
-#+BEGIN_VERSE
-  clone_monster_remote |
-  description: Clone Monster At Player around |
-  short form: cmr |
-#+END_VERSE
+*clone_monster_remote*
+*description:* Clone Monster At Player around 
+*short form:* cmr
 
-#+BEGIN_VERSE
-  Values |
-  id | unit | world_id | node_id | x | y | |
-  :----: | :----: | :----: |
-  number | number | number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | *unit* | *world_id* | *node_id* | *x* | *y* | |
+| *number* | *number* | *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_territory_prepare_time [prepare_time]
-    :PROPERTIES:
-    :CUSTOM_ID: set_territory_prepare_time-prepare_time
-    :END:
 
-#+BEGIN_VERSE
-  set_territory_prepare_time |
-  description: set_territory_prepare_time |
-  short form: stpt |
-#+END_VERSE
+*set_territory_prepare_time*
+*description:* set_territory_prepare_time 
+*short form:* stpt
 
-#+BEGIN_VERSE
-  Values |
-  prepare_time | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *prepare_time* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /player_room_release_node [number]
-    :PROPERTIES:
-    :CUSTOM_ID: player_room_release_node-number
-    :END:
 
-#+BEGIN_VERSE
-  player_room_release_node |
-  description: |
-#+END_VERSE
+*player_room_release_node*
+*description:* 
 
 --------------
 
 *** /quiz_game_force_open [number]
-    :PROPERTIES:
-    :CUSTOM_ID: quiz_game_force_open-number
-    :END:
 
-#+BEGIN_VERSE
-  quiz_game_force_open |
-  description: |
-  short form: qgfo |
-#+END_VERSE
+*quiz_game_force_open*
+*description:* 
+*short form:* qgfo
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /update_player_node_times [given_name] [node_id] [times]
-    :PROPERTIES:
-    :CUSTOM_ID: update_player_node_times-given_name-node_id-times
-    :END:
 
-#+BEGIN_VERSE
-  update_player_node_times |
-  description: |
-  short form: upnt |
-#+END_VERSE
+*update_player_node_times*
+*description:* 
+*short form:* upnt
 
-#+BEGIN_VERSE
-  Values |
-  given_name | node_id | times | |
-  :----: | :----: | :----: |
-  word | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | *node_id* | *times* | |
+| *word* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /strenghten_equipments [number]
-    :PROPERTIES:
-    :CUSTOM_ID: strenghten_equipments-number
-    :END:
 
-#+BEGIN_VERSE
-  strenghten_equipments |
-  description: |
-  short form: se |
-#+END_VERSE
+*strenghten_equipments*
+*description:* 
+*short form:* se
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /gain_bind_gold [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_bind_gold-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_bind_gold |
-  description: gain bind gold num |
-  short form: gbg |
-#+END_VERSE
+*gain_bind_gold*
+*description:* gain bind gold num 
+*short form:* gbg
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_node_pvp [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_node_pvp-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_node_pvp |
-  description: set_node_pvp |
-  short form: snp |
-#+END_VERSE
+*set_node_pvp*
+*description:* set_node_pvp 
+*short form:* snp
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_node_pvp_zone [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_node_pvp_zone-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_node_pvp_zone |
-  description: set_node_pvp_zone |
-  short form: snpz |
-#+END_VERSE
+*set_node_pvp_zone*
+*description:* set_node_pvp_zone 
+*short form:* snpz
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /event_showmsg [position] [rest_input]
-    :PROPERTIES:
-    :CUSTOM_ID: event_showmsg-position-rest_input
-    :END:
 
-#+BEGIN_VERSE
-  event_showmsg |
-  description: event trigger to show message |
-#+END_VERSE
+*event_showmsg*
+*description:* event trigger to show message 
 
 --------------
 
 *** /set_node_exp_nb [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_node_exp_nb-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_node_exp_nb |
-  description: set_node_exp_no_broadcast |
-  short form: snen |
-#+END_VERSE
+*set_node_exp_nb*
+*description:* set_node_exp_no_broadcast 
+*short form:* snen
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_node_gold_nb [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_node_gold_nb-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_node_gold_nb |
-  description: set_node_gold_no_broadcast |
-  short form: sngn |
-#+END_VERSE
+*set_node_gold_nb*
+*description:* set_node_gold_no_broadcast 
+*short form:* sngn
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_reborn_mob_pvp [min_left]
-    :PROPERTIES:
-    :CUSTOM_ID: set_reborn_mob_pvp-min_left
-    :END:
 
-#+BEGIN_VERSE
-  set_reborn_mob_pvp |
-  description: set_reborn_mob_pvp |
-  short form: srmp |
-#+END_VERSE
+*set_reborn_mob_pvp*
+*description:* set_reborn_mob_pvp 
+*short form:* srmp
 
-#+BEGIN_VERSE
-  Values |
-  min_left | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *min_left* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /gain_coins
-    :PROPERTIES:
-    :CUSTOM_ID: gain_coins
-    :END:
 
-#+BEGIN_VERSE
-  gain_coins |
-  description: |
-  short form: gco |
-#+END_VERSE
+*gain_coins*
+*description:* 
+*short form:* gco
 
-| number | number |  |
-|--------+--------+--|
-|        |        |  |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /npc_talk,
-    :PROPERTIES:
-    :CUSTOM_ID: npc_talk
-    :END:
 
-#+BEGIN_VERSE
-  npc_talk |
-  description: |
-#+END_VERSE
+*npc_talk*
+*description:* 
 
 --------------
 
 *** /blackout [textindex] [times]
-    :PROPERTIES:
-    :CUSTOM_ID: blackout-textindex-times
-    :END:
 
-#+BEGIN_VERSE
-  blackout |
-  description: |
-#+END_VERSE
+*blackout*
+*description:* 
 
 --------------
 
 *** /bc_tran_msg [type] [msg] [screen_msg] [confirmmsg]
-    :PROPERTIES:
-    :CUSTOM_ID: bc_tran_msg-type-msg-screen_msg-confirmmsg
-    :END:
 
-#+BEGIN_VERSE
-  bc_tran_msg |
-  description: broadcast transition msg |
-#+END_VERSE
+*bc_tran_msg*
+*description:* broadcast transition msg 
 
 --------------
 
-*** /node_black_out [target] [msg1] [time1] [msg2] [time2] [msg3]
-[time3]
-    :PROPERTIES:
-    :CUSTOM_ID: node_black_out-target-msg1-time1-msg2-time2-msg3-time3
-    :END:
+*** /node_black_out [target] [msg1] [time1] [msg2] [time2] [msg3] [time3]
 
-#+BEGIN_VERSE
-  node_black_out |
-  description: play blackouting |
-#+END_VERSE
+*node_black_out*
+*description:* play blackouting 
 
 --------------
 
 *** /gain_eudemon_level [level]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_eudemon_level-level
-    :END:
 
-#+BEGIN_VERSE
-  gain_eudemon_level |
-  description: gain eudemon level |
-  short form: geul |
-#+END_VERSE
+*gain_eudemon_level*
+*description:* gain eudemon level 
+*short form:* geul
 
-#+BEGIN_VERSE
-  Values |
-  level | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *level* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /screen_effect [target] [effect_type] [effect_level] [effect_time]
-    :PROPERTIES:
-    :CUSTOM_ID: screen_effect-target-effect_type-effect_level-effect_time
-    :END:
 
-#+BEGIN_VERSE
-  screen_effect |
-  description: screen effect |
-#+END_VERSE
+*screen_effect*
+*description:* screen effect 
 
 --------------
 
 *** /gem_powerup [container_id] [loc] [level]
-    :PROPERTIES:
-    :CUSTOM_ID: gem_powerup-container_id-loc-level
-    :END:
 
-#+BEGIN_VERSE
-  gem_powerup |
-  description: gem level up |
-  short form: gemup |
-#+END_VERSE
+*gem_powerup*
+*description:* gem level up 
+*short form:* gemup
 
-#+BEGIN_VERSE
-  Values |
-  container_id | loc | level | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *container_id* | *loc* | *level* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /play_cutscene [file_name] [target] [msg1]
-    :PROPERTIES:
-    :CUSTOM_ID: play_cutscene-file_name-target-msg1
-    :END:
 
-#+BEGIN_VERSE
-  play_cutscene |
-  description: play cutscene |
-#+END_VERSE
+*play_cutscene*
+*description:* play cutscene 
 
 --------------
 
 *** /add_memories [memories_id] [num]
-    :PROPERTIES:
-    :CUSTOM_ID: add_memories-memories_id-num
-    :END:
 
-#+BEGIN_VERSE
-  add_memories |
-  description: add memories |
-  short form: amem |
-#+END_VERSE
+*add_memories*
+*description:* add memories 
+*short form:* amem
 
-#+BEGIN_VERSE
-  Values |
-  memories_id | num | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *memories_id* | *num* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /remove_memories [memoried_id]
-    :PROPERTIES:
-    :CUSTOM_ID: remove_memories-memoried_id
-    :END:
 
-#+BEGIN_VERSE
-  remove_memories |
-  description: remove memories |
-  short form: rmem |
-#+END_VERSE
+*remove_memories*
+*description:* remove memories 
+*short form:* rmem
 
-#+BEGIN_VERSE
-  Values |
-  memoried_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *memoried_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /add_memoriesex [memories_id] [num] [extra_info]
-    :PROPERTIES:
-    :CUSTOM_ID: add_memoriesex-memories_id-num-extra_info
-    :END:
 
-#+BEGIN_VERSE
-  add_memoriesex |
-  description: add memories with extra |
-  short form: amemex |
-#+END_VERSE
+*add_memoriesex*
+*description:* add memories with extra 
+*short form:* amemex
 
-#+BEGIN_VERSE
-  Values |
-  memories_id | num | extra_info | |
-  :----: | :----: | :----: |
-  number | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *memories_id* | *num* | *extra_info* | |
+| *number* | *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /open_fight [fight_tid] [duration] [one_side_number]
-    :PROPERTIES:
-    :CUSTOM_ID: open_fight-fight_tid-duration-one_side_number
-    :END:
 
-#+BEGIN_VERSE
-  open_fight |
-  description: open fight [fight id] [duration in sec] [persons need in one-side to open] |
-  short form: of |
-#+END_VERSE
+*open_fight*
+*description:* open fight [fight id] [duration in sec] [persons need in one-side to open] 
+*short form:* of
 
-#+BEGIN_VERSE
-  Values |
-  fight_tid | duration | one_side_number | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *fight_tid* | *duration* | *one_side_number* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /set_lover_point_countdown_timer [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_lover_point_countdown_timer-number
-    :END:
 
-#+BEGIN_VERSE
-  set_lover_point_countdown_timer |
-  description: set_lover_point_countdown_timer |
-  short form: lpcd |
-#+END_VERSE
+*set_lover_point_countdown_timer*
+*description:* set_lover_point_countdown_timer 
+*short form:* lpcd
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /active_subweapon_to_character [given_name] [is_active]
-    :PROPERTIES:
-    :CUSTOM_ID: active_subweapon_to_character-given_name-is_active
-    :END:
 
-#+BEGIN_VERSE
-  active_subweapon_to_character |
-  description: active subweapon to character |
-  short form: aswtc |
-#+END_VERSE
+*active_subweapon_to_character*
+*description:* active subweapon to character 
+*short form:* aswtc
 
-#+BEGIN_VERSE
-  Values |
-  given_name | is_active | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | *is_active* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /select_family_leader2 [leader_id]
-    :PROPERTIES:
-    :CUSTOM_ID: select_family_leader2-leader_id
-    :END:
 
-#+BEGIN_VERSE
-  select_family_leader2 |
-  description: |
-#+END_VERSE
+*select_family_leader2*
+*description:* 
 
 --------------
 
 *** /switch_fight_time [switch]
-    :PROPERTIES:
-    :CUSTOM_ID: switch_fight_time-switch
-    :END:
 
-#+BEGIN_VERSE
-  switch_fight_time |
-  description: |
-  short form: sft |
-#+END_VERSE
+*switch_fight_time*
+*description:* 
+*short form:* sft
 
-#+BEGIN_VERSE
-  Values |
-  switch | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *switch* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reset_daily_bonus [day_num]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_daily_bonus-day_num
-    :END:
 
-#+BEGIN_VERSE
-  reset_daily_bonus |
-  description: |
-  short form: rdb |
-#+END_VERSE
+*reset_daily_bonus*
+*description:* 
+*short form:* rdb
 
-#+BEGIN_VERSE
-  Values |
-  day_num | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *day_num* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /self_use_effect [effect_id] [duration] [stacks]
-    :PROPERTIES:
-    :CUSTOM_ID: self_use_effect-effect_id-duration-stacks
-    :END:
 
-#+BEGIN_VERSE
-  self_use_effect |
-  description: let pc use stacks effect on self |
-  short form: sue |
-#+END_VERSE
+*self_use_effect*
+*description:* let pc use stacks effect on self 
+*short form:* sue
 
-#+BEGIN_VERSE
-  Values |
-  effect_id | duration | stacks | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *effect_id* | *duration* | *stacks* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clear_fight [fight_id]
-    :PROPERTIES:
-    :CUSTOM_ID: clear_fight-fight_id
-    :END:
 
-#+BEGIN_VERSE
-  clear_fight |
-  description: close and clear fight[fight_id] |
-  short form: cf |
-#+END_VERSE
+*clear_fight*
+*description:* close and clear fight[fight_id] 
+*short form:* cf
 
-#+BEGIN_VERSE
-  Values |
-  fight_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *fight_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_diagram_vit [number]
-    :PROPERTIES:
-    :CUSTOM_ID: family_diagram_vit-number
-    :END:
 
-#+BEGIN_VERSE
-  family_diagram_vit |
-  description: set player's diagram vit to [number] |
-  short form: fdv |
-#+END_VERSE
+*family_diagram_vit*
+*description:* set player's diagram vit to [number] 
+*short form:* fdv
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_diagram_vit [number]
-    :PROPERTIES:
-    :CUSTOM_ID: family_diagram_vit-number-1
-    :END:
 
-#+BEGIN_VERSE
-  family_diagram_vit |
-  description: set player's diagram vit to [number] |
-  short form: family_diagram_progress |
-#+END_VERSE
+*family_diagram_vit*
+*description:* set player's diagram vit to [number] 
+*short form:* family_diagram_progress
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: fdp |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
+*short form:* fdp
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /family_diagram_node_state [node_id] [times]
-    :PROPERTIES:
-    :CUSTOM_ID: family_diagram_node_state-node_id-times
-    :END:
 
-#+BEGIN_VERSE
-  family_diagram_node_state |
-  description: set diagram[node_id] clear times to [times] |
-  short form: fdns |
-#+END_VERSE
+*family_diagram_node_state*
+*description:* set diagram[node_id] clear times to [times] 
+*short form:* fdns
 
-#+BEGIN_VERSE
-  Values |
-  node_id | times | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *node_id* | *times* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /family_diagram_reset [reset_option
-    :PROPERTIES:
-    :CUSTOM_ID: family_diagram_reset-reset_option
-    :END:
 
-#+BEGIN_VERSE
-  family_diagram_reset |
-  description: reset diagram by [option] 0 only diagram group / 1 diagram group and progress |
-  short form: fdr |
-#+END_VERSE
+*family_diagram_reset*
+*description:* reset diagram by [option] 0 only diagram group / 1 diagram group and progress 
+*short form:* fdr
 
-#+BEGIN_VERSE
-  Values |
-  reset_option | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *reset_option* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /begin_node_event [event_id]
-    :PROPERTIES:
-    :CUSTOM_ID: begin_node_event-event_id
-    :END:
 
-#+BEGIN_VERSE
-  begin_node_event |
-  description: begin the event[event_id] at player's node |
-  short form: bne |
-#+END_VERSE
+*begin_node_event*
+*description:* begin the event[event_id] at player's node 
+*short form:* bne
 
-#+BEGIN_VERSE
-  Values |
-  event_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *event_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_hair_id [id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_hair_id-id
-    :END:
 
-#+BEGIN_VERSE
-  set_hair_id |
-  description: set character hair |
-  short form: shid |
-#+END_VERSE
+*set_hair_id*
+*description:* set character hair 
+*short form:* shid
 
-#+BEGIN_VERSE
-  Values |
-  id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_face_id [id]
-    :PROPERTIES:
-    :CUSTOM_ID: set_face_id-id
-    :END:
 
-#+BEGIN_VERSE
-  set_face_id |
-  description: set character face |
-  short form: sfid |
-#+END_VERSE
+*set_face_id*
+*description:* set character face 
+*short form:* sfid
 
-#+BEGIN_VERSE
-  Values |
-  id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_hair_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_hair_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_hair_color |
-  description: set character hair color |
-  short form: shc |
-#+END_VERSE
+*set_hair_color*
+*description:* set character hair color 
+*short form:* shc
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_skin_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_skin_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_skin_color |
-  description: set character skin color |
-  short form: ssc |
-#+END_VERSE
+*set_skin_color*
+*description:* set character skin color 
+*short form:* ssc
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_eyes_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_eyes_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_eyes_color |
-  description: set character eyes color |
-  short form: sec |
-#+END_VERSE
+*set_eyes_color*
+*description:* set character eyes color 
+*short form:* sec
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_helmet_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_helmet_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_helmet_color |
-  description: set character helmet color |
-  short form: s0c |
-#+END_VERSE
+*set_helmet_color*
+*description:* set character helmet color 
+*short form:* s0c
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_clothes_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_clothes_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_clothes_color |
-  description: set character clothes color |
-  short form: s1c |
-#+END_VERSE
+*set_clothes_color*
+*description:* set character clothes color 
+*short form:* s1c
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_cloak_color [color]
-    :PROPERTIES:
-    :CUSTOM_ID: set_cloak_color-color
-    :END:
 
-#+BEGIN_VERSE
-  set_cloak_color |
-  description: set character cloak color |
-  short form: s2c |
-#+END_VERSE
+*set_cloak_color*
+*description:* set character cloak color 
+*short form:* s2c
 
-#+BEGIN_VERSE
-  Values |
-  color | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *color* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /update_closet [index]
-    :PROPERTIES:
-    :CUSTOM_ID: update_closet-index
-    :END:
 
-#+BEGIN_VERSE
-  update_closet |
-  description: update current color to closet |
-  short form: ucl |
-#+END_VERSE
+*update_closet*
+*description:* update current color to closet 
+*short form:* ucl
 
-#+BEGIN_VERSE
-  Values |
-  index | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *index* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_spell_level [id] [level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_spell_level-id-level
-    :END:
 
-#+BEGIN_VERSE
-  set_spell_level |
-  description: set spell level |
-  short form: spel |
-#+END_VERSE
+*set_spell_level*
+*description:* set spell level 
+*short form:* spel
 
-#+BEGIN_VERSE
-  Values |
-  id | level | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | *level* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /add_class [id]
-    :PROPERTIES:
-    :CUSTOM_ID: add_class-id
-    :END:
 
-#+BEGIN_VERSE
-  add_class |
-  description: add class |
-#+END_VERSE
+*add_class*
+*description:* add class 
 
 --------------
 
 *** /remove_class [id]
-    :PROPERTIES:
-    :CUSTOM_ID: remove_class-id
-    :END:
 
-#+BEGIN_VERSE
-  remove_class |
-  description: remove class |
-  short form: dcc |
-#+END_VERSE
+*remove_class*
+*description:* remove class 
+*short form:* dcc
 
-#+BEGIN_VERSE
-  Values |
-  id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_class_level [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_class_level-number
-    :END:
 
-#+BEGIN_VERSE
-  set_class_level |
-  description: set class level |
-  short form: scl |
-#+END_VERSE
+*set_class_level*
+*description:* set class level 
+*short form:* scl
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /get_license [number]
-    :PROPERTIES:
-    :CUSTOM_ID: get_license-number
-    :END:
 
-#+BEGIN_VERSE
-  get_license |
-  description: set license |
-  short form: gel |
-#+END_VERSE
+*get_license*
+*description:* set license 
+*short form:* gel
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /remove_all_license
-    :PROPERTIES:
-    :CUSTOM_ID: remove_all_license
-    :END:
 
-#+BEGIN_VERSE
-  remove_all_license |
-  description: remove all license |
-#+END_VERSE
+*remove_all_license*
+*description:* remove all license 
 
 --------------
 
 *** /set_all_spell_level [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_all_spell_level-number
-    :END:
 
-#+BEGIN_VERSE
-  set_all_spell_level |
-  description: set all spell level |
-  short form: sapl |
-#+END_VERSE
+*set_all_spell_level*
+*description:* set all spell level 
+*short form:* sapl
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_node_np
-    :PROPERTIES:
-    :CUSTOM_ID: set_node_np
-    :END:
 
-#+BEGIN_VERSE
-  set_node_np |
-  description: set node np rate |
-  short form: snn |
-#+END_VERSE
+*set_node_np*
+*description:* set node np rate 
+*short form:* snn
 
-| number | number |  |
-|--------+--------+--|
-|        |        |  |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /remove_family_emblem [number]
-    :PROPERTIES:
-    :CUSTOM_ID: remove_family_emblem-number
-    :END:
 
-#+BEGIN_VERSE
-  remove_family_emblem |
-  description: remove family emblem |
-  short form: rfe |
-#+END_VERSE
+*remove_family_emblem*
+*description:* remove family emblem 
+*short form:* rfe
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: inside |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
+*short form:* inside
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  class | level | |
-  :----: | :----: | :----: |
-  | |
-  short form: inside |
-#+END_VERSE
+*Values*
+| *number* | |
+| *class* | *level* | |
+| | | 
+*short form:* inside
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clear_cool_down_time
-    :PROPERTIES:
-    :CUSTOM_ID: clear_cool_down_time
-    :END:
 
-#+BEGIN_VERSE
-  clear_cool_down_time |
-  description: clear character's cool down time |
-  short form: ccdt |
-#+END_VERSE
+*clear_cool_down_time*
+*description:* clear character's cool down time 
+*short form:* ccdt
+
 
 --------------
 
 *** /shop [shop_type] [npc_id] [level_min] [level_max]
-    :PROPERTIES:
-    :CUSTOM_ID: shop-shop_type-npc_id-level_min-level_max
-    :END:
 
-#+BEGIN_VERSE
-  shop |
-  description: enter spell shop |
-#+END_VERSE
+*shop*
+*description:* enter spell shop 
 
 --------------
 
 *** /put_treasure [id] [amount]
-    :PROPERTIES:
-    :CUSTOM_ID: put_treasure-id-amount
-    :END:
 
-#+BEGIN_VERSE
-  put_treasure |
-  description: put treasure at ground |
-#+END_VERSE
+*put_treasure*
+*description:* put treasure at ground 
 
 --------------
 
 *** /add_lottery_plus [value]
-    :PROPERTIES:
-    :CUSTOM_ID: add_lottery_plus-value
-    :END:
 
-#+BEGIN_VERSE
-  add_lottery_plus |
-  description: add lottery plus |
-  short form: alp |
-#+END_VERSE
+*add_lottery_plus*
+*description:* add lottery plus 
+*short form:* alp
 
-#+BEGIN_VERSE
-  Values |
-  value | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *value* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reload_elf_lottery_db
-    :PROPERTIES:
-    :CUSTOM_ID: reload_elf_lottery_db
-    :END:
 
-#+BEGIN_VERSE
-  reload_elf_lottery_db |
-  description: reload elf lottery db |
-  short form: reld |
-#+END_VERSE
+*reload_elf_lottery_db*
+*description:* reload elf lottery db 
+*short form:* reld
+
 
 --------------
 
 *** /lottery_week_update [day] [hour] [min]
-    :PROPERTIES:
-    :CUSTOM_ID: lottery_week_update-day-hour-min
-    :END:
 
-#+BEGIN_VERSE
-  lottery_week_update |
-  description: reload week update |
-  short form: lwu |
-#+END_VERSE
+*lottery_week_update*
+*description:* reload week update 
+*short form:* lwu
 
-#+BEGIN_VERSE
-  Values |
-  day | hour | min | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *day* | *hour* | *min* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /clear_lover_disband
-    :PROPERTIES:
-    :CUSTOM_ID: clear_lover_disband
-    :END:
 
-#+BEGIN_VERSE
-  clear_lover_disband |
-  description: clear lover disband |
-#+END_VERSE
+*clear_lover_disband*
+*description:* clear lover disband 
 
 --------------
 
 *** /super_clear_bag_item
-    :PROPERTIES:
-    :CUSTOM_ID: super_clear_bag_item
-    :END:
 
-#+BEGIN_VERSE
-  super_clear_bag_item |
-  description: super_clear_bag_item |
-#+END_VERSE
+*super_clear_bag_item*
+*description:* super_clear_bag_item 
 
 --------------
 
 *** /making_item [operation_type] [making_item_way_id]
-    :PROPERTIES:
-    :CUSTOM_ID: making_item-operation_type-making_item_way_id
-    :END:
 
-#+BEGIN_VERSE
-  making_item |
-  description: learn new making item way |
-  short form: mi |
-#+END_VERSE
+*making_item*
+*description:* learn new making item way 
+*short form:* mi
 
-#+BEGIN_VERSE
-  Values |
-  operation_type | making_item_way_id | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *operation_type* | *making_item_way_id* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /making_item [operation_type] [type] [exp]
-    :PROPERTIES:
-    :CUSTOM_ID: making_item-operation_type-type-exp
-    :END:
 
-#+BEGIN_VERSE
-  making_item |
-  description: add making item type exp |
-  short form: mi |
-#+END_VERSE
+*making_item*
+*description:* add making item type exp 
+*short form:* mi
 
-#+BEGIN_VERSE
-  Values |
-  operation_type | type | exp | |
-  :----: | :----: | :----: |
-  word | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *operation_type* | *type* | *exp* | |
+| *word* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /add_hate [caster_id] [target_id] [target_type]
-    :PROPERTIES:
-    :CUSTOM_ID: add_hate-caster_id-target_id-target_type
-    :END:
 
-#+BEGIN_VERSE
-  add_hate |
-  description: add hate to life |
-  short form: ah |
-#+END_VERSE
+*add_hate*
+*description:* add hate to life 
+*short form:* ah
 
-#+BEGIN_VERSE
-  Values |
-  caster_id | target_id | target_type | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *caster_id* | *target_id* | *target_type* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /achievement_screen_message [achieve_id] [ownder_id]
-    :PROPERTIES:
-    :CUSTOM_ID: achievement_screen_message-achieve_id-ownder_id
-    :END:
 
-#+BEGIN_VERSE
-  achievement_screen_message |
-  description: show screen message when get achievement point |
-#+END_VERSE
+*achievement_screen_message*
+*description:* show screen message when get achievement point 
 
 --------------
 
 *** /active_subweapon [number]
-    :PROPERTIES:
-    :CUSTOM_ID: active_subweapon-number
-    :END:
 
-#+BEGIN_VERSE
-  active_subweapon |
-  description: active subweapon |
-  short form: asw |
-#+END_VERSE
+*active_subweapon*
+*description:* active subweapon 
+*short form:* asw
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-  short form: confirmmsg |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
+*short form:* confirmmsg
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *rest_input* | |
+| | | 
 
 --------------
 
 *** /get_lover_point [number]
-    :PROPERTIES:
-    :CUSTOM_ID: get_lover_point-number
-    :END:
 
-#+BEGIN_VERSE
-  get_lover_point |
-  description: get lover point |
-  short form: glp |
-#+END_VERSE
+*get_lover_point*
+*description:* get lover point 
+*short form:* glp
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_lover_level [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_lover_level-number
-    :END:
 
-#+BEGIN_VERSE
-  set_lover_level |
-  description: set_lover_level |
-  short form: sll |
-#+END_VERSE
+*set_lover_level*
+*description:* set_lover_level 
+*short form:* sll
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /expand_elf_bank [number]
-    :PROPERTIES:
-    :CUSTOM_ID: expand_elf_bank-number
-    :END:
 
-#+BEGIN_VERSE
-  expand_elf_bank |
-  description: expand_elf_bank |
-  short form: eeb |
-#+END_VERSE
+*expand_elf_bank*
+*description:* expand_elf_bank 
+*short form:* eeb
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /add_attr_value [word] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: add_attr_value-word-number
-    :END:
 
-#+BEGIN_VERSE
-  add_attr_value |
-  description: add attr value |
-  short form: atv |
-#+END_VERSE
+*add_attr_value*
+*description:* add attr value 
+*short form:* atv
 
-#+BEGIN_VERSE
-  Values |
-  word | number | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *word* | *number* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /reset_daily_mission
-    :PROPERTIES:
-    :CUSTOM_ID: reset_daily_mission
-    :END:
 
-#+BEGIN_VERSE
-  reset_daily_mission |
-  description: reset daily mission |
-#+END_VERSE
+*reset_daily_mission*
+*description:* reset daily mission 
 
 --------------
 
 *** /transfer_name [given_name]
-    :PROPERTIES:
-    :CUSTOM_ID: transfer_name-given_name
-    :END:
 
-#+BEGIN_VERSE
-  transfer_name |
-  description: transport to character with nickname |
-  short form: tn |
-#+END_VERSE
+*transfer_name*
+*description:* transport to character with nickname 
+*short form:* tn
 
-#+BEGIN_VERSE
-  Values |
-  given_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /gain_dust [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_dust-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_dust |
-  description: gain dust num |
-  short form: gd |
-#+END_VERSE
+*gain_dust*
+*description:* gain dust num 
+*short form:* gd
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reset_group_reward
-    :PROPERTIES:
-    :CUSTOM_ID: reset_group_reward
-    :END:
 
-#+BEGIN_VERSE
-  reset_group_reward |
-  description: reset group reward |
-#+END_VERSE
+*reset_group_reward*
+*description:* reset group reward 
 
 --------------
 
 *** /open_fortune_bag [fortune_bag_id] [times] [drop_rate]
-    :PROPERTIES:
-    :CUSTOM_ID: open_fortune_bag-fortune_bag_id-times-drop_rate
-    :END:
 
-#+BEGIN_VERSE
-  open_fortune_bag |
-  description: |
-  short form: ofb |
-#+END_VERSE
+*open_fortune_bag*
+*description:* 
+*short form:* ofb
 
-#+BEGIN_VERSE
-  Values |
-  fortune_bag_id | times | drop_rate | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *fortune_bag_id* | *times* | *drop_rate* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /modify_durability [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: modify_durability-number-number
-    :END:
 
-#+BEGIN_VERSE
-  modify_durability |
-  description: |
-  short form: md |
-#+END_VERSE
+*modify_durability*
+*description:* 
+*short form:* md
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /captcha_wordtype_noise [number] [wordtype]
-    :PROPERTIES:
-    :CUSTOM_ID: captcha_wordtype_noise-number-wordtype
-    :END:
 
-#+BEGIN_VERSE
-  captcha_wordtype_noise |
-  description: |
-  short form: cawn |
-#+END_VERSE
+*captcha_wordtype_noise*
+*description:* 
+*short form:* cawn
 
-#+BEGIN_VERSE
-  Values |
-  number | wordtype | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *wordtype* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gainpp [pptype] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gainpp-pptype-number
-    :END:
 
-#+BEGIN_VERSE
-  gainpp |
-  description: |
-#+END_VERSE
+*gainpp*
+*description:* 
 
 --------------
 
 *** /clear_spell
-    :PROPERTIES:
-    :CUSTOM_ID: clear_spell
-    :END:
 
-#+BEGIN_VERSE
-  clear_spell |
-  description: clear player all spell |
-#+END_VERSE
+*clear_spell*
+*description:* clear player all spell 
 
 --------------
 
 *** /change_weapon_type [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: change_weapon_type-number-number
-    :END:
 
-#+BEGIN_VERSE
-  change_weapon_type |
-  description: change my main or second weapon type |
-  short form: cwt |
-#+END_VERSE
+*change_weapon_type*
+*description:* change my main or second weapon type 
+*short form:* cwt
 
-#+BEGIN_VERSE
-  Values |
-  number | number | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /weapon_strengthen [number] [number] [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: weapon_strengthen-number-number-number-number
-    :END:
 
-#+BEGIN_VERSE
-  weapon_strengthen |
-  description: |
-  short form: wpns |
-#+END_VERSE
+*weapon_strengthen*
+*description:* 
+*short form:* wpns
 
-#+BEGIN_VERSE
-  Values |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  number | number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | *number* | *number* | |
+| *number* | *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gain_fragment [number]
-    :PROPERTIES:
-    :CUSTOM_ID: gain_fragment-number
-    :END:
 
-#+BEGIN_VERSE
-  gain_fragment |
-  description: |
-  short form: gf |
-#+END_VERSE
+*gain_fragment*
+*description:* 
+*short form:* gf
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /clear_advenchants
-    :PROPERTIES:
-    :CUSTOM_ID: clear_advenchants
-    :END:
 
-#+BEGIN_VERSE
-  clear_advenchants |
-  description: clear adventure enchants |
-#+END_VERSE
+*clear_advenchants*
+*description:* clear adventure enchants 
 
 --------------
 
 *** /set_elf_emblem_attr [number] [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_elf_emblem_attr-number-number-number
-    :END:
 
-#+BEGIN_VERSE
-  set_elf_emblem_attr |
-  description: |
-  short form: seea |
-#+END_VERSE
+*set_elf_emblem_attr*
+*description:* 
+*short form:* seea
 
-#+BEGIN_VERSE
-  Values |
-  number | number | number | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | *number* | *number* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /reset_timer [reset_type]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_timer-reset_type
-    :END:
 
-#+BEGIN_VERSE
-  reset_timer |
-  description: active reset time |
-  short form: rtt |
-#+END_VERSE
+*reset_timer*
+*description:* active reset time 
+*short form:* rtt
 
-#+BEGIN_VERSE
-  Values |
-  reset_type | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *reset_type* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /close_node [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: close_node-number-number
-    :END:
 
-#+BEGIN_VERSE
-  close_node |
-  description: |
-#+END_VERSE
+*close_node*
+*description:* 
 
 --------------
 
 *** /set_survival_ghost [name] [survivalmode]
-    :PROPERTIES:
-    :CUSTOM_ID: set_survival_ghost-name-survivalmode
-    :END:
 
-#+BEGIN_VERSE
-  set_survival_ghost |
-  description: set character survival mode |
-  short form: ssg |
-#+END_VERSE
+*set_survival_ghost*
+*description:* set character survival mode 
+*short form:* ssg
 
-#+BEGIN_VERSE
-  Values |
-  name | survivalmode | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *name* | *survivalmode* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /set_personal_log_id [number]
-    :PROPERTIES:
-    :CUSTOM_ID: set_personal_log_id-number
-    :END:
 
-#+BEGIN_VERSE
-  set_personal_log_id |
-  description: |
-  short form: spli |
-#+END_VERSE
+*set_personal_log_id*
+*description:* 
+*short form:* spli
 
-#+BEGIN_VERSE
-  Values |
-  number | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *number* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /reload_trace_event
-    :PROPERTIES:
-    :CUSTOM_ID: reload_trace_event
-    :END:
 
-#+BEGIN_VERSE
-  reload_trace_event |
-  description: |
-  short form: rlte |
-#+END_VERSE
+*reload_trace_event*
+*description:* 
+*short form:* rlte
+
 
 --------------
 
 *** /update_rank_info [type] [reset]
-    :PROPERTIES:
-    :CUSTOM_ID: update_rank_info-type-reset
-    :END:
 
-#+BEGIN_VERSE
-  update_rank_info |
-  description: |
-  short form: uri |
-#+END_VERSE
+*update_rank_info*
+*description:* 
+*short form:* uri
 
-#+BEGIN_VERSE
-  Values |
-  type | reset | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *type* | *reset* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /gm_talk [charname] [message]
-    :PROPERTIES:
-    :CUSTOM_ID: gm_talk-charname-message
-    :END:
 
-#+BEGIN_VERSE
-  gm_talk |
-  description: |
-  short form: gt |
-#+END_VERSE
+*gm_talk*
+*description:* 
+*short form:* gt
 
-#+BEGIN_VERSE
-  Values |
-  charname | message | |
-  :----: | :----: | :----: |
-  word | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | *message* | |
+| *word* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /gm_talk_node [message]
-    :PROPERTIES:
-    :CUSTOM_ID: gm_talk_node-message
-    :END:
 
-#+BEGIN_VERSE
-  gm_talk_node |
-  description: |
-#+END_VERSE
+*gm_talk_node*
+*description:* 
 
 --------------
 
 *** /check_player_pp [charname]
-    :PROPERTIES:
-    :CUSTOM_ID: check_player_pp-charname
-    :END:
 
-#+BEGIN_VERSE
-  check_player_pp |
-  description: |
-  short form: cpp |
-#+END_VERSE
+*check_player_pp*
+*description:* 
+*short form:* cpp
 
-#+BEGIN_VERSE
-  Values |
-  charname | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /close_shop [number] [number]
-    :PROPERTIES:
-    :CUSTOM_ID: close_shop-number-number
-    :END:
 
-#+BEGIN_VERSE
-  close_shop |
-  description: |
-#+END_VERSE
+*close_shop*
+*description:* 
 
 --------------
 
 *** /reset_week_achievement [charname] [type]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_week_achievement-charname-type
-    :END:
 
-#+BEGIN_VERSE
-  reset_week_achievement |
-  description: |
-  short form: rwa |
-#+END_VERSE
+*reset_week_achievement*
+*description:* 
+*short form:* rwa
 
-#+BEGIN_VERSE
-  Values |
-  charname | type | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | *type* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /show_player_node_times [given_name] [node_id]
-    :PROPERTIES:
-    :CUSTOM_ID: show_player_node_times-given_name-node_id
-    :END:
 
-#+BEGIN_VERSE
-  show_player_node_times |
-  description: |
-  short form: spnt |
-#+END_VERSE
+*show_player_node_times*
+*description:* 
+*short form:* spnt
 
-#+BEGIN_VERSE
-  Values |
-  given_name | node_id | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *given_name* | *node_id* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /reset_daily_achievement [charname]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_daily_achievement-charname
-    :END:
 
-#+BEGIN_VERSE
-  reset_daily_achievement |
-  description: |
-  short form: rda |
-#+END_VERSE
+*reset_daily_achievement*
+*description:* 
+*short form:* rda
 
-#+BEGIN_VERSE
-  Values |
-  charname | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /sky_tower_open_state [tower_id] [type] [param]
-    :PROPERTIES:
-    :CUSTOM_ID: sky_tower_open_state-tower_id-type-param
-    :END:
 
-#+BEGIN_VERSE
-  sky_tower_open_state |
-  description: |
-  short form: stos |
-#+END_VERSE
+*sky_tower_open_state*
+*description:* 
+*short form:* stos
 
-#+BEGIN_VERSE
-  Values |
-  tower_id | type | param | |
-  :----: | :----: | :----: |
-  number | number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *tower_id* | *type* | *param* | |
+| *number* | *number* | *number* | |
+| | | 
 
 --------------
 
 *** /check_achievement_group [charname] [id]
-    :PROPERTIES:
-    :CUSTOM_ID: check_achievement_group-charname-id
-    :END:
 
-#+BEGIN_VERSE
-  check_achievement_group |
-  description: |
-  short form: cag |
-#+END_VERSE
+*check_achievement_group*
+*description:* 
+*short form:* cag
 
-#+BEGIN_VERSE
-  Values |
-  charname | id | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | *id* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /bgw_account_clear [account_name] [accoount_id]
-    :PROPERTIES:
-    :CUSTOM_ID: bgw_account_clear-account_name-accoount_id
-    :END:
 
-#+BEGIN_VERSE
-  bgw_account_clear |
-  description: |
-  short form: bac |
-#+END_VERSE
+*bgw_account_clear*
+*description:* 
+*short form:* bac
 
-#+BEGIN_VERSE
-  Values |
-  account_name | accoount_id | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *account_name* | *accoount_id* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /reset_account_achievement [player_name]
-    :PROPERTIES:
-    :CUSTOM_ID: reset_account_achievement-player_name
-    :END:
 
-#+BEGIN_VERSE
-  reset_account_achievement |
-  description: |
-  short form: raa |
-#+END_VERSE
+*reset_account_achievement*
+*description:* 
+*short form:* raa
 
-#+BEGIN_VERSE
-  Values |
-  player_name | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *player_name* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /accept_mission [mission_id]
-    :PROPERTIES:
-    :CUSTOM_ID: accept_mission-mission_id
-    :END:
 
-#+BEGIN_VERSE
-  accept_mission |
-  description: |
-  short form: am |
-#+END_VERSE
+*accept_mission*
+*description:* 
+*short form:* am
 
-#+BEGIN_VERSE
-  Values |
-  mission_id | |
-  :----: | :----: | :----: |
-  number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *mission_id* | |
+| *number* | |
+| | | 
 
 --------------
 
 *** /set_friend_level [name] [level]
-    :PROPERTIES:
-    :CUSTOM_ID: set_friend_level-name-level
-    :END:
 
-#+BEGIN_VERSE
-  set_friend_level |
-  description: |
-  short form: sfrl |
-#+END_VERSE
+*set_friend_level*
+*description:* 
+*short form:* sfrl
 
-#+BEGIN_VERSE
-  Values |
-  name | level | |
-  :----: | :----: | :----: |
-  word | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *name* | *level* | |
+| *word* | *number* | |
+| | | 
 
 --------------
 
 *** /update_health_time [online_time] [offline_time]
-    :PROPERTIES:
-    :CUSTOM_ID: update_health_time-online_time-offline_time
-    :END:
 
-#+BEGIN_VERSE
-  update_health_time |
-  description: |
-  short form: uht |
-#+END_VERSE
+*update_health_time*
+*description:* 
+*short form:* uht
 
-#+BEGIN_VERSE
-  Values |
-  online_time | offline_time | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *online_time* | *offline_time* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /check_player_lottery [charname]
-    :PROPERTIES:
-    :CUSTOM_ID: check_player_lottery-charname
-    :END:
 
-#+BEGIN_VERSE
-  check_player_lottery |
-  description: |
-  short form: cpl |
-#+END_VERSE
+*check_player_lottery*
+*description:* 
+*short form:* cpl
 
-#+BEGIN_VERSE
-  Values |
-  charname | |
-  :----: | :----: | :----: |
-  word | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *charname* | |
+| *word* | |
+| | | 
 
 --------------
 
 *** /set_teach_mode [teach_type] [teach_step]
-    :PROPERTIES:
-    :CUSTOM_ID: set_teach_mode-teach_type-teach_step
-    :END:
 
-#+BEGIN_VERSE
-  set_teach_mode |
-  description: |
-  short form: stm |
-#+END_VERSE
+*set_teach_mode*
+*description:* 
+*short form:* stm
 
-#+BEGIN_VERSE
-  Values |
-  teach_type | teach_step | |
-  :----: | :----: | :----: |
-  number | number | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *teach_type* | *teach_step* | |
+| *number* | *number* | |
+| | | 
 
 --------------
 
 *** /shut_down
-    :PROPERTIES:
-    :CUSTOM_ID: shut_down
-    :END:
 
-#+BEGIN_VERSE
-  shut_down |
-  description: shut down |
-#+END_VERSE
+*shut_down*
+*description:* shut down 
 
 --------------
 
 *** /kick_out [player_ip] [reason]
-    :PROPERTIES:
-    :CUSTOM_ID: kick_out-player_ip-reason
-    :END:
 
-#+BEGIN_VERSE
-  kick_out |
-  description: kick out player |
-#+END_VERSE
+*kick_out*
+*description:* kick out player 
 
 --------------
 
-*** /exchange items [char id] [node_id] [pin] [size] [item_id]
-[item_number]
-    :PROPERTIES:
-    :CUSTOM_ID: exchange-items-char-id-node_id-pin-size-item_id-item_number
-    :END:
+*** /exchange items [char id] [node_id] [pin] [size] [item_id] [item_number]
 
-#+BEGIN_VERSE
-  exchangeitems |
-  description: ... |
-  short form: exchange items |
-#+END_VERSE
+*exchangeitems *
+*description:* ... 
+*short form:* exchange items
 
-#+BEGIN_VERSE
-  Values |
-  char id | node_id | pin | size | item_id | item_number | |
-  :----: | :----: | :----: |
-  number | number | word | number | rest_input | |
-  :----: | :----: | :----: |
-  | |
-#+END_VERSE
+*Values*
+| *char id* | *node_id* | *pin* | *size* | *item_id* | *item_number* | |
+| *number* | *number* | *word* | *number* | *rest_input* | |
+| | | 
 
 --------------
 
 *** /family_set_emblem_fail [char id] [node_id]
-    :PROPERTIES:
-    :CUSTOM_ID: family_set_emblem_fail-char-id-node_id
-    :END:
 
-#+BEGIN_VERSE
-  family_set_emblem_fail |
-  description: |
-#+END_VERSE
+*family_set_emblem_fail*
+*description:* 
 
 --------------
 
 *** /trace_result [receiver_id] [target_id] [node_id]
-    :PROPERTIES:
-    :CUSTOM_ID: trace_result-receiver_id-target_id-node_id
-    :END:
 
-#+BEGIN_VERSE
-  trace_result |
-  description: |
-#+END_VERSE
+*trace_result*
+*description:* 
 
 --------------
 
-*** /do_aw_put_treasure [receiver_id] [item_id] [node_id] [amount] [x]
-[y]
-    :PROPERTIES:
-    :CUSTOM_ID: do_aw_put_treasure-receiver_id-item_id-node_id-amount-x-y
-    :END:
+*** /do_aw_put_treasure [receiver_id] [item_id] [node_id] [amount] [x] [y]
 
-#+BEGIN_VERSE
-  do_aw_put_treasure |
-  description: |
-#+END_VERSE
+*do_aw_put_treasure*
+*description:* 
 
 --------------
 
 *** /update_prestige [ch_id] [node_id] [prestige_id] [level] [exp]
-    :PROPERTIES:
-    :CUSTOM_ID: update_prestige-ch_id-node_id-prestige_id-level-exp
-    :END:
 
-#+BEGIN_VERSE
-  update_prestige |
-  description: |
-#+END_VERSE
+*update_prestige*
+*description:* 
 
 --------------
 
 *** /captcha_punish [ch_id] [punish_type] [duration]
-    :PROPERTIES:
-    :CUSTOM_ID: captcha_punish-ch_id-punish_type-duration
-    :END:
 
-#+BEGIN_VERSE
-  captcha_punish |
-  description: |
-#+END_VERSE
+*captcha_punish*
+*description:* 
 
 --------------
 
 *** /gm_tool_login_result [account] [account_id] [privilege]
-    :PROPERTIES:
-    :CUSTOM_ID: gm_tool_login_result-account-account_id-privilege
-    :END:
 
-#+BEGIN_VERSE
-  gm_tool_login_result |
-  description: |
-#+END_VERSE
+*gm_tool_login_result*
+*description:* 
 
 --------------
 
 *** /gm_tool_ban_result [ch_name] [gm_name]
-    :PROPERTIES:
-    :CUSTOM_ID: gm_tool_ban_result-ch_name-gm_name
-    :END:
 
-#+BEGIN_VERSE
-  gm_tool_ban_result |
-  description: |
-#+END_VERSE
+*gm_tool_ban_result*
+*description:* 
 
 --------------
 
 *** /get_net_cafe_vip [ch_id] [net_cafe_vip] [buff_type]
-    :PROPERTIES:
-    :CUSTOM_ID: get_net_cafe_vip-ch_id-net_cafe_vip-buff_type
-    :END:
 
-#+BEGIN_VERSE
-  get_net_cafe_vip |
-  description: |
-#+END_VERSE
+*get_net_cafe_vip*
+*description:* 
 
 --------------
 
-*** /sp_itemmall_req_buy [ch_id] [coin_type] [total_point] [item_id]
-[amount] [item_color] [due_date_time] [mall_group] [mall_item_index]
-[item_amount]
-    :PROPERTIES:
-    :CUSTOM_ID: sp_itemmall_req_buy-ch_id-coin_type-total_point-item_id-amount-item_color-due_date_time-mall_group-mall_item_index-item_amount
-    :END:
+*** /sp_itemmall_req_buy [ch_id] [coin_type] [total_point] [item_id] [amount] [item_color] [due_date_time] [mall_group] [mall_item_index] [item_amount]
 
-#+BEGIN_VERSE
-  sp_itemmall_req_buy |
-  description: |
-#+END_VERSE
+*sp_itemmall_req_buy*
+*description:* 
 
 --------------
 
 *** /check_communicate_lock_ret [ch_id] [type] [10]
-    :PROPERTIES:
-    :CUSTOM_ID: check_communicate_lock_ret-ch_id-type-10
-    :END:
 
-#+BEGIN_VERSE
-  check_communicate_lock_ret |
-  description: check communicate lock result |
-#+END_VERSE
+*check_communicate_lock_ret*
+*description:* check communicate lock result 
 
 --------------
 
 *** /update_health [ch_id] [online_time] [offline_time]
-    :PROPERTIES:
-    :CUSTOM_ID: update_health-ch_id-online_time-offline_time
-    :END:
 
-#+BEGIN_VERSE
-  update_health |
-  description: |
-#+END_VERSE
+*update_health*
+*description:* 
 
 --------------
 
 *** /health [ch_id] [health_rule] [online_time] [offline_time]
-    :PROPERTIES:
-    :CUSTOM_ID: health-ch_id-health_rule-online_time-offline_time
-    :END:
 
-#+BEGIN_VERSE
-  health |
-  description: |
-#+END_VERSE
+*health*
+*description:* 
 
 --------------
 
 *** /get_daily_bonus [ch_id] [daily_state] [request_id]
-    :PROPERTIES:
-    :CUSTOM_ID: get_daily_bonus-ch_id-daily_state-request_id
-    :END:
 
-#+BEGIN_VERSE
-  get_daily_bonus |
-  description: |
-#+END_VERSE
+*get_daily_bonus*
+*description:* 
