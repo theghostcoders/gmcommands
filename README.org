@@ -1,3 +1,6 @@
+#+TOC: headlines 2
+
+
 * All GM Commands Documentation
 
 ** SPAWN COMMANDS
